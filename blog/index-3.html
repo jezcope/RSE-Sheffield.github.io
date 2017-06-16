@@ -6,7 +6,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>RSE at Sheffield (old posts, page 3) | RSE at Sheffield</title>
 <link href="../assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
-<meta content="#5670d4" name="theme-color">
+<meta name="theme-color" content="#5670d4">
+<meta name="generator" content="Nikola (getnikola.com)">
 <link rel="alternate" type="application/rss+xml" title="RSS" href="../rss.xml">
 <link rel="canonical" href="http://rse.shef.ac.uk/blog/index-3.html">
 <link rel="prev" href="." type="text/html">
@@ -72,10 +73,13 @@
             
 
     
+
+
+    
 <div class="postindex">
     <article class="h-entry post-text"><header><h1 class="p-name entry-title"><a href="mpi_placement/" class="u-url">Determining MPI placement on the HPC clusters</a></h1>
         <div class="metadata">
-            <p class="byline author vcard"><span class="byline-name fn">
+            <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
                 <a href="../authors/mike-croucher/">Mike Croucher</a>
             </span></p>
             <p class="dateline"><a href="mpi_placement/" rel="bookmark"><time class="published dt-published" datetime="2017-04-01T16:03:00Z" title="2017-04-01 16:03">2017-04-01 16:03</time></a></p>
@@ -171,7 +175,7 @@ sharc-node059.shef.ac.uk 4 shortint.q@sharc-node059.shef.ac.uk UNDEFINED
     </div>
     </article><article class="h-entry post-text"><header><h1 class="p-name entry-title"><a href="sge-job-validation/" class="u-url">Job validation with Grid Engine</a></h1>
         <div class="metadata">
-            <p class="byline author vcard"><span class="byline-name fn">
+            <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
                 <a href="../authors/will-furnass/">Will Furnass</a>
             </span></p>
             <p class="dateline"><a href="sge-job-validation/" rel="bookmark"><time class="published dt-published" datetime="2017-03-20T10:44:00Z" title="2017-03-20 10:44">2017-03-20 10:44</time></a></p>
@@ -190,13 +194,13 @@ For example, let's use <a href="http://docs.hpc.shef.ac.uk/en/latest/hpc/schedul
 to submit a job where we ask for 1000 hours of run time and 4 GiB of RAM:</p>
 <pre class="code literal-block"><span></span><span class="o">[</span>will@mysofa ~<span class="o">]</span>$ ssh sharc
 ...
-<span class="o">[</span>te1st@sharc-login1 ~<span class="o">]</span>$ qsub -l <span class="nv">h_rt</span><span class="o">=</span>1000:00:00 -l <span class="nv">rmem</span><span class="o">=</span>4G -m bea -M w.furnass@sheffield.ac.uk -N longtask myjobscript.sge
+<span class="o">[</span>te1st@sharc-login1 ~<span class="o">]</span>$ qsub -l <span class="nv">h_rt</span><span class="o">=</span><span class="m">1000</span>:00:00 -l <span class="nv">rmem</span><span class="o">=</span>4G -m bea -M w.furnass@sheffield.ac.uk -N longtask myjobscript.sge
 
 Your job <span class="m">236268</span> <span class="o">(</span><span class="s2">"STDIN"</span><span class="o">)</span> has been submitted
 <span class="o">[</span>te1st@sharc-login1 ~<span class="o">]</span>$ qstat -u <span class="nv">$USER</span>
 job-ID  prior   name       user         state submit/start at     queue                          slots ja-task-ID 
 -----------------------------------------------------------------------------------------------------------------
- <span class="m">217834</span> 0.00000 longtask   te1st        qw    03/20/2017 10:48:39                                    <span class="m">1</span>        
+ <span class="m">217834</span> <span class="m">0</span>.00000 longtask   te1st        qw    <span class="m">03</span>/20/2017 <span class="m">10</span>:48:39                                    <span class="m">1</span>        
 </pre>
 
 
@@ -242,14 +246,14 @@ te1st has deleted job <span class="m">217834</span>
 
 <p>...then consult the cluster's documentation to discover the maximum possible run-time and resubmit using more sensible resource requests.  </p>
 <p>Alternatively we can use <strong>qalter</strong> to modify the resource requests associated with a queueing job:</p>
-<pre class="code literal-block"><span></span>qalter -l <span class="nv">h_rt</span><span class="o">=</span>96:00:00 -l <span class="nv">rmem</span><span class="o">=</span>4G <span class="m">217834</span> 
+<pre class="code literal-block"><span></span>qalter -l <span class="nv">h_rt</span><span class="o">=</span><span class="m">96</span>:00:00 -l <span class="nv">rmem</span><span class="o">=</span>4G <span class="m">217834</span> 
 </pre>
 
 
 <p><strong>Important</strong>: using <code>qalter</code> in this fashion will change <strong>all</strong> resource requests for the job so here we need to re-specify the <code>rmem</code> request.</p>
 <h3>Job validation at submission time</h3>
 <p>You can also perform the same type of job validation <strong>at job submission time</strong> using <code>-w v</code> e.g.</p>
-<pre class="code literal-block"><span></span>qsub -w v -l 1000:00:00 -l <span class="nv">rmem</span><span class="o">=</span>4G myjobscript.sge
+<pre class="code literal-block"><span></span>qsub -w v -l <span class="m">1000</span>:00:00 -l <span class="nv">rmem</span><span class="o">=</span>4G myjobscript.sge
 </pre>
 
 
