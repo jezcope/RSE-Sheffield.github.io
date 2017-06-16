@@ -22,10 +22,6 @@
   <lastmod>2017-06-15T11:49:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>http://rse.shef.ac.uk/authors/mike-croucher-and-paul-richmond.xml</loc>
-  <lastmod>2017-06-15T12:07:00Z</lastmod>
- </sitemap>
- <sitemap>
   <loc>http://rse.shef.ac.uk/authors/mike-croucher.xml</loc>
   <lastmod>2017-06-15T11:49:00Z</lastmod>
  </sitemap>
@@ -51,7 +47,7 @@
  </sitemap>
  <sitemap>
   <loc>http://rse.shef.ac.uk/authors/will-furnass.xml</loc>
-  <lastmod>2017-06-16T13:56:00Z</lastmod>
+  <lastmod>2017-06-16T16:38:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://rse.shef.ac.uk/categories/cat_gpucomputing.xml</loc>
@@ -75,11 +71,11 @@
  </sitemap>
  <sitemap>
   <loc>http://rse.shef.ac.uk/categories/terminals.xml</loc>
-  <lastmod>2017-06-16T13:13:00Z</lastmod>
+  <lastmod>2017-06-16T16:38:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://rse.shef.ac.uk/categories/tmux.xml</loc>
-  <lastmod>2017-06-16T13:13:00Z</lastmod>
+  <lastmod>2017-06-16T16:38:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://rse.shef.ac.uk/categories/training.xml</loc>
@@ -87,10 +83,10 @@
  </sitemap>
  <sitemap>
   <loc>http://rse.shef.ac.uk/rss.xml</loc>
-  <lastmod>2017-06-16T13:56:00Z</lastmod>
+  <lastmod>2017-06-16T16:38:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://rse.shef.ac.uk/sitemap.xml</loc>
-  <lastmod>2017-06-16T13:56:00Z</lastmod>
+  <lastmod>2017-06-16T16:38:00Z</lastmod>
  </sitemap>
 </sitemapindex>

@@ -23,11 +23,11 @@
  </url>
  <url>
   <loc>http://rse.shef.ac.uk/archive.html</loc>
-  <lastmod>2017-06-16T13:56:00Z</lastmod>
+  <lastmod>2017-06-16T16:38:00Z</lastmod>
  </url>
  <url>
   <loc>http://rse.shef.ac.uk/authors/</loc>
-  <lastmod>2017-06-15T12:07:00Z</lastmod>
+  <lastmod>2017-06-16T13:56:00Z</lastmod>
  </url>
  <url>
   <loc>http://rse.shef.ac.uk/authors/avgoustinos-vouros/</loc>
@@ -44,10 +44,6 @@
  <url>
   <loc>http://rse.shef.ac.uk/authors/ian-cottam/</loc>
   <lastmod>2017-03-23T11:45:00Z</lastmod>
- </url>
- <url>
-  <loc>http://rse.shef.ac.uk/authors/mike-croucher-and-paul-richmond/</loc>
-  <lastmod>2017-06-15T12:07:00Z</lastmod>
  </url>
  <url>
   <loc>http://rse.shef.ac.uk/authors/mike-croucher/</loc>
@@ -147,7 +143,7 @@
  </url>
  <url>
   <loc>http://rse.shef.ac.uk/blog/index-3.html</loc>
-  <lastmod>2017-06-16T13:56:00Z</lastmod>
+  <lastmod>2017-06-16T16:38:00Z</lastmod>
  </url>
  <url>
   <loc>http://rse.shef.ac.uk/blog/intel-R-iceberg/</loc>
@@ -202,10 +198,6 @@
   <lastmod>2017-06-09T11:19:00Z</lastmod>
  </url>
  <url>
-  <loc>http://rse.shef.ac.uk/blog/soft-carp-instructor-training/</loc>
-  <lastmod>2017-06-09T11:18:00Z</lastmod>
- </url>
- <url>
   <loc>http://rse.shef.ac.uk/blog/spark-scala-sheffield-hpc/</loc>
   <lastmod>2017-05-09T14:13:00Z</lastmod>
  </url>
@@ -219,7 +211,7 @@
  </url>
  <url>
   <loc>http://rse.shef.ac.uk/blog/tmux-intro/</loc>
-  <lastmod>2017-06-15T12:07:00Z</lastmod>
+  <lastmod>2017-06-16T16:38:00Z</lastmod>
  </url>
  <url>
   <loc>http://rse.shef.ac.uk/blog/willfurnass_intro/</loc>
@@ -231,7 +223,7 @@
  </url>
  <url>
   <loc>http://rse.shef.ac.uk/categories/</loc>
-  <lastmod>2017-06-15T12:07:00Z</lastmod>
+  <lastmod>2017-06-16T16:38:00Z</lastmod>
  </url>
  <url>
   <loc>http://rse.shef.ac.uk/categories/cat_gpucomputing/</loc>
@@ -255,11 +247,11 @@
  </url>
  <url>
   <loc>http://rse.shef.ac.uk/categories/terminals/</loc>
-  <lastmod>2017-06-15T12:07:00Z</lastmod>
+  <lastmod>2017-06-16T16:38:00Z</lastmod>
  </url>
  <url>
   <loc>http://rse.shef.ac.uk/categories/tmux/</loc>
-  <lastmod>2017-06-15T12:07:00Z</lastmod>
+  <lastmod>2017-06-16T16:38:00Z</lastmod>
  </url>
  <url>
   <loc>http://rse.shef.ac.uk/categories/training/</loc>
@@ -272,14 +264,6 @@
  <url>
   <loc>http://rse.shef.ac.uk/contact/</loc>
   <lastmod>2017-05-09T14:53:00Z</lastmod>
- </url>
- <url>
-  <loc>http://rse.shef.ac.uk/contact/contact/</loc>
-  <lastmod>2017-05-09T14:53:00Z</lastmod>
- </url>
- <url>
-  <loc>http://rse.shef.ac.uk/forged/</loc>
-  <lastmod>2017-03-23T11:45:00Z</lastmod>
  </url>
  <url>
   <loc>http://rse.shef.ac.uk/resources/</loc>
