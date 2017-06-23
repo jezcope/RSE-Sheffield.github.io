@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>RSE at Sheffield</title><link>http://rse.shef.ac.uk/</link><description>RSE at Sheffield</description><atom:link href="http://rse.shef.ac.uk/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Fri, 16 Jun 2017 16:38:06 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>tmux: remote terminal management and multiplexing</title><link>http://rse.shef.ac.uk/blog/tmux-intro/</link><dc:creator>Will Furnass</dc:creator><description>&lt;div&gt;&lt;p&gt;Today we have a guide to 'terminal multiplexing' including
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>RSE at Sheffield</title><link>http://rse.shef.ac.uk/</link><description>RSE at Sheffield</description><atom:link href="http://rse.shef.ac.uk/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Fri, 23 Jun 2017 12:27:58 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>tmux: remote terminal management and multiplexing</title><link>http://rse.shef.ac.uk/blog/tmux-intro/</link><dc:creator>Will Furnass</dc:creator><description>&lt;div&gt;&lt;p&gt;Today we have a guide to 'terminal multiplexing' including
 suggestions on how to use it on computer clusters such as
 &lt;a class="reference external" href="http://docs.hpc.shef.ac.uk/"&gt;ShARC and Iceberg&lt;/a&gt;.&lt;/p&gt;
 &lt;hr class="docutils"&gt;
@@ -120,10 +120,12 @@ However, it may use more memory (true for older versions).&lt;/p&gt;
 &lt;p&gt;Let's create and attach to a new tmux session,
 start a long-running command in it then
 detach and reattach to the session:&lt;/p&gt;
-&lt;div class="figure"&gt;
-&lt;img alt="Attaching, detaching, reattaching" src="http://rse.shef.ac.uk/images/tmux-intro/reattach.gif"&gt;
-&lt;/div&gt;
-&lt;p&gt;Used keys:&lt;/p&gt;
+&lt;embed&gt;
+&lt;video controls&gt;
+  &lt;source src="http://rse.shef.ac.uk/images/tmux-intro/reattach.webm" type="video/webm"&gt;
+  Your browser does not support the video tag.
+&lt;/source&gt;&lt;/video&gt;
+&lt;/embed&gt;&lt;p&gt;Used keys:&lt;/p&gt;
 &lt;table class="docutils field-list" frame="void" rules="none"&gt;
 &lt;col class="field-name"&gt;
 &lt;col class="field-body"&gt;
@@ -151,10 +153,12 @@ each of which is a virtual console!&lt;/p&gt;
 &lt;div class="section" id="demo-2"&gt;
 &lt;h4&gt;Demo 2&lt;/h4&gt;
 &lt;p&gt;Here's a demonstration of creating, renaming, switching and deleting tmux windows:&lt;/p&gt;
-&lt;div class="figure"&gt;
-&lt;img alt="Creating, renaming, switching and deleting windows" src="http://rse.shef.ac.uk/images/tmux-intro/windows.gif"&gt;
-&lt;/div&gt;
-&lt;p&gt;Used keys:&lt;/p&gt;
+&lt;embed&gt;
+&lt;video controls&gt;
+  &lt;source src="http://rse.shef.ac.uk/images/tmux-intro/windows.webm" type="video/webm"&gt;
+  Your browser does not support the video tag.
+&lt;/source&gt;&lt;/video&gt;
+&lt;/embed&gt;&lt;p&gt;Used keys:&lt;/p&gt;
 &lt;table class="docutils field-list" frame="void" rules="none"&gt;
 &lt;col class="field-name"&gt;
 &lt;col class="field-body"&gt;
@@ -176,10 +180,12 @@ each of which is a virtual console!&lt;/p&gt;
 &lt;div class="section" id="dividing-up-windows-into-panes"&gt;
 &lt;h3&gt;Dividing up Windows into Panes&lt;/h3&gt;
 &lt;p&gt;Now let's look at creating, switching and deleting panes &lt;em&gt;within&lt;/em&gt; a window:&lt;/p&gt;
-&lt;div class="figure"&gt;
-&lt;img alt="Creating, switching and deleting panes" src="http://rse.shef.ac.uk/images/tmux-intro/panes.gif"&gt;
-&lt;/div&gt;
-&lt;p&gt;Used keys:&lt;/p&gt;
+&lt;embed&gt;
+&lt;video controls&gt;
+  &lt;source src="http://rse.shef.ac.uk/images/tmux-intro/panes.webm" type="video/webm"&gt;
+  Your browser does not support the video tag.
+&lt;/source&gt;&lt;/video&gt;
+&lt;/embed&gt;&lt;p&gt;Used keys:&lt;/p&gt;
 &lt;table class="docutils field-list" frame="void" rules="none"&gt;
 &lt;col class="field-name"&gt;
 &lt;col class="field-body"&gt;
@@ -311,7 +317,8 @@ tmux new-session -A -s mysession
 &lt;/pre&gt;
 &lt;p&gt;This should help avoid accidentally creating more than one tmux session.&lt;/p&gt;
 &lt;hr class="docutils"&gt;
-&lt;p&gt;NB the animated GIF recordings of terminal sessions shown were created using &lt;a class="reference external" href="http://0xcc.net/ttyrec/index.html.en"&gt;ttyrec&lt;/a&gt; and &lt;a class="reference external" href="https://github.com/icholy/ttygif"&gt;ttygif&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;NB the recordings of terminal sessions shown were created using &lt;a class="reference external" href="http://0xcc.net/ttyrec/index.html.en"&gt;ttyrec&lt;/a&gt; and &lt;a class="reference external" href="https://github.com/icholy/ttygif"&gt;ttygif&lt;/a&gt;
+then converted to &lt;a class="reference external" href="http://www.webmproject.org/"&gt;.webm&lt;/a&gt; videos using &lt;a class="reference external" href="http://ffmpeg.org/"&gt;ffmpeg&lt;/a&gt;.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;/div&gt;</description><category>terminals</category><category>tmux</category><guid>http://rse.shef.ac.uk/blog/tmux-intro/</guid><pubDate>Thu, 15 Jun 2017 11:53:04 GMT</pubDate></item><item><title>Software Carpentry and Data Carpentry at the University of Sheffield!</title><link>http://rse.shef.ac.uk/blog/soft-carp-at-tuos/</link><dc:creator>Will Furnass</dc:creator><description>&lt;div&gt;&lt;p&gt;The University of Sheffield is now a Software Carpentry Partner Organisation, allowing the Research Software Engineering and Library teams to start organising &lt;em&gt;Software Carpentry&lt;/em&gt; and &lt;em&gt;Data Carpentry&lt;/em&gt; workshops.  These are designed to help researchers develop the programming, automation and data management skills needed to support their research.  &lt;strong&gt;Workshop dates are to be announced shortly.&lt;/strong&gt;&lt;/p&gt;
 &lt;hr&gt;
