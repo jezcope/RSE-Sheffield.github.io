@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>RSE at Sheffield (Posts by Will Furnass)</title><link>http://rse.shef.ac.uk/</link><description></description><atom:link href="http://rse.shef.ac.uk/authors/will-furnass.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Fri, 23 Jun 2017 12:27:58 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>tmux: remote terminal management and multiplexing</title><link>http://rse.shef.ac.uk/blog/tmux-intro/</link><dc:creator>Will Furnass</dc:creator><description>&lt;div&gt;&lt;p&gt;Today we have a guide to 'terminal multiplexing' including
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>RSE at Sheffield (Posts by Will Furnass)</title><link>http://rse.shef.ac.uk/</link><description></description><atom:link href="http://rse.shef.ac.uk/authors/will-furnass.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Mon, 26 Jun 2017 18:37:14 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>tmux: remote terminal management and multiplexing</title><link>http://rse.shef.ac.uk/blog/tmux-intro/</link><dc:creator>Will Furnass</dc:creator><description>&lt;div&gt;&lt;p&gt;Today we have a guide to 'terminal multiplexing' including
 suggestions on how to use it on computer clusters such as
 &lt;a class="reference external" href="http://docs.hpc.shef.ac.uk/"&gt;ShARC and Iceberg&lt;/a&gt;.&lt;/p&gt;
 &lt;hr class="docutils"&gt;
@@ -438,13 +438,13 @@ For example, let's use &lt;a href="http://docs.hpc.shef.ac.uk/en/latest/hpc/sche
 to submit a job where we ask for 1000 hours of run time and 4 GiB of RAM:&lt;/p&gt;
 &lt;pre class="code literal-block"&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="o"&gt;[&lt;/span&gt;will@mysofa ~&lt;span class="o"&gt;]&lt;/span&gt;$ ssh sharc
 ...
-&lt;span class="o"&gt;[&lt;/span&gt;te1st@sharc-login1 ~&lt;span class="o"&gt;]&lt;/span&gt;$ qsub -l &lt;span class="nv"&gt;h_rt&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="m"&gt;1000&lt;/span&gt;:00:00 -l &lt;span class="nv"&gt;rmem&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;4G -m bea -M w.furnass@sheffield.ac.uk -N longtask myjobscript.sge
+&lt;span class="o"&gt;[&lt;/span&gt;te1st@sharc-login1 ~&lt;span class="o"&gt;]&lt;/span&gt;$ qsub -l &lt;span class="nv"&gt;h_rt&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;1000:00:00 -l &lt;span class="nv"&gt;rmem&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;4G -m bea -M w.furnass@sheffield.ac.uk -N longtask myjobscript.sge
 
 Your job &lt;span class="m"&gt;236268&lt;/span&gt; &lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;"STDIN"&lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt; has been submitted
 &lt;span class="o"&gt;[&lt;/span&gt;te1st@sharc-login1 ~&lt;span class="o"&gt;]&lt;/span&gt;$ qstat -u &lt;span class="nv"&gt;$USER&lt;/span&gt;
 job-ID  prior   name       user         state submit/start at     queue                          slots ja-task-ID 
 -----------------------------------------------------------------------------------------------------------------
- &lt;span class="m"&gt;217834&lt;/span&gt; &lt;span class="m"&gt;0&lt;/span&gt;.00000 longtask   te1st        qw    &lt;span class="m"&gt;03&lt;/span&gt;/20/2017 &lt;span class="m"&gt;10&lt;/span&gt;:48:39                                    &lt;span class="m"&gt;1&lt;/span&gt;        
+ &lt;span class="m"&gt;217834&lt;/span&gt; 0.00000 longtask   te1st        qw    03/20/2017 10:48:39                                    &lt;span class="m"&gt;1&lt;/span&gt;        
 &lt;/pre&gt;
 
 
@@ -490,14 +490,14 @@ te1st has deleted job &lt;span class="m"&gt;217834&lt;/span&gt;
 
 &lt;p&gt;...then consult the cluster's documentation to discover the maximum possible run-time and resubmit using more sensible resource requests.  &lt;/p&gt;
 &lt;p&gt;Alternatively we can use &lt;strong&gt;qalter&lt;/strong&gt; to modify the resource requests associated with a queueing job:&lt;/p&gt;
-&lt;pre class="code literal-block"&gt;&lt;span&gt;&lt;/span&gt;qalter -l &lt;span class="nv"&gt;h_rt&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="m"&gt;96&lt;/span&gt;:00:00 -l &lt;span class="nv"&gt;rmem&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;4G &lt;span class="m"&gt;217834&lt;/span&gt; 
+&lt;pre class="code literal-block"&gt;&lt;span&gt;&lt;/span&gt;qalter -l &lt;span class="nv"&gt;h_rt&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;96:00:00 -l &lt;span class="nv"&gt;rmem&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;4G &lt;span class="m"&gt;217834&lt;/span&gt; 
 &lt;/pre&gt;
 
 
 &lt;p&gt;&lt;strong&gt;Important&lt;/strong&gt;: using &lt;code&gt;qalter&lt;/code&gt; in this fashion will change &lt;strong&gt;all&lt;/strong&gt; resource requests for the job so here we need to re-specify the &lt;code&gt;rmem&lt;/code&gt; request.&lt;/p&gt;
 &lt;h3&gt;Job validation at submission time&lt;/h3&gt;
 &lt;p&gt;You can also perform the same type of job validation &lt;strong&gt;at job submission time&lt;/strong&gt; using &lt;code&gt;-w v&lt;/code&gt; e.g.&lt;/p&gt;
-&lt;pre class="code literal-block"&gt;&lt;span&gt;&lt;/span&gt;qsub -w v -l &lt;span class="m"&gt;1000&lt;/span&gt;:00:00 -l &lt;span class="nv"&gt;rmem&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;4G myjobscript.sge
+&lt;pre class="code literal-block"&gt;&lt;span&gt;&lt;/span&gt;qsub -w v -l 1000:00:00 -l &lt;span class="nv"&gt;rmem&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;4G myjobscript.sge
 &lt;/pre&gt;
 
 

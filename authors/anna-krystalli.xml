@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>RSE at Sheffield (Posts by Anna Krystalli)</title><link>http://rse.shef.ac.uk/</link><description></description><atom:link href="http://rse.shef.ac.uk/authors/anna-krystalli.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Mon, 26 Jun 2017 18:37:15 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Mozsprint 2017 at the University of Sheffield</title><link>http://rse.shef.ac.uk/blog/mozsprint-2017-at-the-university-of-sheffield/</link><dc:creator>Anna Krystalli</dc:creator><description>&lt;div&gt;&lt;script&gt;window.twttr = (function(d, s, id) { var js, fjs = d.getElementsByTagName(s)[0], t = window.twttr || {}; if (d.getElementById(id)) return t; js = d.createElement(s); js.id = id; js.src = "https://platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs); t._e = []; t.ready = function(f) { t._e.push(f); }; return t; }(document, "script", "twitter-wjs"));&lt;/script&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;The &lt;strong&gt;1st-2nd of June 2017&lt;/strong&gt; saw the &lt;strong&gt;Mozilla Global Sprint&lt;/strong&gt; circle
+the globe for another time this year. It's Mozilla's flagship two-day
+community event, bringing together people from all over the world to
+celebrate the power of open collaboration by working on a huge diversity
+of community led projects, from developing open source software,
+building open tools to writing curriculum, planning events, and more. So
+here's a few of my own thoughts and reflections on this year's
+happenings.&lt;/p&gt;
+&lt;h3&gt;Lead up to the sprint&lt;/h3&gt;
+&lt;h4&gt;Open Leadership Training mentorship&lt;/h4&gt;
+&lt;p&gt;I joined my first Mozilla Global Sprint last year as the culmination of
+the Science Lab’s inaugural &lt;a href="https://science.mozilla.org/blog/wow-introducing-working-open-workshops-and-the-open-leaders-cohort"&gt;&lt;strong&gt;Working Open
+Workshop&lt;/strong&gt;&lt;/a&gt;
+and &lt;strong&gt;mentorship program&lt;/strong&gt;. I worked on my very own open science
+project, &lt;a href="https://github.com/annakrystalli/rmacroRDM"&gt;&lt;strong&gt;rmacroRDM&lt;/strong&gt;&lt;/a&gt;
+which I'd spent the lead up to the Sprint preparing for. This year
+however it was a different experience for a number of reasons.&lt;/p&gt;
+&lt;p&gt;Firstly, the roles have been reversed, and from mentee, I was now a
+seasoned open leadership mentor. In fact, I had enjoyed the Open
+Leadership training program so much that I’d volunteered to to mentor on
+the following two rounds, the first culminating at &lt;a href="https://science.mozilla.org/blog/2016-mozfest-recap"&gt;MozFest
+2106&lt;/a&gt; and this
+latest round at the Global Sprint 2017. Apart from staying connected to
+the vibrant network of movers and makers that is
+&lt;a href="https://www.youtube.com/watch?v=quKdaqlR_9w"&gt;Mozilla&lt;/a&gt;, I also found I
+got a lot out mentoring myself. From improving skills in understanding
+different people’s styles and support requirements to being introduced
+to new ideas, tools and technologies by interesting people from all over
+the world! Overall &lt;strong&gt;I find mentorship a positive sum activity for all
+parties involved&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;So the lead up this year involved mentoring two projects while they
+prepare to launch at the global sprint. The &lt;strong&gt;Open Leadershp Training
+program&lt;/strong&gt; involves mentees working through the &lt;a href="https://mozilla.github.io/open-leadership-training-series/"&gt;&lt;strong&gt;OLT
+materials&lt;/strong&gt;&lt;/a&gt;
+over 13 weeks while developing the resources required to open their
+projects up, ready to receive contributions. On a practical level, the
+program teaches approaches to help clearly define and promote the
+project and the use of &lt;strong&gt;github as a tool to openly host work on the
+web, plan, manage, track, discuss and collaborate.&lt;/strong&gt; But the program
+delves deeper into the &lt;strong&gt;very essence of building open, supportive and
+welcoming communities&lt;/strong&gt; in which people with an interest in a
+tool/cause/idea can contribute what they can, learn and develop
+themselves and feel valued and welcome members of a community.&lt;/p&gt;
+&lt;p&gt;Weekly contacts with the program alternated between whole cohort vidyo
+call check-ins and more focused one-on-one skype calls between mentors
+and mentees. This round I co-mentored with the wonderful &lt;a href="https://www.newamerica.org/our-people/chris-ritzo/"&gt;&lt;strong&gt;Chris
+Ritzo&lt;/strong&gt;&lt;/a&gt; from &lt;a href="https://www.newamerica.org/oti/"&gt;New
+America’s Open Technologiy Institute&lt;/a&gt;
+and we took on two extremely exciting projects, &lt;strong&gt;Aletheia&lt;/strong&gt; and
+&lt;strong&gt;Teach-R&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;br&gt; &lt;br&gt;&lt;/p&gt;
+&lt;h5&gt;&lt;strong&gt;Mentee projects:&lt;/strong&gt;&lt;/h5&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn-images-1.medium.com/max/600/0*5h4_CqTJrsVgcTka.png" width="100px"&gt;&lt;/p&gt;
+&lt;p&gt;Headed up by &lt;a href="https://www.linkedin.com/in/kade-morton-34179283/"&gt;&lt;strong&gt;Kade
+Morton&lt;/strong&gt;&lt;/a&gt;
+(&lt;a href="https://twitter.com/cypath"&gt;@cypath&lt;/a&gt;), a super sharp, super visionary,
+super motivated, self-described crypto nerd from Brisbane, Australia,
+&lt;a href="https://github.com/aletheia-foundation/aletheia-admin"&gt;&lt;strong&gt;Aletheia&lt;/strong&gt;&lt;/a&gt;
+doesn't pull any punches when describing it's reason for being:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/annakrystalli/random_repo/master/images/aletheia.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;In response they're building a decentralised and distributed database as
+a publishing platform for scientific research, leveraging two key pieces
+of technology, IPFS and blockchain. Many of the technical details are
+frankly over my head but I nonetheless learned a lot from Kade’s
+meticulous preparation and drive. Read more about the ideas behind the
+project
+&lt;a href="https://medium.com/read-write-participate/aletheia-11aebe18f490"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;img src="https://cdn-images-1.medium.com/max/600/0*H7u7_YDO9xJ5yVTJ.png" width="140px"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;What can I say about &lt;a href="https://marcosvital.wordpress.com/"&gt;&lt;strong&gt;Marcos
+Vital&lt;/strong&gt;&lt;/a&gt;, professor of Quantitative
+Ecology at Federal University of Alagoas (UFAL), Brazil and fellow
+#rstats aficionado apart from he is also a huge inspiration! An
+effortless community builder, he runs a very successful local &lt;a href="https://marcosvital.github.io/studyGroup/"&gt;study
+group&lt;/a&gt; and has built a
+popular and engaged online community through his lab
+&lt;a href="https://www.facebook.com/leq.ufal/"&gt;facebook&lt;/a&gt; page promoting science
+communication.&lt;/p&gt;
+&lt;p&gt;The topic of his project
+&lt;a href="https://github.com/marcosvital/teach-R-project"&gt;&lt;strong&gt;Teach-R&lt;/strong&gt;&lt;/a&gt; is close
+to my heart, aiming to collate and develop training materials to
+&lt;strong&gt;&lt;em&gt;TEACH&lt;/em&gt;&lt;/strong&gt; people to &lt;strong&gt;TEACH&lt;/strong&gt; R. Read more about it
+&lt;a href="https://medium.com/read-write-participate/the-open-teach-r-project-d87b9240f51a"&gt;here&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h4&gt;Hosting a Sheffield site.&lt;/h4&gt;
+&lt;p&gt;Secondly, this year I helped host a site here at the &lt;a href="https://ti.to/Mozilla/global-sprint-sheffield"&gt;University of
+Sheffield&lt;/a&gt;, and seeing as
+the sprint coincided with my first day as a &lt;a href="http://rse.shef.ac.uk/contact/"&gt;Research Software Engineer
+for Sheffield RSE&lt;/a&gt;, we decided to take
+the event under our wing. With space secured and swag and coffee funds
+supplied by the Science Lab, the local site was read for action!&lt;/p&gt;
+&lt;blockquote class="twitter-tweet" data-lang="en"&gt;
+&lt;p lang="en" dir="ltr"&gt;
+Want to get your paws on some this
+&lt;a href="https://twitter.com/MozillaScience"&gt;@MozillaScience&lt;/a&gt; swag?
+Join us at the
+&lt;a href="https://twitter.com/RSE_Sheffield"&gt;@RSE_Sheffield&lt;/a&gt; hosted
+&lt;a href="https://twitter.com/hashtag/mozsprint?src=hash"&gt;\#mozsprint&lt;/a&gt;
+site! &lt;a href="https://t.co/FvN88psLbh"&gt;https://t.co/FvN88psLbh&lt;/a&gt;
+&lt;a href="https://t.co/ELHJdJNBWZ"&gt;pic.twitter.com/ELHJdJNBWZ&lt;/a&gt;
+&lt;/p&gt;
+— annakrystalli (@annakrystalli)
+&lt;a href="https://twitter.com/annakrystalli/status/868068698518585344"&gt;May
+26, 2017&lt;/a&gt;
+&lt;/blockquote&gt;
+
+&lt;script async src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+
+&lt;p&gt;&lt;br&gt; &lt;br&gt;&lt;/p&gt;
+&lt;h3&gt;The Sprint!&lt;/h3&gt;
+&lt;h4&gt;Sprint at the University of Sheffield.&lt;/h4&gt;
+&lt;p&gt;The was a good buzz of activity throughout the sprint at the site, with
+a few core participants while others came and went as they could. At the
+very least, roaming participants managed to soak up some of the
+atmosphere and pick up some git and github skills,...a success in my
+books!&lt;/p&gt;
+&lt;p&gt;Stuart Mumford (&lt;a href="https://twitter.com/StuartMumford"&gt;@StuartMumford&lt;/a&gt;) led
+project &lt;a href="https://www.mozillapulse.org/entry/226"&gt;&lt;strong&gt;SunPy&lt;/strong&gt;&lt;/a&gt;, a python
+based open-source solar data analysis environment and attracted a number
+of local contributors, including a new PhD student, although, as is
+often the case, much of the first morning seemed to be spent battling
+python installation on his laptop! Worth it for picking up a local
+contributor that will hopefully remain engaged throughout his studies
+though, and the team managed to push on with bug fixes and documentation
+development.&lt;/p&gt;
+&lt;p&gt;Jez Cope (&lt;a href="https://twitter.com/jezcope"&gt;@jezcope&lt;/a&gt;), our University's
+Research Data Manager was contributing to &lt;a href="https://librarycarpentry.github.io/"&gt;Library
+Carpentry&lt;/a&gt;, one of the biggest and
+most popular projects at his year's Sprint and also brought super tasty
+banana bread. He's also blogged about his experiences
+&lt;a href="https://erambler.co.uk/blog/mozilla-global-sprint-2017/?utm_content=buffer35502&amp;amp;utm_medium=social&amp;amp;utm_source=twitter.com&amp;amp;utm_campaign=buffer"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Myself, while of course tempted by the many R, open science and
+reproducibility projects on offer, in the end chose to work on something
+unrelated to what I'm lucky to do for work and focus on a project I'm
+interested in personally. So I teamed up with Tyler Kolody
+(&lt;a href="https://twitter.com/TyTheSciGuy"&gt;@TyTheSciGuy&lt;/a&gt;) on his timely project
+&lt;a href="https://github.com/TyJK/EchoBurst"&gt;&lt;strong&gt;EchoBurst&lt;/strong&gt;&lt;/a&gt;. The project aims to
+address our growing, social media facilitated, retreat into echo
+chambers, which is resulting in increasingly polarised public discourse
+and an unwillingness to engage with views we disagree with. The idea is
+to attempt to &lt;strong&gt;burst through such bubbles&lt;/strong&gt;, by developing a browser
+extension with the potential to distinguish toxic content, more likely
+to shut down discussion, from more constructive content that might be
+able to bridge different perspectives.&lt;/p&gt;
+&lt;p&gt;Admittedly the project is very ambitious with a long way to go, many
+stages and various techniques/technologies to incorporate including
+natural language processing, building the browser plugin and even
+considering psychological and behavioural aspects in designing how to
+present information that might oppose a user's view without triggering
+the &lt;a href="https://www.nature.com/articles/srep39589"&gt;natural shut-down
+response&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;There was plenty of really interesting brainstrorming discussion but the
+biggest initial challenge, and where the project could use the most
+help, is in collecting training data. The main approach is for
+contributors to help collect URLs of blogs on &lt;a href="https://github.com/TyJK/EchoBurst/issues/4"&gt;polarising
+topics&lt;/a&gt; from which to
+&lt;a href="https://github.com/TyJK/EchoBurst/issues/9"&gt;scrape content&lt;/a&gt;. But during
+the sprint we also added the option for contributors to add relevant
+youtube videos to &lt;a href="https://github.com/TyJK/EchoBurst/blob/master/Youtube%20Caption%20Dump/Instructions.md"&gt;collaborative
+playlists&lt;/a&gt;.
+We also started working on simple R functions to help scrape and clean
+the caption content.&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h4&gt;Sprint across the globe&lt;/h4&gt;
+&lt;p&gt;What a productive event this year's sprint was! While details of the
+level of activity have been
+&lt;a href="https://medium.com/read-write-participate/48-hours-devoted-to-a-healthier-internet-c3e1d03cf5aa"&gt;&lt;strong&gt;covered&lt;/strong&gt;&lt;/a&gt;
+and
+&lt;a href="https://storify.com/MozillaScience/2017-mozilla-global-sprint"&gt;storyfied&lt;/a&gt;
+elsewhere and the final project demos can be found
+&lt;a href="https://public.etherpad-mozilla.org/p/mozsprint-2017-demos-jun-6"&gt;here&lt;/a&gt;
+and
+&lt;a href="https://public.etherpad-mozilla.org/p/mozsprint-2017-demos-jun-7"&gt;here&lt;/a&gt;,
+I just wanted to highlight some basic stats:&lt;/p&gt;
+&lt;h5&gt;Global #mozprint involved:&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;65&lt;/strong&gt; sites (+ virtual participants)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;20&lt;/strong&gt; countries&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;108&lt;/strong&gt; projects&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5&gt;During the 50 hour #mozsprint, we saw:&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;302&lt;/strong&gt; pull requests closed&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;320&lt;/strong&gt; pull requests opened&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;2223&lt;/strong&gt; comments &amp;amp; issues&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;824&lt;/strong&gt; commits pushed&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img alt="" src="https://cdn-images-1.medium.com/max/2000/1*75Nv4-7XCOcnjA9PRjt9sA.png"&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;BOOM!&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;(access the full data on github activity&lt;/em&gt;
+&lt;a href="https://medium.com/read-write-participate/mozsprint-by-the-github-numbers-49d518551725"&gt;&lt;strong&gt;&lt;em&gt;here&lt;/em&gt;&lt;/strong&gt;&lt;/a&gt;&lt;em&gt;)&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h4&gt;Mentee progress&lt;/h4&gt;
+&lt;p&gt;I was really happy to see both our mentees get great responses, pick up
+new contributors and make good progress on their projects.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Marcos expertly moderated a &lt;a href="https://gitter.im/teach-R-project/Lobby"&gt;very active gitter
+    channel&lt;/a&gt; for &lt;strong&gt;Teach-R&lt;/strong&gt;,
+    attracted a number of excellent and very engaged new contributors,
+    adding a number of new lessons, &lt;strong&gt;in both&lt;/strong&gt;
+    &lt;a href="https://github.com/marcosvital/teach-R-project/tree/master/courses/en"&gt;&lt;strong&gt;English&lt;/strong&gt;&lt;/a&gt;
+    &lt;strong&gt;and&lt;/strong&gt;
+    &lt;a href="https://github.com/marcosvital/teach-R-project/tree/master/courses/pt"&gt;&lt;strong&gt;Portuguese&lt;/strong&gt;&lt;/a&gt;&lt;strong&gt;!&lt;/strong&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Kade also got great engagement for &lt;strong&gt;Aletheia&lt;/strong&gt;, including
+    onboarding science communicator Lisa Mattias
+    (&lt;a href="https://twitter.com/l_matthia"&gt;@l_matthia&lt;/a&gt;), who's already
+    &lt;a href="http://www.wherethereislight.net/aletheia-for-osfair2017/"&gt;blogged
+    about&lt;/a&gt;
+    their plans to take the project forward by applying to present it at
+    this year's &lt;a href="http://www.opensciencefair.eu/"&gt;Open Science Fair&lt;/a&gt;.
+    Importantly, he also managed to attract the javascipt developer
+    they've been desperately looking for. Success! You can read more
+    about Kade's experiences of the sprint
+    &lt;a href="https://www.linkedin.com/pulse/aletheia-mozilla-global-sprint-2017-kade-morton?trk=v-feed&amp;amp;lipi=urn%3Ali%3Apage%3Ad_flagship3_detail_base%3BVDNGKz72yDQY9IDHaKn6gg%3D%3D"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;They both made us very proud indeed!&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br&gt; &lt;br&gt;&lt;/p&gt;
+&lt;h4&gt;Highlights&lt;/h4&gt;
+&lt;p&gt;But the most important feature of the sprint for me every year is the
+global comradery and atmosphere of celebration. Handing off from one
+timezone to the other and checking in within our own to &lt;a href="https://public.etherpad-mozilla.org/p/sciencelab-2017globalsprint"&gt;hear from
+leads&lt;/a&gt;
+about their project needs and progress, hanging out with participants
+from far and wide on vidyo and through &lt;a href="https://gitter.im/mozilla/global-sprint-2017?utm_source=share-link&amp;amp;utm_medium=link&amp;amp;utm_campaign=share-link"&gt;streams of constant messaging on
+gitter&lt;/a&gt;,
+catching up with friends across the network...&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;blockquote class="twitter-tweet" data-lang="en"&gt;
+&lt;p lang="en" dir="ltr"&gt;
+&lt;a href="https://twitter.com/h3x1t"&gt;@h3x1t&lt;/a&gt; is hosting
+&lt;a href="https://twitter.com/hashtag/mozsprint?src=hash"&gt;\#mozsprint&lt;/a&gt;
+2017 :)&lt;br&gt;More photos are coming :)
+&lt;a href="https://twitter.com/hashtag/HEXit?src=hash"&gt;\#HEXit&lt;/a&gt;&lt;a href="https://twitter.com/hashtag/MozSylhet?src=hash"&gt;\#MozSylhet&lt;/a&gt;&lt;a href="https://twitter.com/hashtag/MozillaSylhet?src=hash"&gt;\#MozillaSylhet&lt;/a&gt;&lt;a href="https://twitter.com/hashtag/SprintBangladesh?src=hash"&gt;\#SprintBangladesh&lt;/a&gt;
+&lt;a href="https://t.co/ZK4OnAwPiq"&gt;pic.twitter.com/ZK4OnAwPiq&lt;/a&gt;
+&lt;/p&gt;
+— S. O. F. Towaha (@SOFTowaha)
+&lt;a href="https://twitter.com/SOFTowaha/status/870226482223763456"&gt;June
+1, 2017&lt;/a&gt;
+&lt;/blockquote&gt;
+
+&lt;script async src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h5&gt;...and cake...sooooooooo much cake!!&lt;/h5&gt;
+&lt;blockquote class="twitter-tweet" data-lang="en"&gt;
+&lt;p lang="en" dir="ltr"&gt;
+This year's
+&lt;a href="https://twitter.com/hashtag/mozcake?src=hash"&gt;\#mozcake&lt;/a&gt; - a
+6-storey Black Forest cake. We are going to 'hack' into it shortly ;-)
+&lt;a href="https://twitter.com/hashtag/lc2017?src=hash"&gt;\#lc2017&lt;/a&gt;
+&lt;a href="https://t.co/Cz9yAmcnOi"&gt;pic.twitter.com/Cz9yAmcnOi&lt;/a&gt;
+&lt;/p&gt;
+— Belinda Weaver (@cloudaus)
+&lt;a href="https://twitter.com/cloudaus/status/870051564563578881"&gt;May 31,
+2017&lt;/a&gt;
+&lt;/blockquote&gt;
+
+&lt;script async src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+
+&lt;p&gt;&lt;em&gt;disclaimer: this cake was sadly not at the Sheffield site. It
+definitely has inspired me to put a lot more effort into this aspect of
+the sprint next year though!&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h3&gt;Final thoughts&lt;/h3&gt;
+&lt;p&gt;The end of the sprint is always a bit sad but the &lt;strong&gt;projects live on&lt;/strong&gt;,
+hopefully with a new lease of life. So if, by reading this, you're
+&lt;a href="https://mozilla.github.io/global-sprint/participants/"&gt;inspired to
+contribute&lt;/a&gt;,
+check out the &lt;a href="https://mozilla.github.io/global-sprint/projects/"&gt;&lt;strong&gt;full list of
+projects&lt;/strong&gt;&lt;/a&gt; for
+something that might appeal. There's a huge diversity of topics, tasks
+and skills required to chose from and fun new people to meet!&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;So does the network&lt;/strong&gt; so if you’ve got an exciting idea of your own
+that you think would make a good open source project make sure to check
+out &lt;a href="https://twitter.com/MozOpenLeaders"&gt;@MozOpenLeaders&lt;/a&gt; and look out
+for the next mentorship round.&lt;/p&gt;
+&lt;p&gt;As for the impact on Sheffield RSE, well there was one point where we
+managed to get the full team and loose collaborators working in one room
+(we’re normally spread out across the university). It felt great to work
+together from the same space so we decided to make a point of routinely
+booking one of the many excellent co-working spaces the University of
+Sheffield has on offer and establish regular &lt;strong&gt;work-together&lt;/strong&gt; days!&lt;/p&gt;
+&lt;h5&gt;So thanks for the inspiration and excellent times Mozilla! Till the next time!&lt;/h5&gt;
+&lt;p&gt;(ie &lt;a href="https://mozillafestival.org/"&gt;&lt;strong&gt;Mozfest 2017&lt;/strong&gt;&lt;/a&gt;!)&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3&gt;Sounds:&lt;/h3&gt;
+&lt;p&gt;Apart from the coffee and good vibes, the day was also fuelled by
+sounds. Here's a couple of the mixes that kept the Sheffield site going!&lt;/p&gt;
+&lt;h4&gt;Grooves no. 1:&lt;/h4&gt;
+&lt;iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/290950663&amp;amp;color=ff5500&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false"&gt;
+&lt;/iframe&gt;
+
+&lt;hr&gt;
+&lt;h4&gt;Grooves no. 2:&lt;/h4&gt;
+&lt;iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/321722836&amp;amp;color=ff5500&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false"&gt;
+&lt;/iframe&gt;
+
+&lt;hr&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;br&gt;&lt;/p&gt;&lt;/div&gt;</description><guid>http://rse.shef.ac.uk/blog/mozsprint-2017-at-the-university-of-sheffield/</guid><pubDate>Mon, 26 Jun 2017 10:56:00 GMT</pubDate></item></channel></rss>
