@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>RSE at Sheffield (Posts by Paul Richmond)</title><link>http://rse.shef.ac.uk/</link><description></description><atom:link href="http://rse.shef.ac.uk/authors/paul-richmond.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Tue, 23 May 2017 08:38:32 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Research Software Engineer in High Performance Computing</title><link>http://rse.shef.ac.uk/blog/research_software_engineer_in_high_performance_computing/</link><dc:creator>Paul Richmond</dc:creator><description>&lt;div&gt;&lt;p&gt;A job opportunity within the RSE Sheffield group is available under the job title of "Research Software Engineer in High Performance Computing (HPC) enabled Multi-Scale Modelling".&lt;/p&gt;
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>RSE at Sheffield (Posts by Paul Richmond)</title><link>http://rse.shef.ac.uk/</link><description></description><atom:link href="http://rse.shef.ac.uk/authors/paul-richmond.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Fri, 23 Jun 2017 12:27:59 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Research Software Engineer in High Performance Computing</title><link>http://rse.shef.ac.uk/blog/research_software_engineer_in_high_performance_computing/</link><dc:creator>Paul Richmond</dc:creator><description>&lt;div&gt;&lt;p&gt;A job opportunity within the RSE Sheffield group is available under the job title of "Research Software Engineer in High Performance Computing (HPC) enabled Multi-Scale Modelling".&lt;/p&gt;
 &lt;p&gt;The purpose of the Research Software Engineer post is to enhance The University’s capability and expertise in developing Research Software. This role will be based in the newly formed &lt;a href="http://rse.shef.ac.uk/"&gt;Research Software Engineering group&lt;/a&gt;, which aims to improve all aspects of research software including reproducibility, usability, efficiency and correctness.&lt;/p&gt;
 &lt;p&gt;The primary function of this role is to support the EC funded CompBioMed project. A user-driven Centre of Excellence in Computational Biomedicine, to nurture and promote the uptake and exploitation of high performance computing within the biomedical modelling community. &lt;/p&gt;
 &lt;p&gt;The post is fixed-term with an end date of 30 September 2019. The deadline for applications is 19th June 2017.&lt;/p&gt;
@@ -9,18 +9,18 @@
 &lt;p&gt;The purpose of this post is to describe how to install the necessary tools to permit local GPU development inside the Linux NSight IDE from within Windows. The advantages of which are not only cross platform development but also the ability to locally develop in powerful Linux IDE with remote execution and graphical debugging. This is particularly helpful if you want to execute or debug your code on a HPC system (like Sheffield's ShARC system) from Windows. The post focuses on the use of the new Windows 10 Linux subsystem, however you could use the approach to install CUDA tools on a lightweight Linux virtual machine. The concept is the same either way. i.e. build and debug locally execute remotely.&lt;/p&gt;
 &lt;h3&gt;Configuring the Linux Windows Subsystem for CUDA compilation&lt;/h3&gt;
 &lt;p&gt;The Windows 10 subsystem for Linux is available in the anniversary update. You can install it from the "Turn on or off windows features" dialogue. It is listed under "Windows subsystem for Linux (beta)". This alone is not enough to build our GPU applications as we will need to install CUDA. A normal CUDA install will require a local GPU and the installation of a CUDA compatible graphics driver. Fire up the Windows Bash Shell (or a Linux virtual machine). You can then use the following commands to install the CUDA toolkit without installing a graphics driver. This will install the core NVIDIA CUDA compiler (nvcc) and NSight. You can update the &lt;code&gt;CUDA_REPO_PKG&lt;/code&gt; variable to install a different CUDA version.&lt;/p&gt;
-&lt;pre class="code literal-block"&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="x"&gt;sudo apt-get update&lt;/span&gt;
-&lt;span class="x"&gt;CUDA_REPO_PKG=cuda-repo-ubuntu1404_8.0.44-1_amd64.deb&lt;/span&gt;
-&lt;span class="x"&gt;wget http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1404/x86_64/&lt;/span&gt;&lt;span class="p"&gt;$&lt;/span&gt;&lt;span class="nv"&gt;CUDA_REPO_PKG&lt;/span&gt;&lt;span class="x"&gt;&lt;/span&gt;
-&lt;span class="x"&gt;sudo dpkg -i &lt;/span&gt;&lt;span class="p"&gt;$&lt;/span&gt;&lt;span class="nv"&gt;CUDA_REPO_PKG&lt;/span&gt;&lt;span class="x"&gt;&lt;/span&gt;
-&lt;span class="x"&gt;sudo apt-get update&lt;/span&gt;
-&lt;span class="x"&gt;sudo apt-get install -y --no-install-recommends cuda-core-8-0 cuda-cudart-dev-8-0 nsight&lt;/span&gt;
+&lt;pre class="code literal-block"&gt;&lt;span&gt;&lt;/span&gt;sudo apt-get update
+CUDA_REPO_PKG=cuda-repo-ubuntu1404_8.0.44-1_amd64.deb
+wget http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1404/x86_64/$CUDA_REPO_PKG
+sudo dpkg -i $CUDA_REPO_PKG
+sudo apt-get update
+sudo apt-get install -y --no-install-recommends cuda-core-8-0 cuda-cudart-dev-8-0 nsight
 &lt;/pre&gt;
 
 
 &lt;p&gt;You can now create a symbolic link to a generic CUDA install. This will permit the addition and fast swapping of different CUDA versions.&lt;/p&gt;
-&lt;pre class="code literal-block"&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="x"&gt;sudo ln -s /usr/local/cuda-8.0 /usr/local/cuda &lt;/span&gt;
-&lt;span class="x"&gt;export PATH=&lt;/span&gt;&lt;span class="p"&gt;$&lt;/span&gt;&lt;span class="nv"&gt;PATH&lt;/span&gt;&lt;span class="x"&gt;:/usr/local/cuda/bin&lt;/span&gt;
+&lt;pre class="code literal-block"&gt;&lt;span&gt;&lt;/span&gt;sudo ln -s /usr/local/cuda-8.0 /usr/local/cuda 
+export PATH=$PATH:/usr/local/cuda/bin
 &lt;/pre&gt;
 
 
@@ -53,11 +53,11 @@
 &lt;p&gt;Future blog posts will cover how remote execution and debugging can be achieved on the University of Sheffield ShARC system. ShARC has a typical of job based HPC system which encourages job submission rather than execution of code on worker nodes via SSH logins. &lt;/p&gt;
 &lt;h3&gt;Summary of Bash Profile Changes&lt;/h3&gt;
 &lt;p&gt;I added the following to my .bashrc profile (located in the home directory) to ensure that NSight could be launched straight after starting the Bash shell in Windows.&lt;/p&gt;
-&lt;pre class="code literal-block"&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="err"&gt;#&lt;/span&gt;&lt;span class="x"&gt; add cuda bin dir to path&lt;/span&gt;
-&lt;span class="x"&gt;export PATH=&lt;/span&gt;&lt;span class="p"&gt;$&lt;/span&gt;&lt;span class="nv"&gt;PATH&lt;/span&gt;&lt;span class="x"&gt;:/usr/local/cuda/bin&lt;/span&gt;
+&lt;pre class="code literal-block"&gt;&lt;span&gt;&lt;/span&gt;# add cuda bin dir to path
+export PATH=$PATH:/usr/local/cuda/bin
 
-&lt;span class="err"&gt;#&lt;/span&gt;&lt;span class="x"&gt; export the display environment variable&lt;/span&gt;
-&lt;span class="x"&gt;export DISPLAY=:0&lt;/span&gt;
+# export the display environment variable
+export DISPLAY=:0
 &lt;/pre&gt;&lt;/div&gt;</description><guid>http://rse.shef.ac.uk/blog/building-linux-gpu-code-with-nsight-in-windows/</guid><pubDate>Mon, 08 May 2017 16:03:00 GMT</pubDate></item><item><title>Coffee and Cakes Event</title><link>http://rse.shef.ac.uk/blog/coffee-and-cakes-event/</link><dc:creator>Paul Richmond</dc:creator><description>&lt;div&gt;&lt;p&gt;RSE Sheffield is hosting its first coffee and cakes event on &lt;strong&gt;4th October 2016 at 10:00 in the Ada Lovelace&lt;/strong&gt; room on 1st floor of the Computer Science Department (Regents Court East). Attendance is free and you don't need to register (or bring coffee and cake with you). Simply call in and take the opportunity to come and have an informal chat about research software.&lt;/p&gt;
 &lt;p&gt;The event is a community event for anyone not just computer science or members of the RSE team. If you work on software development are an RSE or simply want to talk about some aspect of software or software in teaching then come along.&lt;/p&gt;&lt;/div&gt;</description><guid>http://rse.shef.ac.uk/blog/coffee-and-cakes-event/</guid><pubDate>Mon, 26 Sep 2016 14:42:42 GMT</pubDate></item><item><title>The University of Sheffield named an NVIDIA GPU Education Center</title><link>http://rse.shef.ac.uk/blog/the-university-of-sheffield-named-an-nvidia-gpu-education-center/</link><dc:creator>Paul Richmond</dc:creator><description>&lt;div&gt;&lt;p&gt;&lt;img src="http://rse.shef.ac.uk/images/NVIDIA_education.jpg" alt="Sheffield NVIDIA Education Centre" align="right" width="20%"&gt;&lt;/p&gt;
 &lt;p&gt;This week I am very pleased to announce that the University of Sheffield has been awarded the status of an NVIDIA CUDA Education Centre.&lt;/p&gt;

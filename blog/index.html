@@ -72,6 +72,9 @@
             
 
     
+
+
+    
 <div class="postindex">
     <article class="h-entry post-text"><header><h1 class="p-name entry-title"><a href="mozsprint-2017-at-the-university-of-sheffield/" class="u-url">Mozsprint 2017 at the University of Sheffield</a></h1>
         <div class="metadata">
@@ -102,13 +105,13 @@ which I'd spent the lead up to the Sprint preparing for. This year
 however it was a different experience for a number of reasons.</p>
 <p>Firstly, the roles have been reversed, and from mentee, I was now a
 seasoned open leadership mentor. In fact, I had enjoyed the Open
-Leadership training program so much that I’d volunteered to to mentor on
+Leadership training program so much that I’d volunteered to mentor on
 the following two rounds, the first culminating at <a href="https://science.mozilla.org/blog/2016-mozfest-recap">MozFest
-2106</a> and this
+2016</a> and this
 latest round at the Global Sprint 2017. Apart from staying connected to
 the vibrant network of movers and makers that is
 <a href="https://www.youtube.com/watch?v=quKdaqlR_9w">Mozilla</a>, I also found I
-got a lot out mentoring myself. From improving skills in understanding
+got a lot out of mentoring myself. From improving skills in understanding
 different people’s styles and support requirements to being introduced
 to new ideas, tools and technologies by interesting people from all over
 the world! Overall <strong>I find mentorship a positive sum activity for all
@@ -212,8 +215,8 @@ contributor that will hopefully remain engaged throughout his studies
 though, and the team managed to push on with bug fixes and documentation
 development.</p>
 <p>Jez Cope (<a href="https://twitter.com/jezcope">@jezcope</a>), our University's
-Research Data Manager was contributing to <a href="https://librarycarpentry.github.io/">Library
-Carpentry</a>, one of the biggest and
+Research Data Manager was contributing to <a href="https://librarycarpentry.github.io/"><strong>Library
+Carpentry</strong></a>, one of the biggest and
 most popular projects at his year's Sprint and also brought super tasty
 banana bread. He's also blogged about his experiences
 <a href="https://erambler.co.uk/blog/mozilla-global-sprint-2017/?utm_content=buffer35502&amp;utm_medium=social&amp;utm_source=twitter.com&amp;utm_campaign=buffer">here</a>.</p>
@@ -226,7 +229,7 @@ interested in personally. So I teamed up with Tyler Kolody
 address our growing, social media facilitated, retreat into echo
 chambers, which is resulting in increasingly polarised public discourse
 and an unwillingness to engage with views we disagree with. The idea is
-to attempt to <strong>burst through such bubbles</strong>, by developing a browser
+to attempt to <a href="https://medium.com/read-write-participate/echoburst-77b3aa661d52"><strong>burst through such bubbles</strong></a>, by developing a browser
 extension with the potential to distinguish toxic content, more likely
 to shut down discussion, from more constructive content that might be
 able to bridge different perspectives.</p>
@@ -918,18 +921,18 @@ make an informed career choice</li>
 <p>The purpose of this post is to describe how to install the necessary tools to permit local GPU development inside the Linux NSight IDE from within Windows. The advantages of which are not only cross platform development but also the ability to locally develop in powerful Linux IDE with remote execution and graphical debugging. This is particularly helpful if you want to execute or debug your code on a HPC system (like Sheffield's ShARC system) from Windows. The post focuses on the use of the new Windows 10 Linux subsystem, however you could use the approach to install CUDA tools on a lightweight Linux virtual machine. The concept is the same either way. i.e. build and debug locally execute remotely.</p>
 <h3>Configuring the Linux Windows Subsystem for CUDA compilation</h3>
 <p>The Windows 10 subsystem for Linux is available in the anniversary update. You can install it from the "Turn on or off windows features" dialogue. It is listed under "Windows subsystem for Linux (beta)". This alone is not enough to build our GPU applications as we will need to install CUDA. A normal CUDA install will require a local GPU and the installation of a CUDA compatible graphics driver. Fire up the Windows Bash Shell (or a Linux virtual machine). You can then use the following commands to install the CUDA toolkit without installing a graphics driver. This will install the core NVIDIA CUDA compiler (nvcc) and NSight. You can update the <code>CUDA_REPO_PKG</code> variable to install a different CUDA version.</p>
-<pre class="code literal-block"><span></span><span class="x">sudo apt-get update</span>
-<span class="x">CUDA_REPO_PKG=cuda-repo-ubuntu1404_8.0.44-1_amd64.deb</span>
-<span class="x">wget http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1404/x86_64/</span><span class="p">$</span><span class="nv">CUDA_REPO_PKG</span><span class="x"></span>
-<span class="x">sudo dpkg -i </span><span class="p">$</span><span class="nv">CUDA_REPO_PKG</span><span class="x"></span>
-<span class="x">sudo apt-get update</span>
-<span class="x">sudo apt-get install -y --no-install-recommends cuda-core-8-0 cuda-cudart-dev-8-0 nsight</span>
+<pre class="code literal-block"><span></span>sudo apt-get update
+CUDA_REPO_PKG=cuda-repo-ubuntu1404_8.0.44-1_amd64.deb
+wget http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1404/x86_64/$CUDA_REPO_PKG
+sudo dpkg -i $CUDA_REPO_PKG
+sudo apt-get update
+sudo apt-get install -y --no-install-recommends cuda-core-8-0 cuda-cudart-dev-8-0 nsight
 </pre>
 
 
 <p>You can now create a symbolic link to a generic CUDA install. This will permit the addition and fast swapping of different CUDA versions.</p>
-<pre class="code literal-block"><span></span><span class="x">sudo ln -s /usr/local/cuda-8.0 /usr/local/cuda </span>
-<span class="x">export PATH=</span><span class="p">$</span><span class="nv">PATH</span><span class="x">:/usr/local/cuda/bin</span>
+<pre class="code literal-block"><span></span>sudo ln -s /usr/local/cuda-8.0 /usr/local/cuda 
+export PATH=$PATH:/usr/local/cuda/bin
 </pre>
 
 
@@ -962,11 +965,11 @@ make an informed career choice</li>
 <p>Future blog posts will cover how remote execution and debugging can be achieved on the University of Sheffield ShARC system. ShARC has a typical of job based HPC system which encourages job submission rather than execution of code on worker nodes via SSH logins. </p>
 <h3>Summary of Bash Profile Changes</h3>
 <p>I added the following to my .bashrc profile (located in the home directory) to ensure that NSight could be launched straight after starting the Bash shell in Windows.</p>
-<pre class="code literal-block"><span></span><span class="err">#</span><span class="x"> add cuda bin dir to path</span>
-<span class="x">export PATH=</span><span class="p">$</span><span class="nv">PATH</span><span class="x">:/usr/local/cuda/bin</span>
+<pre class="code literal-block"><span></span># add cuda bin dir to path
+export PATH=$PATH:/usr/local/cuda/bin
 
-<span class="err">#</span><span class="x"> export the display environment variable</span>
-<span class="x">export DISPLAY=:0</span>
+# export the display environment variable
+export DISPLAY=:0
 </pre>
 </div>
     </div>
