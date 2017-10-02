@@ -12,8 +12,8 @@
 <meta property="og:site_name" content="RSE at Sheffield">
 <meta property="og:title" content="Premium access to ShARC">
 <meta property="og:url" content="http://rse.shef.ac.uk/resources/hpc/premium-hpc/">
-<meta property="og:description" content="The Sheffield RSE group, along with a few other research groups around the University, have purchased some additional hardware and integrated it into ShARC. 
-Only those who have financially contribute">
+<meta property="og:description" content="The Sheffield RSE group, along with a few other research groups around the University, have purchased some additional hardware and integrated it into ShARC.
+Only those who have financially contributed">
 <meta property="og:type" content="article">
 <meta property="article:published_time" content="2017-05-05T06:15:18Z">
 </head>
@@ -80,7 +80,7 @@ Only those who have financially contribute">
 
     </header><div class="e-content entry-content" itemprop="articleBody text">
     <div>
-<p>The Sheffield RSE group, along with a few other research groups around the University, have purchased some additional hardware and integrated it into ShARC. 
+<p>The Sheffield RSE group, along with a few other research groups around the University, have purchased some additional hardware and integrated it into ShARC.
 Only those who have financially contributed to this hardware can access it.
 This is part of an experiment to try to make better use of computational resources at Sheffield and also an attempt to build more of a community around the HPC systems here.</p>
 <h2>How are you related to CiCS?</h2>
@@ -91,10 +91,10 @@ This will take time but we'll give you access to the current pool immediately.
 We've seeded the process with ~£100,000 and already have nodes that provide capability not available elsewhere on ShARC or Iceberg.</p>
 <h2>What's the advantage of doing it this way?</h2>
 <p>We find that the workloads of most research groups are 'spiky'. That is, much of the time you might not need any compute at all but when you <em>do</em> need it, you need a <strong>lot</strong> -- a lot more than you can afford to actually buy! By pooling resources in this way, it's more likely that you'll have the resource you need when you need it.</p>
-<p>A similar model is in use at <a href="http://ri.itservices.manchester.ac.uk/csf/">The University of Manchester</a> and has helped them build a system much bigger than the one at Sheffield. 
+<p>A similar model is in use at <a href="http://ri.itservices.manchester.ac.uk/csf/">The University of Manchester</a> and has helped them build a system much bigger than the one at Sheffield.
 We believe that part of their success is due to the fact that academics and central IT are <em>co-investing</em> in a system rather than IT simply providing a service.
 This is our attempt to replicate the same success here at Sheffield.</p>
-<p>Traditionally, HPC at Sheffield has always been 'Free At Point of Use' and although this allows everyone to have <em>some</em> HPC access for 'free' (It really comes out of overheads), it usually leaves most people wanting more. You'll know what we mean if you've ever waited in the queues for longer than it takes your job to run! </p>
+<p>Traditionally, HPC at Sheffield has always been 'Free At Point of Use' and although this allows everyone to have <em>some</em> HPC access for 'free' (It really comes out of overheads), it usually leaves most people wanting more. You'll know what we mean if you've ever waited in the queues for longer than it takes your job to run!</p>
 <p>Free at Point of Use is great and we don't expect this to change but we want to offer our collaborators something more.</p>
 <h2>Support</h2>
 <p>We are Research Software Engineers who work with a diverse group of researchers. Their needs are driving what can be done on Sheffield's HPC systems and we are helping them do it. Some of the support we've given to HPC users over the last couple of years includes:-</p>
@@ -104,24 +104,25 @@ This is our attempt to replicate the same success here at Sheffield.</p>
 <li>
 <strong>New compute models</strong> HPC is changing. It's no longer confined to OpenMP and MPI for Fortran and C users. We've worked to allow <a href="https://github.com/mikecroucher/Intro_to_HPC">Apache Spark workloads</a> run on the cluster, <a href="https://github.com/mikecroucher/Intro_to_HPC">compiled optimised versions of R</a>, <a href="http://rse.shef.ac.uk/blog/willfurnass_intro/">developed access via Jupyter notebook</a>, improved GPU support and installed dozens of applications.</li>
 <li>
-<strong>Made your code faster</strong> You use HPC because you need your results more quickly. We have helped <a href="http://rse.shef.ac.uk/testimonials/">dozens of researchers</a> make their code <strong>hundreds</strong> of times faster. </li>
+<strong>Made your code faster</strong> You use HPC because you need your results more quickly. We have helped <a href="http://rse.shef.ac.uk/testimonials/">dozens of researchers</a> make their code <strong>hundreds</strong> of times faster.</li>
 </ul>
 <p>Some of our support services are Free At Point of Use but we also offer paid-for support. <a href="http://rse.shef.ac.uk/contact/">Contact us</a> to start discussing this.</p>
 <h2>Can you guarantee me access to <em>my</em> hardware exactly when I need it?</h2>
 <p>No (with caveats). The idea of this particular model is that you give up the convenience of guaranteed access at all times in exchange for access to much more hardware than you could otherwise afford. We can occasionally give our collaborators guaranteed access to certain nodes for short periods for mission critical work but we strongly discourage it. If you really must have guaranteed access to your nodes at all times, this may not be the model for you.</p>
 <h2>What if I join the pool but find it doesn't work for me?</h2>
-<p>We'll generally recommend that people contribute to the pool such that they buy at least an entire node. 
+<p>We'll generally recommend that people contribute to the pool such that they buy at least an entire node.
 That way, if it turns out that our model really doesn't work for you, we can remove you from the pool and put your hardware within its own project -- just as if you had purchased a node directly from CiCS.</p>
 <h2>Once I join the pool, how do I access the hardware?</h2>
-<p>Add the line </p>
+<p>Add the line</p>
 <pre class="code literal-block"><span></span>#$ -P rse
 </pre>
 
 
 <p>to your job submission script or start a <code>qrshx</code> session with <code>qrshx -P rse</code></p>
+<p>This will tell the system to prefer the use of nodes in the rse pool but if they are full, and if the public nodes can satisfy your request, your job will automatically be sent to the rest of Sharc.</p>
 <h2>How do you control access quotas</h2>
 <p>We currently use the standard fair-use policy operated by Sun Grid Engine.  In short, your priority goes down the more you use the system.
-This is identical to the policy used on the rest of ShARC and is currently working fine for our users. 
+This is identical to the policy used on the rest of ShARC and is currently working fine for our users.
 We will, however, collaborate with the user community in modifying this policy if it proves to be necessary.</p>
 <h2>What hardware is currently available in the premium pool?</h2>
 <p>The pool consists of the following nodes. Of course, this is in addition to all of the publicly accessible nodes available on ShARC.</p>
@@ -135,67 +136,67 @@ We will, however, collaborate with the user community in modifying this policy i
 <p>Full details concerning its specification can be found at <a href="https://images.%0Anvidia.com/content/technologies/deep-learning/pdf/61681-DB2-Launch-Datasheet-Deep-Learning-Letter-%0AWEB.pdf">https://images.nvidia.com/content/techn
 ologies/deep-learning/pdf/61681-DB2-Launch-Datasheet-Deep-Learning-Letter-WEB.pdf</a></p>
 <h3>Big memory nodes</h3>
-<p>These nodes have the same number of CPUs as standard ShARC nodes but they have much more memory. This makes them ideal for big-data workloads. </p>
+<p>These nodes have the same number of CPUs as standard ShARC nodes but they have much more memory. This makes them ideal for big-data workloads.</p>
 <ul>
 <li>3 nodes</li>
-<li>Each node has 16 CPU cores </li>
+<li>Each node has 16 CPU cores</li>
 <li>Each node has 768GB RAM</li>
 </ul>
-<h3>Dense core nodes (coming soon)</h3>
-<p>These nodes have twice the number of CPUs as standard ShARC nodes with the same amount of RAM per core. 
+<h3>Dense core nodes</h3>
+<p>These nodes have twice the number of CPUs as standard ShARC nodes with the same amount of RAM per core.
 This makes them ideal for shared-memory parallel workloads that can scale beyond what is currently available on ShARC.</p>
 <p>We are in the process of buying these right now so they are not available just yet. We currently propose to buy:</p>
 <ul>
 <li>4 nodes</li>
 <li>Each node has 32 CPU cores (so 128 cores in total in this part of the pool)</li>
-<li>Each node has 128GB RAM</li>
+<li>Each node has 256GB RAM</li>
 </ul>
 <h2>What are the alternatives to this premium queue?</h2>
 <p>If you have money to spend on HPC equipment and don't want to be part of our experiment, here are some alternatives:</p>
 <ul>
 <li>
-<p><strong>Buy your own hardware and shove it under your desk. 
-  Admin it yourself and have fun.</strong> 
-  This has a lot of advantages. 
-  You can see and touch your tin. 
-  You can do whatever you like with it and have access to it whenever you want. 
-  The disadvantages are that you'll not be integrated with the rest of our HPC system 
-  (job scheduler, backups, permissions management/authentication, monitoring, resiliency mechanisms, security vulnerability management), 
-  you won't have access to all of our additional hardware and 
+<p><strong>Buy your own hardware and shove it under your desk.
+  Admin it yourself and have fun.</strong>
+  This has a lot of advantages.
+  You can see and touch your tin.
+  You can do whatever you like with it and have access to it whenever you want.
+  The disadvantages are that you'll not be integrated with the rest of our HPC system
+  (job scheduler, backups, permissions management/authentication, monitoring, resiliency mechanisms, security vulnerability management),
+  you won't have access to all of our additional hardware and
   you won't have access to our support community.</p>
 </li>
 <li>
-<p><strong>Buy you own nodes on ShARC directly from CiCS</strong>. 
-  The main advantage of this is that you'll have guaranteed access to your nodes whenever you want them. 
-  Possibly the best route for people who are going to have long, sustained workloads and 
-  who know exactly how much compute they need. 
-  The disadvantages are that you'll only have access to 'your nodes + general pool'. 
-  With us you'll have 'your nodes + general pool + our nodes'. 
-  Another disadvantage is that when you are not using your nodes, 
+<p><strong>Buy you own nodes on ShARC directly from CiCS</strong>.
+  The main advantage of this is that you'll have guaranteed access to your nodes whenever you want them.
+  Possibly the best route for people who are going to have long, sustained workloads and
+  who know exactly how much compute they need.
+  The disadvantages are that you'll only have access to 'your nodes + general pool'.
+  With us you'll have 'your nodes + general pool + our nodes'.
+  Another disadvantage is that when you are not using your nodes,
   they'll be lying idle and will effectively be a waste of money</p>
 </li>
 <li>
-<p><strong>Buy a lease on nodes from CiCS</strong>. 
-  CiCS let you lease nodes by the hour but 
-  you usually have to buy several months worth to make this worthwhile. 
-  You get guaranteed access to your leased nodes which is great but 
-  when your lease runs out you are left with nothing. 
-  The hourly rate is much cheaper than cloud computing but, 
-  unlike the cloud, you have to pay for your nodes even when you are not using them. 
-  We've found that some research groups who lease a node for a year 
-  only end up using it about ~10% of the time. 
-  This is such a huge waste of money that 
+<p><strong>Buy a lease on nodes from CiCS</strong>.
+  CiCS let you lease nodes by the hour but
+  you usually have to buy several months worth to make this worthwhile.
+  You get guaranteed access to your leased nodes which is great but
+  when your lease runs out you are left with nothing.
+  The hourly rate is much cheaper than cloud computing but,
+  unlike the cloud, you have to pay for your nodes even when you are not using them.
+  We've found that some research groups who lease a node for a year
+  only end up using it about ~10% of the time.
+  This is such a huge waste of money that
   they may as well have used the cloud instead.</p>
 </li>
 <li>
-<p><strong>Buy time on the cloud</strong>. 
-  The most flexible option available. 
-  Operational costs may be more expensive per unit time than on-premise options but 
-  there are few if any capital costs and 
-  total operational costs may be less if the cloud is only used when needed. 
-  On-demand scaling is an attractive quality too. 
-  However, cloud computing services require a different set of skills to use. 
-  We do a lot of cloud based work though and 
+<p><strong>Buy time on the cloud</strong>.
+  The most flexible option available.
+  Operational costs may be more expensive per unit time than on-premise options but
+  there are few if any capital costs and
+  total operational costs may be less if the cloud is only used when needed.
+  On-demand scaling is an attractive quality too.
+  However, cloud computing services require a different set of skills to use.
+  We do a lot of cloud based work though and
   will be happy to talk to you about options.</p>
 </li>
 </ul>
