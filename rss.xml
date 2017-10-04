@@ -1,5 +1,133 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>RSE at Sheffield</title><link>http://rse.shef.ac.uk/</link><description>RSE at Sheffield</description><atom:link type="application/rss+xml" rel="self" href="http://rse.shef.ac.uk/rss.xml"></atom:link><language>en</language><lastBuildDate>Fri, 15 Sep 2017 13:32:22 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>ATI Data study group</title><link>http://rse.shef.ac.uk/blog/ati-data-study-group/</link><dc:creator>Tania A.</dc:creator><description>&lt;div&gt;&lt;p&gt;I had the opportunity to attend the &lt;a href="https://www.turing.ac.uk/"&gt;Alan Turing Institute (ATI)&lt;/a&gt; Data Study Group (22nd-26th May 2017). The ATI is the national institute for data science and as such, it has strong ties to both academia and industry.&lt;/p&gt;
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>RSE at Sheffield</title><link>http://rse.shef.ac.uk/</link><description>RSE at Sheffield</description><atom:link href="http://rse.shef.ac.uk/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Wed, 04 Oct 2017 10:02:21 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>The many views of a Software Carpentry workshop</title><link>http://rse.shef.ac.uk/blog/tuos-sc-workshop-1/</link><dc:creator>Will Furnass</dc:creator><description>&lt;div&gt;&lt;p&gt;RSE Sheffield recently ran our first &lt;a class="reference external" href="https://software-carpentry.org"&gt;Software Carpentry&lt;/a&gt; workshop.
+Over two days in the shiny new &lt;a class="reference external" href="https://www.sheffield.ac.uk/diamond"&gt;Diamond&lt;/a&gt; building
+we introduced thirty researchers to:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;The &lt;a class="reference external" href="http://swcarpentry.github.io/shell-novice"&gt;Unix Shell&lt;/a&gt;, including the basics of automation&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://swcarpentry.github.io/python-novice-inflammation"&gt;Programming with Python&lt;/a&gt; (with a data science perspective)&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://swcarpentry.github.io/git-novice"&gt;Version Control with Git&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://swcarpentry.github.io/sql-novice-survey"&gt;Using Databases and SQL&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We knew there would be demand for the workshop
+given the topics covered and it was free to attend
+but were still surprised when
+all thirty EventBrite places were snapped up in twenty minutes and
+the waiting list grew to sixty names.&lt;/p&gt;
+&lt;p&gt;VENUE&lt;/p&gt;
+&lt;p&gt;DEMOGRAPHICS:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;3 ENG, 2 LIFE SCI, 4 OTHER (ONLY 9!)&lt;/li&gt;
+&lt;li&gt;7 GRAD STUDENTS, 2 PDRAS&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;CHANGE IN CONFIDENCE STATS (C.F. WHAT CLAIMED COULD DO BEFOREHAND&lt;/p&gt;
+&lt;p&gt;OTHER FEEDBACK&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;TIMINGS TIGHT&lt;/li&gt;
+&lt;li&gt;GOOD VENUE&lt;/li&gt;
+&lt;li&gt;MULTIPLE SCREENS GOOD&lt;/li&gt;
+&lt;li&gt;SLIDES WITH EXERCISES&lt;/li&gt;
+&lt;li&gt;SCROLLBACK&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;FEEDBACK&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p class="first"&gt;ONLY 9!&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;RECOMMEND TO COLEAGUE: 22% NO, 33% PASSIVE, 44% YES&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;STYLE:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;good delivery (comment from 1 person)&lt;/li&gt;
+&lt;li&gt;LIKED INTERACTIVE NATURE INC LIVE CODING AND INC JUPYTER (2C)&lt;/li&gt;
+&lt;li&gt;CONSTANT HELP FROM INSTRUCTOR AND HELPERS (C)&lt;/li&gt;
+&lt;li&gt;WIDE RANGE OF RELEVANT TOPICS THAT COULD BE USED TOGETHER IN RES WORKFLOW (3C)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;TOO FAST YES&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;CONCEPTS FIRST e.g. WITH SLIDES TO ACCOMPANY INTRO, ESP W/ GIT&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;MATERIAL ACCESS BEFOREHAND - CONTRADICTS SC STYLE?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;MORE RELEVANT HANDS-ON EXERCISES&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;FUTURE&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;WANT MEDIUM TO ADVANCED WORKSHOPS&lt;/li&gt;
+&lt;li&gt;MORE TIME PER TOPIC - THREE DAYS NEXT TIME?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;img alt="Tania teaching Git" class="align-right" src="http://rse.shef.ac.uk/images/sc-workshop-1/tania-git.jpg" style="width: 50%;"&gt;
+&lt;img alt="The team that delivered the workshop" class="align-right" src="http://rse.shef.ac.uk/images/sc-workshop-1/team.jpg" style="width: 50%;"&gt;
+&lt;img alt="Will teaching the Unix Shell" class="align-right" src="http://rse.shef.ac.uk/images/sc-workshop-1/will-shell.jpg" style="width: 50%;"&gt;
+&lt;img alt="Will teaching" class="align-right" src="http://rse.shef.ac.uk/images/sc-workshop-1/will-teaching.jpg" style="width: 50%;"&gt;
+&lt;img alt="Feedback from stickies" class="align-right" src="http://rse.shef.ac.uk/images/sc-workshop-1/whiteboard.jpg" style="width: 50%;"&gt;
+&lt;div class="section" id="instructors-views"&gt;
+&lt;h2&gt;Instructors views&lt;/h2&gt;
+&lt;div class="section" id="will"&gt;
+&lt;h3&gt;Will&lt;/h3&gt;
+&lt;blockquote class="twitter-tweet" data-lang="en"&gt;
+&lt;p lang="en" dir="ltr"&gt;Today is the day!!
+&lt;a href="https://twitter.com/WillFurnass"&gt;@WillFurnass&lt;/a&gt; kicking off
+the first &lt;a href="https://twitter.com/RSE_Sheffield"&gt;@RSE_Sheffield&lt;/a&gt; &lt;a href="https://twitter.com/swcarpentry"&gt;@swcarpentry&lt;/a&gt; workshop
+with a session on UNIX!
+&lt;a href="https://t.co/8vbxZ6Ij4w"&gt;pic.twitter.com/8vbxZ6Ij4w&lt;/a&gt;&lt;/p&gt;—
+annakrystalli (@annakrystalli) &lt;a href="https://twitter.com/annakrystalli/status/897740554397777921"&gt;August 16, 2017&lt;/a&gt;
+&lt;/blockquote&gt;
+&lt;script async src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;&lt;/div&gt;
+&lt;div class="section" id="tania"&gt;
+&lt;h3&gt;Tania&lt;/h3&gt;
+&lt;blockquote class="twitter-tweet" data-lang="en"&gt;&lt;p lang="en" dir="ltr"&gt;
+.&lt;a href="https://twitter.com/RSE_Sheffield"&gt;@RSE_Sheffield&lt;/a&gt; &lt;a href="https://twitter.com/swcarpentry"&gt;@swcarpentry&lt;/a&gt; v01
+continues with &lt;a href="https://twitter.com/ixek"&gt;@ixek&lt;/a&gt; on
+&lt;a href="https://twitter.com/hashtag/git?src=hash"&gt;#git&lt;/a&gt; &lt;a href="https://twitter.com/hashtag/versioncontrol?src=hash"&gt;#versioncontrol&lt;/a&gt;!
+&lt;a href="https://t.co/884ayPwhsb"&gt;pic.twitter.com/884ayPwhsb&lt;/a&gt;&lt;/p&gt;—
+annakrystalli (@annakrystalli) &lt;a href="https://twitter.com/annakrystalli/status/898109446395752448"&gt;August 17, 2017&lt;/a&gt;
+&lt;/blockquote&gt;
+&lt;script async src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="an-admin-s-view"&gt;
+&lt;h2&gt;An admin's view&lt;/h2&gt;
+&lt;div class="section" id="anna"&gt;
+&lt;h3&gt;Anna&lt;/h3&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="helpers-view"&gt;
+&lt;h2&gt;Helpers view&lt;/h2&gt;
+&lt;blockquote class="twitter-tweet" data-lang="en"&gt;
+&lt;p lang="en" dir="ltr"&gt;And of course, super friendly &lt;a href="https://twitter.com/swcarpentry"&gt;@swcarpentry&lt;/a&gt; backup
+by these fine folk
+&lt;a href="https://twitter.com/jezcope"&gt;@jezcope&lt;/a&gt;
+&lt;a href="https://twitter.com/jamesbraders"&gt;@jamesbraders&lt;/a&gt;
+&lt;a href="https://twitter.com/WillFurnass"&gt;@WillFurnass&lt;/a&gt;
+&lt;a href="https://twitter.com/katkoler"&gt;@katkoler&lt;/a&gt;!
+&lt;a href="https://t.co/PN6sG1fc7N"&gt;pic.twitter.com/PN6sG1fc7N&lt;/a&gt;&lt;/p&gt;—
+annakrystalli (@annakrystalli) &lt;a href="https://twitter.com/annakrystalli/status/898113024816533504"&gt;August 17, 2017&lt;/a&gt;
+&lt;/blockquote&gt;
+&lt;script async src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;&lt;div class="section" id="kat"&gt;
+&lt;h3&gt;Kat&lt;/h3&gt;
+&lt;/div&gt;
+&lt;div class="section" id="james"&gt;
+&lt;h3&gt;James&lt;/h3&gt;
+&lt;/div&gt;
+&lt;div class="section" id="jez"&gt;
+&lt;h3&gt;Jez&lt;/h3&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="outro"&gt;
+&lt;h2&gt;Outro&lt;/h2&gt;
+&lt;blockquote class="twitter-tweet" data-lang="en"&gt;&lt;p lang="en" dir="ltr"&gt;
+What do you do after a successful first &lt;a href="https://twitter.com/swcarpentry"&gt;@swcarpentry&lt;/a&gt; workshop???
+🍺 and sunshine &lt;a href="https://twitter.com/hashtag/DreamTeam?src=hash"&gt;#DreamTeam&lt;/a&gt;
+&lt;a href="https://twitter.com/hashtag/workhardplayhard?src=hash"&gt;#workhardplayhard&lt;/a&gt;
+&lt;a href="https://t.co/HlsmRzm4OF"&gt;pic.twitter.com/HlsmRzm4OF&lt;/a&gt;&lt;/p&gt;—
+Tania Sanchez (@ixek) &lt;a href="https://twitter.com/ixek/status/898213468964352000"&gt;August 17, 2017&lt;/a&gt;
+&lt;/blockquote&gt;
+&lt;script async src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;&lt;/div&gt;&lt;/div&gt;</description><guid>http://rse.shef.ac.uk/blog/tuos-sc-workshop-1/</guid><pubDate>Thu, 14 Sep 2017 17:01:43 GMT</pubDate></item><item><title>ATI Data study group</title><link>http://rse.shef.ac.uk/blog/ati-data-study-group/</link><dc:creator>Tania A.</dc:creator><description>&lt;div&gt;&lt;p&gt;I had the opportunity to attend the &lt;a href="https://www.turing.ac.uk/"&gt;Alan Turing Institute (ATI)&lt;/a&gt; Data Study Group (22nd-26th May 2017). The ATI is the national institute for data science and as such, it has strong ties to both academia and industry.&lt;/p&gt;
 &lt;p&gt;The event was a week long data hackathon in which multiple groups used their best skills to crack the various projects proposed by the industrial partners. Over 5 days 6 groups worked intensively to deliver feasible solutions to the problems proposed.&lt;/p&gt;
 &lt;h3&gt;The projects&lt;/h3&gt;
 &lt;p&gt;The projects spanned over a wide range of topics, each with their very unique challenges and requirements.&lt;/p&gt;
@@ -752,57 +880,4 @@ make an informed career choice&lt;/li&gt;
 &lt;p&gt;&lt;img alt="python1" src="http://rse.shef.ac.uk/images/CF_python2.jpg"&gt;&lt;/p&gt;
 &lt;p&gt;I find rather interesting the mixture of apps and projects pursued, as well as the high quality of the presented final products. But beyond that, I find this to be an excellent opportunity to give back to the amazing community that has adopted and welcome me as a professional in a STEM area. Thus I can say for sure I will be getting involved in more Code First events/workshops.&lt;/p&gt;&lt;/div&gt;</description><guid>http://rse.shef.ac.uk/blog/sheffield-code-firstgirls/</guid><pubDate>Thu, 18 May 2017 08:32:49 GMT</pubDate></item><item><title>Coffee and Cakes Event</title><link>http://rse.shef.ac.uk/blog/coffee-and-cakes-event-2nd/</link><dc:creator>Mozhgan Kabiri Chimeh</dc:creator><description>&lt;div&gt;&lt;p&gt;RSE Sheffield is hosting another coffee and cakes event on &lt;strong&gt;May 31st at 14:00 in the Ada Lovelace room&lt;/strong&gt; on 1st floor of the Computer Science Department (Regents Court East). Attendance is free, but you need to register via &lt;a href="https://goo.gl/forms/L2dRQNvSUvkIbtSm2"&gt;this link&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Take the opportunity to come and have an informal chat about research software.&lt;/p&gt;
-&lt;p&gt;This event is a community event for anyone, not just computer science or members of the RSE team. If you work on software development are an RSE or simply want to talk about some aspect of software or software in teaching then come along.&lt;/p&gt;&lt;/div&gt;</description><guid>http://rse.shef.ac.uk/blog/coffee-and-cakes-event-2nd/</guid><pubDate>Wed, 17 May 2017 11:12:12 GMT</pubDate></item><item><title>Building Linux GPU Code with NSIGHT in Windows</title><link>http://rse.shef.ac.uk/blog/building-linux-gpu-code-with-nsight-in-windows/</link><dc:creator>Paul Richmond</dc:creator><description>&lt;div&gt;&lt;p&gt;Why would you possibly want to build and execute CUDA GPU applications within NSight Eclipse for Linux within Microsoft Windows? Well if you use windows as your main OS there are plenty of reasons but the most obvious is that you may be developing cross platform code and want to build and test it without dual booting. If you are thinking about virtual machines then forget about it. Most (except some very expensive enterprise options) do not have the ability to access a GPU device (e.g GPU pass-through) from within a virtual machine. &lt;/p&gt;
-&lt;p&gt;The purpose of this post is to describe how to install the necessary tools to permit local GPU development inside the Linux NSight IDE from within Windows. The advantages of which are not only cross platform development but also the ability to locally develop in powerful Linux IDE with remote execution and graphical debugging. This is particularly helpful if you want to execute or debug your code on a HPC system (like Sheffield's ShARC system) from Windows. The post focuses on the use of the new Windows 10 Linux subsystem, however you could use the approach to install CUDA tools on a lightweight Linux virtual machine. The concept is the same either way. i.e. build and debug locally execute remotely.&lt;/p&gt;
-&lt;h3&gt;Configuring the Linux Windows Subsystem for CUDA compilation&lt;/h3&gt;
-&lt;p&gt;The Windows 10 subsystem for Linux is available in the anniversary update. You can install it from the "Turn on or off windows features" dialogue. It is listed under "Windows subsystem for Linux (beta)". This alone is not enough to build our GPU applications as we will need to install CUDA. A normal CUDA install will require a local GPU and the installation of a CUDA compatible graphics driver. Fire up the Windows Bash Shell (or a Linux virtual machine). You can then use the following commands to install the CUDA toolkit without installing a graphics driver. This will install the core NVIDIA CUDA compiler (nvcc) and NSight. You can update the &lt;code&gt;CUDA_REPO_PKG&lt;/code&gt; variable to install a different CUDA version.&lt;/p&gt;
-&lt;pre class="code literal-block"&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="x"&gt;sudo apt-get update&lt;/span&gt;
-&lt;span class="x"&gt;CUDA_REPO_PKG=cuda-repo-ubuntu1404_8.0.44-1_amd64.deb&lt;/span&gt;
-&lt;span class="x"&gt;wget http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1404/x86_64/&lt;/span&gt;&lt;span class="p"&gt;$&lt;/span&gt;&lt;span class="nv"&gt;CUDA_REPO_PKG&lt;/span&gt;&lt;span class="x"&gt;&lt;/span&gt;
-&lt;span class="x"&gt;sudo dpkg -i &lt;/span&gt;&lt;span class="p"&gt;$&lt;/span&gt;&lt;span class="nv"&gt;CUDA_REPO_PKG&lt;/span&gt;&lt;span class="x"&gt;&lt;/span&gt;
-&lt;span class="x"&gt;sudo apt-get update&lt;/span&gt;
-&lt;span class="x"&gt;sudo apt-get install -y --no-install-recommends cuda-core-8-0 cuda-cudart-dev-8-0 nsight&lt;/span&gt;
-&lt;/pre&gt;
-
-
-&lt;p&gt;You can now create a symbolic link to a generic CUDA install. This will permit the addition and fast swapping of different CUDA versions.&lt;/p&gt;
-&lt;pre class="code literal-block"&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="x"&gt;sudo ln -s /usr/local/cuda-8.0 /usr/local/cuda &lt;/span&gt;
-&lt;span class="x"&gt;export PATH=&lt;/span&gt;&lt;span class="p"&gt;$&lt;/span&gt;&lt;span class="nv"&gt;PATH&lt;/span&gt;&lt;span class="x"&gt;:/usr/local/cuda/bin&lt;/span&gt;
-&lt;/pre&gt;
-
-
-&lt;p&gt;Note: if you want the CUDA bin location to be persistently on the PATH (after you reboot the Bash shell) then you will need to add the &lt;code&gt;export PATH&lt;/code&gt; line to your .bashrc profile. Test that the install was successful by running nvcc.&lt;/p&gt;
-&lt;pre class="code literal-block"&gt;&lt;span&gt;&lt;/span&gt;nvcc --version
-&lt;/pre&gt;
-
-
-&lt;p&gt;This should give you some information on the nvcc version. e.g. &lt;/p&gt;
-&lt;pre class="code literal-block"&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;nvcc&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="n"&gt;NVIDIA&lt;/span&gt; &lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="n"&gt;R&lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt; &lt;span class="n"&gt;Cuda&lt;/span&gt; &lt;span class="n"&gt;compiler&lt;/span&gt; &lt;span class="n"&gt;driver&lt;/span&gt;
-&lt;span class="n"&gt;Copyright&lt;/span&gt; &lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="n"&gt;c&lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt; &lt;span class="mi"&gt;2005&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;2016&lt;/span&gt; &lt;span class="n"&gt;NVIDIA&lt;/span&gt; &lt;span class="n"&gt;Corporation&lt;/span&gt;
-&lt;span class="n"&gt;Built&lt;/span&gt; &lt;span class="n"&gt;on&lt;/span&gt; &lt;span class="n"&gt;Tue_Jan_10_13&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;&lt;span class="mi"&gt;22&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;&lt;span class="mi"&gt;03&lt;/span&gt;&lt;span class="n"&gt;_CST_2017&lt;/span&gt;
-&lt;span class="n"&gt;Cuda&lt;/span&gt; &lt;span class="n"&gt;compilation&lt;/span&gt; &lt;span class="n"&gt;tools&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt; &lt;span class="n"&gt;release&lt;/span&gt; &lt;span class="mf"&gt;8.0&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt; &lt;span class="n"&gt;V8&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="mf"&gt;0.61&lt;/span&gt;
-&lt;/pre&gt;
-
-
-&lt;p&gt;The CUDA toolkit is now installed so you can build (but not execute) CUDA GPU programs using the Linux bash shell.&lt;/p&gt;
-&lt;h3&gt;Graphical editing with Nsight IDE&lt;/h3&gt;
-&lt;p&gt;To be able to run a graphical NSight IDE from within the Windows subsystem for Linux you will need to be running a X server within Windows. You can install the &lt;strong&gt;free&lt;/strong&gt; &lt;a href="https://sourceforge.net/projects/xming/"&gt;XMing&lt;/a&gt; application for this purpose. If you would rather use a Linux virtual machine then you can avoid this step as the virtual machine will most likely have an X server included. The advantage of the Windows subsystem approach is that it is very lightweight. From within your Bash terminal you will need to set the following environment variable.&lt;/p&gt;
-&lt;pre class="code literal-block"&gt;&lt;span&gt;&lt;/span&gt;export DISPLAY=:0
-&lt;/pre&gt;
-
-
-&lt;p&gt;The display variable is an environment variable passed to graphical applications. In this case, the value of &lt;code&gt;:0&lt;/code&gt; it tells the application to use the first display on the local system (our XMing server in this case). If you want to make this environment variable change permanent then you should add it to your .bashrc profile. You can now run the NSight application from Bash.&lt;/p&gt;
-&lt;pre class="code literal-block"&gt;&lt;span&gt;&lt;/span&gt;nsight
-&lt;/pre&gt;
-
-
-&lt;p&gt;Glorious isn't it. Within NSight we can create a new CUDA project which will compile using the local CUDA install. In order to remotely execute and debug you can use the "C++ Remote application" run configuration. This will require SSH access to a suitable Linux machine with a GPU and CUDA installed.&lt;/p&gt;
-&lt;p&gt;Future blog posts will cover how remote execution and debugging can be achieved on the University of Sheffield ShARC system. ShARC has a typical of job based HPC system which encourages job submission rather than execution of code on worker nodes via SSH logins. &lt;/p&gt;
-&lt;h3&gt;Summary of Bash Profile Changes&lt;/h3&gt;
-&lt;p&gt;I added the following to my .bashrc profile (located in the home directory) to ensure that NSight could be launched straight after starting the Bash shell in Windows.&lt;/p&gt;
-&lt;pre class="code literal-block"&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="err"&gt;#&lt;/span&gt;&lt;span class="x"&gt; add cuda bin dir to path&lt;/span&gt;
-&lt;span class="x"&gt;export PATH=&lt;/span&gt;&lt;span class="p"&gt;$&lt;/span&gt;&lt;span class="nv"&gt;PATH&lt;/span&gt;&lt;span class="x"&gt;:/usr/local/cuda/bin&lt;/span&gt;
-
-&lt;span class="err"&gt;#&lt;/span&gt;&lt;span class="x"&gt; export the display environment variable&lt;/span&gt;
-&lt;span class="x"&gt;export DISPLAY=:0&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;</description><guid>http://rse.shef.ac.uk/blog/building-linux-gpu-code-with-nsight-in-windows/</guid><pubDate>Mon, 08 May 2017 16:03:00 GMT</pubDate></item></channel></rss>
+&lt;p&gt;This event is a community event for anyone, not just computer science or members of the RSE team. If you work on software development are an RSE or simply want to talk about some aspect of software or software in teaching then come along.&lt;/p&gt;&lt;/div&gt;</description><guid>http://rse.shef.ac.uk/blog/coffee-and-cakes-event-2nd/</guid><pubDate>Wed, 17 May 2017 11:12:12 GMT</pubDate></item></channel></rss>
