@@ -5,8 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Building Linux GPU Code with NSIGHT in Windows | RSE at Sheffield</title>
 <link href="../../assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
-<meta name="theme-color" content="#5670d4">
-<meta name="generator" content="Nikola (getnikola.com)">
+<meta content="#5670d4" name="theme-color">
 <link rel="alternate" type="application/rss+xml" title="RSS" href="../../rss.xml">
 <link rel="canonical" href="http://rse.shef.ac.uk/blog/building-linux-gpu-code-with-nsight-in-windows/">
 <!--[if lt IE 9]><script src="../../assets/js/html5.js"></script><![endif]--><meta name="author" content="Paul Richmond">
@@ -79,7 +78,7 @@
 <article class="post-text h-entry hentry postpage" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title" itemprop="headline name"><a href="." class="u-url">Building Linux GPU Code with NSIGHT in Windows</a></h1>
 
         <div class="metadata">
-            <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
+            <p class="byline author vcard"><span class="byline-name fn">
                     <a href="../../authors/paul-richmond/">Paul Richmond</a>
             </span></p>
             <p class="dateline"><a href="." rel="bookmark"><time class="published dt-published" datetime="2017-05-08T16:03:00Z" itemprop="datePublished" title="2017-05-08 16:03">2017-05-08 16:03</time></a></p>
@@ -94,18 +93,18 @@
 <p>The purpose of this post is to describe how to install the necessary tools to permit local GPU development inside the Linux NSight IDE from within Windows. The advantages of which are not only cross platform development but also the ability to locally develop in powerful Linux IDE with remote execution and graphical debugging. This is particularly helpful if you want to execute or debug your code on a HPC system (like Sheffield's ShARC system) from Windows. The post focuses on the use of the new Windows 10 Linux subsystem, however you could use the approach to install CUDA tools on a lightweight Linux virtual machine. The concept is the same either way. i.e. build and debug locally execute remotely.</p>
 <h3>Configuring the Linux Windows Subsystem for CUDA compilation</h3>
 <p>The Windows 10 subsystem for Linux is available in the anniversary update. You can install it from the "Turn on or off windows features" dialogue. It is listed under "Windows subsystem for Linux (beta)". This alone is not enough to build our GPU applications as we will need to install CUDA. A normal CUDA install will require a local GPU and the installation of a CUDA compatible graphics driver. Fire up the Windows Bash Shell (or a Linux virtual machine). You can then use the following commands to install the CUDA toolkit without installing a graphics driver. This will install the core NVIDIA CUDA compiler (nvcc) and NSight. You can update the <code>CUDA_REPO_PKG</code> variable to install a different CUDA version.</p>
-<pre class="code literal-block"><span></span>sudo apt-get update
-CUDA_REPO_PKG=cuda-repo-ubuntu1404_8.0.44-1_amd64.deb
-wget http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1404/x86_64/$CUDA_REPO_PKG
-sudo dpkg -i $CUDA_REPO_PKG
-sudo apt-get update
-sudo apt-get install -y --no-install-recommends cuda-core-8-0 cuda-cudart-dev-8-0 nsight
+<pre class="code literal-block"><span></span><span class="x">sudo apt-get update</span>
+<span class="x">CUDA_REPO_PKG=cuda-repo-ubuntu1404_8.0.44-1_amd64.deb</span>
+<span class="x">wget http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1404/x86_64/</span><span class="p">$</span><span class="nv">CUDA_REPO_PKG</span><span class="x"></span>
+<span class="x">sudo dpkg -i </span><span class="p">$</span><span class="nv">CUDA_REPO_PKG</span><span class="x"></span>
+<span class="x">sudo apt-get update</span>
+<span class="x">sudo apt-get install -y --no-install-recommends cuda-core-8-0 cuda-cudart-dev-8-0 nsight</span>
 </pre>
 
 
 <p>You can now create a symbolic link to a generic CUDA install. This will permit the addition and fast swapping of different CUDA versions.</p>
-<pre class="code literal-block"><span></span>sudo ln -s /usr/local/cuda-8.0 /usr/local/cuda 
-export PATH=$PATH:/usr/local/cuda/bin
+<pre class="code literal-block"><span></span><span class="x">sudo ln -s /usr/local/cuda-8.0 /usr/local/cuda </span>
+<span class="x">export PATH=</span><span class="p">$</span><span class="nv">PATH</span><span class="x">:/usr/local/cuda/bin</span>
 </pre>
 
 
@@ -138,11 +137,11 @@ export PATH=$PATH:/usr/local/cuda/bin
 <p>Future blog posts will cover how remote execution and debugging can be achieved on the University of Sheffield ShARC system. ShARC has a typical of job based HPC system which encourages job submission rather than execution of code on worker nodes via SSH logins. </p>
 <h3>Summary of Bash Profile Changes</h3>
 <p>I added the following to my .bashrc profile (located in the home directory) to ensure that NSight could be launched straight after starting the Bash shell in Windows.</p>
-<pre class="code literal-block"><span></span># add cuda bin dir to path
-export PATH=$PATH:/usr/local/cuda/bin
+<pre class="code literal-block"><span></span><span class="err">#</span><span class="x"> add cuda bin dir to path</span>
+<span class="x">export PATH=</span><span class="p">$</span><span class="nv">PATH</span><span class="x">:/usr/local/cuda/bin</span>
 
-# export the display environment variable
-export DISPLAY=:0
+<span class="err">#</span><span class="x"> export the display environment variable</span>
+<span class="x">export DISPLAY=:0</span>
 </pre>
 </div>
     </div>
