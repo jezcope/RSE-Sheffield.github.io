@@ -1,5 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>RSE at Sheffield</title><link>http://rse.shef.ac.uk/</link><description>RSE at Sheffield</description><atom:link type="application/rss+xml" rel="self" href="http://rse.shef.ac.uk/rss.xml"></atom:link><language>en</language><lastBuildDate>Fri, 15 Sep 2017 13:32:22 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>ATI Data study group</title><link>http://rse.shef.ac.uk/blog/ati-data-study-group/</link><dc:creator>Tania A.</dc:creator><description>&lt;div&gt;&lt;p&gt;I had the opportunity to attend the &lt;a href="https://www.turing.ac.uk/"&gt;Alan Turing Institute (ATI)&lt;/a&gt; Data Study Group (22nd-26th May 2017). The ATI is the national institute for data science and as such, it has strong ties to both academia and industry.&lt;/p&gt;
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>RSE at Sheffield</title><link>http://rse.shef.ac.uk/</link><description>RSE at Sheffield</description><atom:link href="http://rse.shef.ac.uk/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Thu, 02 Nov 2017 12:22:33 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>New Group Member: Phil Tooley</title><link>http://rse.shef.ac.uk/blog/philtooley_intro/</link><dc:creator>Phil Tooley</dc:creator><description>&lt;div&gt;&lt;p&gt;I am thrilled to have joined the &lt;a href="http://rse.shef.ac.uk/"&gt;Research Software Engineering team at
+Sheffield&lt;/a&gt;. My new role is attached to the &lt;a href="https://insigneo.org"&gt;INSIGNEO&lt;/a&gt;
+Institute for in silico Medicine here at the University of Sheffield, developing image registration
+software as part of the &lt;a href="https://compbiomed.eu"&gt;CompBioMed&lt;/a&gt; project.   &lt;/p&gt;
+&lt;h3&gt;About Me&lt;/h3&gt;
+&lt;p&gt;&lt;img src="http://rse.shef.ac.uk/images/ptooley.jpg" align="right"&gt;
+I am a former theoretical and computational physicist with particular interests in mathematical
+modelling and code optimisation. I am also a stalwart champion of the use of the Scipy stack for
+scientific computing, and enjoy trying to make python speed competitive with C and Fortran
+(Spoiler alert: it totally can be!) &lt;/p&gt;
+&lt;p&gt;Although I am a user of both C(++) and Fortran I find that python is often a better choice for many
+tasks even in high performance scientific computing. As well as the huge array of fast mathematical libraries
+available to python, it is also possible to write custom routines in pure
+(&lt;a href="https://numba.pydata.org"&gt;Numba&lt;/a&gt;) or nearly-pure (&lt;a href="https://cython.org"&gt;Cython&lt;/a&gt;) python
+code, and compile them to native machine code.  This can give python equivalent performance to
+traditional C or Fortran codes, and opens up the possibility of running python code efficiently
+on HPC platforms. (More to come on this topic...)&lt;/p&gt;
+&lt;p&gt;Outside the office you will usually find me rock climbing or hiking somewhere.&lt;/p&gt;
+&lt;h4&gt;My previous work&lt;/h4&gt;
+&lt;p&gt;For the last 4 years I have been working on my Ph.D in Theoretical and Computational Plasma Physics
+at the &lt;a href="https://strath.ac.uk"&gt;University of Strathclyde&lt;/a&gt; working on novel accelerator technology
+known as Laser Wakefield Acceleration (LWFA).  This involves firing a short \((30\,
+\mathrm{fs})\) but highly intense \((10^{25}\mathrm{W/m^2})\) laser pulse, into a jet of
+helium gas.  The laser ionises the gas to a plasma and drives an electrostatic plasma wave with
+intense electric fields which can accelerate electrons to Gigaelectronvolt energies over just a few
+mm. (Compared to conventional accelerators such as &lt;a href="https://en.wikipedia.org/wiki/SLAC"&gt;SLAC&lt;/a&gt; which
+have to be kilometers in length to achieve the same energies.)&lt;/p&gt;
+&lt;p&gt;My research was into methods of controlling and improving the performance of these accelerations,
+and relied heavily on &lt;a href="https://en.wikipedia.org/wiki/Particle-in-cell"&gt;Particle in Cell Codes&lt;/a&gt;.
+These are massively parallel codes designed to run on HPCs and I spent a lot of my time developing
+code extensions and analysis tools for the terabyte scale datasets that they produce.  Typically I
+was interested in extracting a very small (usually \(&amp;lt;1\%\) of the total) subset of the electrons
+based on some selection criteria. To do this efficiently I developed a custom C++-based analysis
+code which can extract electron trajectories from the data based on arbitrary criteria.&lt;/p&gt;
+&lt;p&gt;A major application of LWFAs is as compact sources of X-ray and UV light for imaging and materials
+analysis tools in science and industry, and so the second major theme of my work was analysis of the
+radiation produced by the accelerated electrons.  This analysis required numerical integrators to
+calculate the radiation from the extracted electron trajectories by solving the Liénard-Wiechert
+potential equations.&lt;/p&gt;&lt;/div&gt;</description><category>mathjax</category><guid>http://rse.shef.ac.uk/blog/philtooley_intro/</guid><pubDate>Tue, 31 Oct 2017 15:56:00 GMT</pubDate></item><item><title>ATI Data study group</title><link>http://rse.shef.ac.uk/blog/ati-data-study-group/</link><dc:creator>Tania A.</dc:creator><description>&lt;div&gt;&lt;p&gt;I had the opportunity to attend the &lt;a href="https://www.turing.ac.uk/"&gt;Alan Turing Institute (ATI)&lt;/a&gt; Data Study Group (22nd-26th May 2017). The ATI is the national institute for data science and as such, it has strong ties to both academia and industry.&lt;/p&gt;
 &lt;p&gt;The event was a week long data hackathon in which multiple groups used their best skills to crack the various projects proposed by the industrial partners. Over 5 days 6 groups worked intensively to deliver feasible solutions to the problems proposed.&lt;/p&gt;
 &lt;h3&gt;The projects&lt;/h3&gt;
 &lt;p&gt;The projects spanned over a wide range of topics, each with their very unique challenges and requirements.&lt;/p&gt;
@@ -752,57 +790,4 @@ make an informed career choice&lt;/li&gt;
 &lt;p&gt;&lt;img alt="python1" src="http://rse.shef.ac.uk/images/CF_python2.jpg"&gt;&lt;/p&gt;
 &lt;p&gt;I find rather interesting the mixture of apps and projects pursued, as well as the high quality of the presented final products. But beyond that, I find this to be an excellent opportunity to give back to the amazing community that has adopted and welcome me as a professional in a STEM area. Thus I can say for sure I will be getting involved in more Code First events/workshops.&lt;/p&gt;&lt;/div&gt;</description><guid>http://rse.shef.ac.uk/blog/sheffield-code-firstgirls/</guid><pubDate>Thu, 18 May 2017 08:32:49 GMT</pubDate></item><item><title>Coffee and Cakes Event</title><link>http://rse.shef.ac.uk/blog/coffee-and-cakes-event-2nd/</link><dc:creator>Mozhgan Kabiri Chimeh</dc:creator><description>&lt;div&gt;&lt;p&gt;RSE Sheffield is hosting another coffee and cakes event on &lt;strong&gt;May 31st at 14:00 in the Ada Lovelace room&lt;/strong&gt; on 1st floor of the Computer Science Department (Regents Court East). Attendance is free, but you need to register via &lt;a href="https://goo.gl/forms/L2dRQNvSUvkIbtSm2"&gt;this link&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Take the opportunity to come and have an informal chat about research software.&lt;/p&gt;
-&lt;p&gt;This event is a community event for anyone, not just computer science or members of the RSE team. If you work on software development are an RSE or simply want to talk about some aspect of software or software in teaching then come along.&lt;/p&gt;&lt;/div&gt;</description><guid>http://rse.shef.ac.uk/blog/coffee-and-cakes-event-2nd/</guid><pubDate>Wed, 17 May 2017 11:12:12 GMT</pubDate></item><item><title>Building Linux GPU Code with NSIGHT in Windows</title><link>http://rse.shef.ac.uk/blog/building-linux-gpu-code-with-nsight-in-windows/</link><dc:creator>Paul Richmond</dc:creator><description>&lt;div&gt;&lt;p&gt;Why would you possibly want to build and execute CUDA GPU applications within NSight Eclipse for Linux within Microsoft Windows? Well if you use windows as your main OS there are plenty of reasons but the most obvious is that you may be developing cross platform code and want to build and test it without dual booting. If you are thinking about virtual machines then forget about it. Most (except some very expensive enterprise options) do not have the ability to access a GPU device (e.g GPU pass-through) from within a virtual machine. &lt;/p&gt;
-&lt;p&gt;The purpose of this post is to describe how to install the necessary tools to permit local GPU development inside the Linux NSight IDE from within Windows. The advantages of which are not only cross platform development but also the ability to locally develop in powerful Linux IDE with remote execution and graphical debugging. This is particularly helpful if you want to execute or debug your code on a HPC system (like Sheffield's ShARC system) from Windows. The post focuses on the use of the new Windows 10 Linux subsystem, however you could use the approach to install CUDA tools on a lightweight Linux virtual machine. The concept is the same either way. i.e. build and debug locally execute remotely.&lt;/p&gt;
-&lt;h3&gt;Configuring the Linux Windows Subsystem for CUDA compilation&lt;/h3&gt;
-&lt;p&gt;The Windows 10 subsystem for Linux is available in the anniversary update. You can install it from the "Turn on or off windows features" dialogue. It is listed under "Windows subsystem for Linux (beta)". This alone is not enough to build our GPU applications as we will need to install CUDA. A normal CUDA install will require a local GPU and the installation of a CUDA compatible graphics driver. Fire up the Windows Bash Shell (or a Linux virtual machine). You can then use the following commands to install the CUDA toolkit without installing a graphics driver. This will install the core NVIDIA CUDA compiler (nvcc) and NSight. You can update the &lt;code&gt;CUDA_REPO_PKG&lt;/code&gt; variable to install a different CUDA version.&lt;/p&gt;
-&lt;pre class="code literal-block"&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="x"&gt;sudo apt-get update&lt;/span&gt;
-&lt;span class="x"&gt;CUDA_REPO_PKG=cuda-repo-ubuntu1404_8.0.44-1_amd64.deb&lt;/span&gt;
-&lt;span class="x"&gt;wget http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1404/x86_64/&lt;/span&gt;&lt;span class="p"&gt;$&lt;/span&gt;&lt;span class="nv"&gt;CUDA_REPO_PKG&lt;/span&gt;&lt;span class="x"&gt;&lt;/span&gt;
-&lt;span class="x"&gt;sudo dpkg -i &lt;/span&gt;&lt;span class="p"&gt;$&lt;/span&gt;&lt;span class="nv"&gt;CUDA_REPO_PKG&lt;/span&gt;&lt;span class="x"&gt;&lt;/span&gt;
-&lt;span class="x"&gt;sudo apt-get update&lt;/span&gt;
-&lt;span class="x"&gt;sudo apt-get install -y --no-install-recommends cuda-core-8-0 cuda-cudart-dev-8-0 nsight&lt;/span&gt;
-&lt;/pre&gt;
-
-
-&lt;p&gt;You can now create a symbolic link to a generic CUDA install. This will permit the addition and fast swapping of different CUDA versions.&lt;/p&gt;
-&lt;pre class="code literal-block"&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="x"&gt;sudo ln -s /usr/local/cuda-8.0 /usr/local/cuda &lt;/span&gt;
-&lt;span class="x"&gt;export PATH=&lt;/span&gt;&lt;span class="p"&gt;$&lt;/span&gt;&lt;span class="nv"&gt;PATH&lt;/span&gt;&lt;span class="x"&gt;:/usr/local/cuda/bin&lt;/span&gt;
-&lt;/pre&gt;
-
-
-&lt;p&gt;Note: if you want the CUDA bin location to be persistently on the PATH (after you reboot the Bash shell) then you will need to add the &lt;code&gt;export PATH&lt;/code&gt; line to your .bashrc profile. Test that the install was successful by running nvcc.&lt;/p&gt;
-&lt;pre class="code literal-block"&gt;&lt;span&gt;&lt;/span&gt;nvcc --version
-&lt;/pre&gt;
-
-
-&lt;p&gt;This should give you some information on the nvcc version. e.g. &lt;/p&gt;
-&lt;pre class="code literal-block"&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;nvcc&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="n"&gt;NVIDIA&lt;/span&gt; &lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="n"&gt;R&lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt; &lt;span class="n"&gt;Cuda&lt;/span&gt; &lt;span class="n"&gt;compiler&lt;/span&gt; &lt;span class="n"&gt;driver&lt;/span&gt;
-&lt;span class="n"&gt;Copyright&lt;/span&gt; &lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="n"&gt;c&lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt; &lt;span class="mi"&gt;2005&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;2016&lt;/span&gt; &lt;span class="n"&gt;NVIDIA&lt;/span&gt; &lt;span class="n"&gt;Corporation&lt;/span&gt;
-&lt;span class="n"&gt;Built&lt;/span&gt; &lt;span class="n"&gt;on&lt;/span&gt; &lt;span class="n"&gt;Tue_Jan_10_13&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;&lt;span class="mi"&gt;22&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;&lt;span class="mi"&gt;03&lt;/span&gt;&lt;span class="n"&gt;_CST_2017&lt;/span&gt;
-&lt;span class="n"&gt;Cuda&lt;/span&gt; &lt;span class="n"&gt;compilation&lt;/span&gt; &lt;span class="n"&gt;tools&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt; &lt;span class="n"&gt;release&lt;/span&gt; &lt;span class="mf"&gt;8.0&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt; &lt;span class="n"&gt;V8&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="mf"&gt;0.61&lt;/span&gt;
-&lt;/pre&gt;
-
-
-&lt;p&gt;The CUDA toolkit is now installed so you can build (but not execute) CUDA GPU programs using the Linux bash shell.&lt;/p&gt;
-&lt;h3&gt;Graphical editing with Nsight IDE&lt;/h3&gt;
-&lt;p&gt;To be able to run a graphical NSight IDE from within the Windows subsystem for Linux you will need to be running a X server within Windows. You can install the &lt;strong&gt;free&lt;/strong&gt; &lt;a href="https://sourceforge.net/projects/xming/"&gt;XMing&lt;/a&gt; application for this purpose. If you would rather use a Linux virtual machine then you can avoid this step as the virtual machine will most likely have an X server included. The advantage of the Windows subsystem approach is that it is very lightweight. From within your Bash terminal you will need to set the following environment variable.&lt;/p&gt;
-&lt;pre class="code literal-block"&gt;&lt;span&gt;&lt;/span&gt;export DISPLAY=:0
-&lt;/pre&gt;
-
-
-&lt;p&gt;The display variable is an environment variable passed to graphical applications. In this case, the value of &lt;code&gt;:0&lt;/code&gt; it tells the application to use the first display on the local system (our XMing server in this case). If you want to make this environment variable change permanent then you should add it to your .bashrc profile. You can now run the NSight application from Bash.&lt;/p&gt;
-&lt;pre class="code literal-block"&gt;&lt;span&gt;&lt;/span&gt;nsight
-&lt;/pre&gt;
-
-
-&lt;p&gt;Glorious isn't it. Within NSight we can create a new CUDA project which will compile using the local CUDA install. In order to remotely execute and debug you can use the "C++ Remote application" run configuration. This will require SSH access to a suitable Linux machine with a GPU and CUDA installed.&lt;/p&gt;
-&lt;p&gt;Future blog posts will cover how remote execution and debugging can be achieved on the University of Sheffield ShARC system. ShARC has a typical of job based HPC system which encourages job submission rather than execution of code on worker nodes via SSH logins. &lt;/p&gt;
-&lt;h3&gt;Summary of Bash Profile Changes&lt;/h3&gt;
-&lt;p&gt;I added the following to my .bashrc profile (located in the home directory) to ensure that NSight could be launched straight after starting the Bash shell in Windows.&lt;/p&gt;
-&lt;pre class="code literal-block"&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="err"&gt;#&lt;/span&gt;&lt;span class="x"&gt; add cuda bin dir to path&lt;/span&gt;
-&lt;span class="x"&gt;export PATH=&lt;/span&gt;&lt;span class="p"&gt;$&lt;/span&gt;&lt;span class="nv"&gt;PATH&lt;/span&gt;&lt;span class="x"&gt;:/usr/local/cuda/bin&lt;/span&gt;
-
-&lt;span class="err"&gt;#&lt;/span&gt;&lt;span class="x"&gt; export the display environment variable&lt;/span&gt;
-&lt;span class="x"&gt;export DISPLAY=:0&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;</description><guid>http://rse.shef.ac.uk/blog/building-linux-gpu-code-with-nsight-in-windows/</guid><pubDate>Mon, 08 May 2017 16:03:00 GMT</pubDate></item></channel></rss>
+&lt;p&gt;This event is a community event for anyone, not just computer science or members of the RSE team. If you work on software development are an RSE or simply want to talk about some aspect of software or software in teaching then come along.&lt;/p&gt;&lt;/div&gt;</description><guid>http://rse.shef.ac.uk/blog/coffee-and-cakes-event-2nd/</guid><pubDate>Wed, 17 May 2017 11:12:12 GMT</pubDate></item></channel></rss>

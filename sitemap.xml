@@ -23,67 +23,71 @@
  </url>
  <url>
   <loc>http://rse.shef.ac.uk/archive.html</loc>
-  <lastmod>2017-09-15T13:32:00Z</lastmod>
+  <lastmod>2017-11-02T12:22:00Z</lastmod>
  </url>
  <url>
   <loc>http://rse.shef.ac.uk/authors/</loc>
-  <lastmod>2017-10-11T15:39:00Z</lastmod>
+  <lastmod>2017-11-02T12:22:00Z</lastmod>
  </url>
  <url>
   <loc>http://rse.shef.ac.uk/authors/anna-krystalli/</loc>
-  <lastmod>2017-10-11T15:39:00Z</lastmod>
+  <lastmod>2017-11-02T12:22:00Z</lastmod>
  </url>
  <url>
   <loc>http://rse.shef.ac.uk/authors/avgoustinos-vouros/</loc>
-  <lastmod>2017-10-11T15:39:00Z</lastmod>
+  <lastmod>2017-11-02T12:22:00Z</lastmod>
  </url>
  <url>
   <loc>http://rse.shef.ac.uk/authors/christopher-handley/</loc>
-  <lastmod>2017-10-11T15:39:00Z</lastmod>
+  <lastmod>2017-11-02T12:22:00Z</lastmod>
  </url>
  <url>
   <loc>http://rse.shef.ac.uk/authors/david-jones/</loc>
-  <lastmod>2017-10-11T15:39:00Z</lastmod>
+  <lastmod>2017-11-02T12:22:00Z</lastmod>
  </url>
  <url>
   <loc>http://rse.shef.ac.uk/authors/ian-cottam/</loc>
-  <lastmod>2017-10-11T15:39:00Z</lastmod>
+  <lastmod>2017-11-02T12:22:00Z</lastmod>
  </url>
  <url>
   <loc>http://rse.shef.ac.uk/authors/mike-croucher/</loc>
-  <lastmod>2017-10-11T15:39:00Z</lastmod>
+  <lastmod>2017-11-02T12:22:00Z</lastmod>
  </url>
  <url>
   <loc>http://rse.shef.ac.uk/authors/mozhgan-kabiri-chimeh/</loc>
-  <lastmod>2017-10-11T15:39:00Z</lastmod>
+  <lastmod>2017-11-02T12:22:00Z</lastmod>
  </url>
  <url>
   <loc>http://rse.shef.ac.uk/authors/paul-richmond/</loc>
-  <lastmod>2017-10-11T15:39:00Z</lastmod>
+  <lastmod>2017-11-02T12:22:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://rse.shef.ac.uk/authors/phil-tooley/</loc>
+  <lastmod>2017-11-02T12:22:00Z</lastmod>
  </url>
  <url>
   <loc>http://rse.shef.ac.uk/authors/stuart-mumford/</loc>
-  <lastmod>2017-10-11T15:39:00Z</lastmod>
+  <lastmod>2017-11-02T12:22:00Z</lastmod>
  </url>
  <url>
   <loc>http://rse.shef.ac.uk/authors/tania-a/</loc>
-  <lastmod>2017-10-11T15:39:00Z</lastmod>
+  <lastmod>2017-11-02T12:22:00Z</lastmod>
  </url>
  <url>
   <loc>http://rse.shef.ac.uk/authors/tania-allard/</loc>
-  <lastmod>2017-10-11T15:39:00Z</lastmod>
+  <lastmod>2017-11-02T12:22:00Z</lastmod>
  </url>
  <url>
   <loc>http://rse.shef.ac.uk/authors/twin-karmakharm/</loc>
-  <lastmod>2017-10-11T15:39:00Z</lastmod>
+  <lastmod>2017-11-02T12:22:00Z</lastmod>
  </url>
  <url>
   <loc>http://rse.shef.ac.uk/authors/will-furnass/</loc>
-  <lastmod>2017-10-11T15:39:00Z</lastmod>
+  <lastmod>2017-11-02T12:22:00Z</lastmod>
  </url>
  <url>
   <loc>http://rse.shef.ac.uk/blog/</loc>
-  <lastmod>2017-09-15T13:32:00Z</lastmod>
+  <lastmod>2017-11-02T12:22:00Z</lastmod>
  </url>
  <url>
   <loc>http://rse.shef.ac.uk/blog/2nd-gpu-seminar-amr/</loc>
@@ -147,15 +151,15 @@
  </url>
  <url>
   <loc>http://rse.shef.ac.uk/blog/index-1.html</loc>
-  <lastmod>2017-06-12T11:31:00Z</lastmod>
+  <lastmod>2017-11-02T12:22:00Z</lastmod>
  </url>
  <url>
   <loc>http://rse.shef.ac.uk/blog/index-2.html</loc>
-  <lastmod>2017-06-12T11:31:00Z</lastmod>
+  <lastmod>2017-11-02T12:22:00Z</lastmod>
  </url>
  <url>
   <loc>http://rse.shef.ac.uk/blog/index-3.html</loc>
-  <lastmod>2017-09-15T13:32:00Z</lastmod>
+  <lastmod>2017-11-02T12:22:00Z</lastmod>
  </url>
  <url>
   <loc>http://rse.shef.ac.uk/blog/intel-R-iceberg/</loc>
@@ -192,6 +196,10 @@
  <url>
   <loc>http://rse.shef.ac.uk/blog/openastronomy-workshop/</loc>
   <lastmod>2016-01-21T12:32:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://rse.shef.ac.uk/blog/philtooley_intro/</loc>
+  <lastmod>2017-11-02T12:22:00Z</lastmod>
  </url>
  <url>
   <loc>http://rse.shef.ac.uk/blog/research_software_engineer_in_high_performance_computing/</loc>
@@ -239,7 +247,7 @@
  </url>
  <url>
   <loc>http://rse.shef.ac.uk/categories/</loc>
-  <lastmod>2017-09-15T13:32:00Z</lastmod>
+  <lastmod>2017-11-02T12:22:00Z</lastmod>
  </url>
  <url>
   <loc>http://rse.shef.ac.uk/categories/cat_gpucomputing/</loc>
@@ -256,6 +264,10 @@
  <url>
   <loc>http://rse.shef.ac.uk/categories/jobs/</loc>
   <lastmod>2017-06-10T09:24:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://rse.shef.ac.uk/categories/mathjax/</loc>
+  <lastmod>2017-11-02T12:22:00Z</lastmod>
  </url>
  <url>
   <loc>http://rse.shef.ac.uk/categories/software-carpentry/</loc>
