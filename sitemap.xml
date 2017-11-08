@@ -23,7 +23,7 @@
  </url>
  <url>
   <loc>http://rse.shef.ac.uk/archive.html</loc>
-  <lastmod>2017-11-02T12:22:00Z</lastmod>
+  <lastmod>2017-11-08T12:34:00Z</lastmod>
  </url>
  <url>
   <loc>http://rse.shef.ac.uk/authors/</loc>
@@ -87,7 +87,7 @@
  </url>
  <url>
   <loc>http://rse.shef.ac.uk/blog/</loc>
-  <lastmod>2017-11-02T12:22:00Z</lastmod>
+  <lastmod>2017-11-08T12:34:00Z</lastmod>
  </url>
  <url>
   <loc>http://rse.shef.ac.uk/blog/2nd-gpu-seminar-amr/</loc>
@@ -159,7 +159,7 @@
  </url>
  <url>
   <loc>http://rse.shef.ac.uk/blog/index-3.html</loc>
-  <lastmod>2017-11-02T12:22:00Z</lastmod>
+  <lastmod>2017-11-08T12:34:00Z</lastmod>
  </url>
  <url>
   <loc>http://rse.shef.ac.uk/blog/intel-R-iceberg/</loc>
@@ -216,6 +216,10 @@
  <url>
   <loc>http://rse.shef.ac.uk/blog/sheffield-code-firstgirls/</loc>
   <lastmod>2017-06-10T09:24:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://rse.shef.ac.uk/blog/sheffieldR-hacktoberfest/</loc>
+  <lastmod>2017-11-08T12:34:00Z</lastmod>
  </url>
  <url>
   <loc>http://rse.shef.ac.uk/blog/soft-carp-at-tuos/</loc>
