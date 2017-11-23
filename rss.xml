@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>RSE at Sheffield</title><link>http://rse.shef.ac.uk/</link><description>RSE at Sheffield</description><atom:link href="http://rse.shef.ac.uk/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Wed, 22 Nov 2017 17:22:58 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Sheffield R Users group celebrates Hacktoberfest</title><link>http://rse.shef.ac.uk/blog/sheffieldR-hacktoberfest/</link><dc:creator>Anna Krystalli</dc:creator><description>&lt;div&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>RSE at Sheffield</title><link>http://rse.shef.ac.uk/</link><description>RSE at Sheffield</description><atom:link href="http://rse.shef.ac.uk/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Wed, 08 Nov 2017 12:34:49 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Sheffield R Users group celebrates Hacktoberfest</title><link>http://rse.shef.ac.uk/blog/sheffieldR-hacktoberfest/</link><dc:creator>Anna Krystalli</dc:creator><description>&lt;div&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;
 &lt;p&gt;We'll be honest here and say that our &lt;a href="http://sheffieldr.github.io/"&gt;&lt;strong&gt;Sheffield R Users group&lt;/strong&gt;&lt;/a&gt; &lt;strong&gt;Hacktoberfest celebrations&lt;/strong&gt; started as a last minute stroke of inspiration. Nearing our standard first Tuesday of the month meetup, our speaker lineup for October was thin. At the same time I'd spent the last month mentoring as part of &lt;a href="https://mozilla.github.io/leadership-training/"&gt;&lt;strong&gt;Mozilla Open Leadership program&lt;/strong&gt;&lt;/a&gt; again, which was gearing up to have projects participate in &lt;a href="https://hacktoberfest.digitalocean.com/"&gt;&lt;strong&gt;Hacktoberfest&lt;/strong&gt;&lt;/a&gt;, &lt;strong&gt;a global month long celebration of open source&lt;/strong&gt;, organised by &lt;a href="https://www.digitalocean.com/"&gt;&lt;strong&gt;Digital Ocean&lt;/strong&gt;&lt;/a&gt; and designed to get people engaged with projects hosted openly on &lt;a href="https://github.com/"&gt;&lt;strong&gt;GitHub&lt;/strong&gt;&lt;/a&gt;. For those unfamiliar with the platform, GitHub is one of many code repositories where open projects live allowing anyone to copy, modify and even contribute back to open source projects, many of which depend on such volunteer contributions. As it takes a village to raise a child so it takes a small village to build, maintain, continue to develop and support the users of a succesful open source project, where even small non-technical contributions, for example, to documentation, can be a huge help to maintainers (see Yihui Xie's (of &lt;code&gt;knitr&lt;/code&gt; fame) &lt;a href="https://yihui.name/en/2017/10/thanks-claus/"&gt;blog post&lt;/a&gt; on this). &lt;/p&gt;
 &lt;p&gt;So what better way to entice folks to get involved than the promise of &lt;strong&gt;stickers and a free t-shirt on completion of the Hacktoberfest challenge!&lt;/strong&gt; And the challenge? Simple. &lt;strong&gt;Make four contributions&lt;/strong&gt; (pull requests) to any open source project on GitHub between the 1st and 31st of October. And the contribution can be anything — fixing bugs, creating new features, or updating and writing documentation. Game on!&lt;/p&gt;
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
@@ -107,135 +107,7 @@ code which can extract electron trajectories from the data based on arbitrary cr
 analysis tools in science and industry, and so the second major theme of my work was analysis of the
 radiation produced by the accelerated electrons.  This analysis required numerical integrators to
 calculate the radiation from the extracted electron trajectories by solving the Liénard-Wiechert
-potential equations.&lt;/p&gt;&lt;/div&gt;</description><category>mathjax</category><guid>http://rse.shef.ac.uk/blog/philtooley_intro/</guid><pubDate>Tue, 31 Oct 2017 15:56:00 GMT</pubDate></item><item><title>The many views of a Software Carpentry workshop</title><link>http://rse.shef.ac.uk/blog/tuos-sc-workshop-1/</link><dc:creator>Will Furnass</dc:creator><description>&lt;div&gt;&lt;p&gt;RSE Sheffield recently ran our first &lt;a class="reference external" href="https://software-carpentry.org"&gt;Software Carpentry&lt;/a&gt; workshop.
-Over two days in the shiny new &lt;a class="reference external" href="https://www.sheffield.ac.uk/diamond"&gt;Diamond&lt;/a&gt; building
-we introduced thirty researchers to:&lt;/p&gt;
-&lt;ul class="simple"&gt;
-&lt;li&gt;The &lt;a class="reference external" href="http://swcarpentry.github.io/shell-novice"&gt;Unix Shell&lt;/a&gt;, including the basics of automation&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference external" href="http://swcarpentry.github.io/python-novice-inflammation"&gt;Programming with Python&lt;/a&gt; (with a data science perspective)&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference external" href="http://swcarpentry.github.io/git-novice"&gt;Version Control with Git&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference external" href="http://swcarpentry.github.io/sql-novice-survey"&gt;Using Databases and SQL&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;We knew there would be demand for the workshop
-given the topics covered and it was free to attend
-but were still surprised when
-all thirty EventBrite places were snapped up in twenty minutes and
-the waiting list grew to sixty names.&lt;/p&gt;
-&lt;p&gt;VENUE&lt;/p&gt;
-&lt;p&gt;DEMOGRAPHICS:&lt;/p&gt;
-&lt;ul class="simple"&gt;
-&lt;li&gt;3 ENG, 2 LIFE SCI, 4 OTHER (ONLY 9!)&lt;/li&gt;
-&lt;li&gt;7 GRAD STUDENTS, 2 PDRAS&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;CHANGE IN CONFIDENCE STATS (C.F. WHAT CLAIMED COULD DO BEFOREHAND&lt;/p&gt;
-&lt;p&gt;OTHER FEEDBACK&lt;/p&gt;
-&lt;ul class="simple"&gt;
-&lt;li&gt;TIMINGS TIGHT&lt;/li&gt;
-&lt;li&gt;GOOD VENUE&lt;/li&gt;
-&lt;li&gt;MULTIPLE SCREENS GOOD&lt;/li&gt;
-&lt;li&gt;SLIDES WITH EXERCISES&lt;/li&gt;
-&lt;li&gt;SCROLLBACK&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;FEEDBACK&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;p class="first"&gt;ONLY 9!&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p class="first"&gt;RECOMMEND TO COLEAGUE: 22% NO, 33% PASSIVE, 44% YES&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p class="first"&gt;STYLE:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;ul class="simple"&gt;
-&lt;li&gt;good delivery (comment from 1 person)&lt;/li&gt;
-&lt;li&gt;LIKED INTERACTIVE NATURE INC LIVE CODING AND INC JUPYTER (2C)&lt;/li&gt;
-&lt;li&gt;CONSTANT HELP FROM INSTRUCTOR AND HELPERS (C)&lt;/li&gt;
-&lt;li&gt;WIDE RANGE OF RELEVANT TOPICS THAT COULD BE USED TOGETHER IN RES WORKFLOW (3C)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p class="first"&gt;TOO FAST YES&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p class="first"&gt;CONCEPTS FIRST e.g. WITH SLIDES TO ACCOMPANY INTRO, ESP W/ GIT&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p class="first"&gt;MATERIAL ACCESS BEFOREHAND - CONTRADICTS SC STYLE?&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p class="first"&gt;MORE RELEVANT HANDS-ON EXERCISES&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p class="first"&gt;FUTURE&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;ul class="simple"&gt;
-&lt;li&gt;WANT MEDIUM TO ADVANCED WORKSHOPS&lt;/li&gt;
-&lt;li&gt;MORE TIME PER TOPIC - THREE DAYS NEXT TIME?&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;img alt="Tania teaching Git" class="align-right" src="http://rse.shef.ac.uk/images/sc-workshop-1/tania-git.jpg" style="width: 50%;"&gt;
-&lt;img alt="The team that delivered the workshop" class="align-right" src="http://rse.shef.ac.uk/images/sc-workshop-1/team.jpg" style="width: 50%;"&gt;
-&lt;img alt="Will teaching the Unix Shell" class="align-right" src="http://rse.shef.ac.uk/images/sc-workshop-1/will-shell.jpg" style="width: 50%;"&gt;
-&lt;img alt="Will teaching" class="align-right" src="http://rse.shef.ac.uk/images/sc-workshop-1/will-teaching.jpg" style="width: 50%;"&gt;
-&lt;img alt="Feedback from stickies" class="align-right" src="http://rse.shef.ac.uk/images/sc-workshop-1/whiteboard.jpg" style="width: 50%;"&gt;
-&lt;div class="section" id="instructors-views"&gt;
-&lt;h2&gt;Instructors views&lt;/h2&gt;
-&lt;div class="section" id="will"&gt;
-&lt;h3&gt;Will&lt;/h3&gt;
-&lt;blockquote class="twitter-tweet" data-lang="en"&gt;
-&lt;p lang="en" dir="ltr"&gt;Today is the day!!
-&lt;a href="https://twitter.com/WillFurnass"&gt;@WillFurnass&lt;/a&gt; kicking off
-the first &lt;a href="https://twitter.com/RSE_Sheffield"&gt;@RSE_Sheffield&lt;/a&gt; &lt;a href="https://twitter.com/swcarpentry"&gt;@swcarpentry&lt;/a&gt; workshop
-with a session on UNIX!
-&lt;a href="https://t.co/8vbxZ6Ij4w"&gt;pic.twitter.com/8vbxZ6Ij4w&lt;/a&gt;&lt;/p&gt;—
-annakrystalli (@annakrystalli) &lt;a href="https://twitter.com/annakrystalli/status/897740554397777921"&gt;August 16, 2017&lt;/a&gt;
-&lt;/blockquote&gt;
-&lt;script async src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;&lt;/div&gt;
-&lt;div class="section" id="tania"&gt;
-&lt;h3&gt;Tania&lt;/h3&gt;
-&lt;blockquote class="twitter-tweet" data-lang="en"&gt;&lt;p lang="en" dir="ltr"&gt;
-.&lt;a href="https://twitter.com/RSE_Sheffield"&gt;@RSE_Sheffield&lt;/a&gt; &lt;a href="https://twitter.com/swcarpentry"&gt;@swcarpentry&lt;/a&gt; v01
-continues with &lt;a href="https://twitter.com/ixek"&gt;@ixek&lt;/a&gt; on
-&lt;a href="https://twitter.com/hashtag/git?src=hash"&gt;#git&lt;/a&gt; &lt;a href="https://twitter.com/hashtag/versioncontrol?src=hash"&gt;#versioncontrol&lt;/a&gt;!
-&lt;a href="https://t.co/884ayPwhsb"&gt;pic.twitter.com/884ayPwhsb&lt;/a&gt;&lt;/p&gt;—
-annakrystalli (@annakrystalli) &lt;a href="https://twitter.com/annakrystalli/status/898109446395752448"&gt;August 17, 2017&lt;/a&gt;
-&lt;/blockquote&gt;
-&lt;script async src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="section" id="an-admin-s-view"&gt;
-&lt;h2&gt;An admin's view&lt;/h2&gt;
-&lt;div class="section" id="anna"&gt;
-&lt;h3&gt;Anna&lt;/h3&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="section" id="helpers-view"&gt;
-&lt;h2&gt;Helpers view&lt;/h2&gt;
-&lt;blockquote class="twitter-tweet" data-lang="en"&gt;
-&lt;p lang="en" dir="ltr"&gt;And of course, super friendly &lt;a href="https://twitter.com/swcarpentry"&gt;@swcarpentry&lt;/a&gt; backup
-by these fine folk
-&lt;a href="https://twitter.com/jezcope"&gt;@jezcope&lt;/a&gt;
-&lt;a href="https://twitter.com/jamesbraders"&gt;@jamesbraders&lt;/a&gt;
-&lt;a href="https://twitter.com/WillFurnass"&gt;@WillFurnass&lt;/a&gt;
-&lt;a href="https://twitter.com/katkoler"&gt;@katkoler&lt;/a&gt;!
-&lt;a href="https://t.co/PN6sG1fc7N"&gt;pic.twitter.com/PN6sG1fc7N&lt;/a&gt;&lt;/p&gt;—
-annakrystalli (@annakrystalli) &lt;a href="https://twitter.com/annakrystalli/status/898113024816533504"&gt;August 17, 2017&lt;/a&gt;
-&lt;/blockquote&gt;
-&lt;script async src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;&lt;div class="section" id="kat"&gt;
-&lt;h3&gt;Kat&lt;/h3&gt;
-&lt;/div&gt;
-&lt;div class="section" id="james"&gt;
-&lt;h3&gt;James&lt;/h3&gt;
-&lt;/div&gt;
-&lt;div class="section" id="jez"&gt;
-&lt;h3&gt;Jez&lt;/h3&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="section" id="outro"&gt;
-&lt;h2&gt;Outro&lt;/h2&gt;
-&lt;blockquote class="twitter-tweet" data-lang="en"&gt;&lt;p lang="en" dir="ltr"&gt;
-What do you do after a successful first &lt;a href="https://twitter.com/swcarpentry"&gt;@swcarpentry&lt;/a&gt; workshop???
-🍺 and sunshine &lt;a href="https://twitter.com/hashtag/DreamTeam?src=hash"&gt;#DreamTeam&lt;/a&gt;
-&lt;a href="https://twitter.com/hashtag/workhardplayhard?src=hash"&gt;#workhardplayhard&lt;/a&gt;
-&lt;a href="https://t.co/HlsmRzm4OF"&gt;pic.twitter.com/HlsmRzm4OF&lt;/a&gt;&lt;/p&gt;—
-Tania Sanchez (@ixek) &lt;a href="https://twitter.com/ixek/status/898213468964352000"&gt;August 17, 2017&lt;/a&gt;
-&lt;/blockquote&gt;
-&lt;script async src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;&lt;/div&gt;&lt;/div&gt;</description><guid>http://rse.shef.ac.uk/blog/tuos-sc-workshop-1/</guid><pubDate>Thu, 14 Sep 2017 17:01:43 GMT</pubDate></item><item><title>ATI Data study group</title><link>http://rse.shef.ac.uk/blog/ati-data-study-group/</link><dc:creator>Tania A.</dc:creator><description>&lt;div&gt;&lt;p&gt;I had the opportunity to attend the &lt;a href="https://www.turing.ac.uk/"&gt;Alan Turing Institute (ATI)&lt;/a&gt; Data Study Group (22nd-26th May 2017). The ATI is the national institute for data science and as such, it has strong ties to both academia and industry.&lt;/p&gt;
+potential equations.&lt;/p&gt;&lt;/div&gt;</description><category>mathjax</category><guid>http://rse.shef.ac.uk/blog/philtooley_intro/</guid><pubDate>Tue, 31 Oct 2017 15:56:00 GMT</pubDate></item><item><title>ATI Data study group</title><link>http://rse.shef.ac.uk/blog/ati-data-study-group/</link><dc:creator>Tania A.</dc:creator><description>&lt;div&gt;&lt;p&gt;I had the opportunity to attend the &lt;a href="https://www.turing.ac.uk/"&gt;Alan Turing Institute (ATI)&lt;/a&gt; Data Study Group (22nd-26th May 2017). The ATI is the national institute for data science and as such, it has strong ties to both academia and industry.&lt;/p&gt;
 &lt;p&gt;The event was a week long data hackathon in which multiple groups used their best skills to crack the various projects proposed by the industrial partners. Over 5 days 6 groups worked intensively to deliver feasible solutions to the problems proposed.&lt;/p&gt;
 &lt;h3&gt;The projects&lt;/h3&gt;
 &lt;p&gt;The projects spanned over a wide range of topics, each with their very unique challenges and requirements.&lt;/p&gt;
@@ -962,4 +834,28 @@ refined by a large community of SC and DC instructors.&lt;/p&gt;
 &lt;p&gt;The post is fixed-term with an end date of 30 September 2019. The deadline for applications is 19th June 2017.&lt;/p&gt;
 &lt;h3&gt;Links and More Information&lt;/h3&gt;
 &lt;p&gt;&lt;a href="http://www.jobs.ac.uk/job/BBN749/research-software-engineer-in-high-performance-computing-hpc-enabled-multi-scale-modelling/"&gt;Jobs.ac.uk posting&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://jobs.shef.ac.uk/sap/bc/webdynpro/sap/hrrcf_a_posting_apply?PARAM=cG9zdF9pbnN0X2d1aWQ9MzMwNjJBRkQ4MDQ5MUVFNzhGOEY4MkE0ODgzRjg4MEYmY2FuZF90eXBlPUVYVA%3d%3d&amp;amp;sap-client=400&amp;amp;sap-language=EN&amp;amp;sap-accessibility=X&amp;amp;sap-ep-themeroot=%2fSAP%2fPUBLIC%2fBC%2fUR%2fuos#"&gt;University of Sheffield Application Link&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description><category>jobs</category><guid>http://rse.shef.ac.uk/blog/research_software_engineer_in_high_performance_computing/</guid><pubDate>Mon, 22 May 2017 17:30:00 GMT</pubDate></item></channel></rss>
+&lt;p&gt;&lt;a href="https://jobs.shef.ac.uk/sap/bc/webdynpro/sap/hrrcf_a_posting_apply?PARAM=cG9zdF9pbnN0X2d1aWQ9MzMwNjJBRkQ4MDQ5MUVFNzhGOEY4MkE0ODgzRjg4MEYmY2FuZF90eXBlPUVYVA%3d%3d&amp;amp;sap-client=400&amp;amp;sap-language=EN&amp;amp;sap-accessibility=X&amp;amp;sap-ep-themeroot=%2fSAP%2fPUBLIC%2fBC%2fUR%2fuos#"&gt;University of Sheffield Application Link&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description><category>jobs</category><guid>http://rse.shef.ac.uk/blog/research_software_engineer_in_high_performance_computing/</guid><pubDate>Mon, 22 May 2017 17:30:00 GMT</pubDate></item><item><title>Sheffield Code First:girls</title><link>http://rse.shef.ac.uk/blog/sheffield-code-firstgirls/</link><dc:creator>Tania Allard</dc:creator><description>&lt;div&gt;&lt;p&gt;&lt;img alt="python1" src="http://rse.shef.ac.uk/images/CF_python1.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;Anyone working on any STEM area knows, as a fact, that we are facing a digital and technical skills gap.  In the governement's digital strategy &lt;a href="http://www.bbc.co.uk/news/business-36510266"&gt;report&lt;/a&gt; last year it
+was highlighted that we would need an extra 745,000 workers with digital skills by 2017, as 90% of jobs require digital skills to some degree.
+On top of this, many technical areas suffer a diversity deficit (cultural and gender based).
+With the UK being among the European countries with the smaller number of female
+professionals in STEM areas.&lt;/p&gt;
+&lt;p&gt;Being this a rather complex problem, many people and organisations work hard to provide a solution to this issue.  Some approaches adopted by such individuals and organisations are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Encourage the hiring of highly skilled immigrants&lt;/li&gt;
+&lt;li&gt;Provide wider support for underrepresented minorities&lt;/li&gt;
+&lt;li&gt;Leverage inclusive and encouraging environments for those who
+demonstrate an interest in STEM areas&lt;/li&gt;
+&lt;li&gt;Support and train those willing to make a career change/or follow non-traditonal career paths&lt;/li&gt;
+&lt;li&gt;Approach the new generations and provide them with useful skills that would help them
+make an informed career choice&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;... and the list goes on.&lt;/p&gt;
+&lt;p&gt;I do believe, however, that the most fruitful approach is to work with the upcoming generations and provide them with useful technical and personal skills early on. This would not only make them better qualified for their future but would enable them to make informed decisions with regards to their professional future.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://www.codefirstgirls.org.uk"&gt;Code First: girls&lt;/a&gt; is a multi-award organization that aims to tackle the gender imbalance in three ways: training women, building a strong and supportive community, and helping companies to train, recruit, and retain their female force.&lt;/p&gt;
+&lt;p&gt;Belonging to a minority within STEM has lead me to take an active role as an equality and diversity ambassador, which eventually lead me to volunteer as a Python instructor for the Code First courses.&lt;/p&gt;
+&lt;p&gt;Over the course of 8 weeks we teach and guide groups of around 30 women with various levels of coding experience in CSS/HTML, Python, or Ruby. These courses are a mixture of in-person classes and self-learning, at the same time the ladies involved work in teams of 2-4 people to build a project of their own interest.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="python1" src="http://rse.shef.ac.uk/images/CF_python3.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;The idea behind these workshops is rather simple: train people and provide them with practical use of the skills they are learning. Having as a final objective to develop a fully deployed RESTful app. But the whole CF:girls thing goes way beyond that. Over those 8 weeks the girls form a strong, motivating, and supportive community, in which they can acquire new skills, meet like-minded people, learn from other women working in STEM areas, and even attend external women in tech events!&lt;/p&gt;
+&lt;p&gt;&lt;img alt="python1" src="http://rse.shef.ac.uk/images/CF_python2.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;I find rather interesting the mixture of apps and projects pursued, as well as the high quality of the presented final products. But beyond that, I find this to be an excellent opportunity to give back to the amazing community that has adopted and welcome me as a professional in a STEM area. Thus I can say for sure I will be getting involved in more Code First events/workshops.&lt;/p&gt;&lt;/div&gt;</description><guid>http://rse.shef.ac.uk/blog/sheffield-code-firstgirls/</guid><pubDate>Thu, 18 May 2017 08:32:49 GMT</pubDate></item></channel></rss>
