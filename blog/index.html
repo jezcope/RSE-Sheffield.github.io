@@ -81,7 +81,40 @@
 
     
 <div class="postindex">
-    <article class="h-entry post-text"><header><h1 class="p-name entry-title"><a href="sheffieldR-hacktoberfest/" class="u-url">Sheffield R Users group celebrates Hacktoberfest</a></h1>
+    <article class="h-entry post-text"><header><h1 class="p-name entry-title"><a href="iceberg-vs-sharc/" class="u-url">Iceberg vs ShARC</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
+                <a href="../authors/mike-croucher/">Mike Croucher</a>
+            </span></p>
+            <p class="dateline"><a href="iceberg-vs-sharc/" rel="bookmark"><time class="published dt-published" datetime="2017-11-23T13:04:27Z" title="2017-11-23 13:04">2017-11-23 13:04</time></a></p>
+        </div>
+    </header><div class="e-content entry-content">
+    <div>
+<p><br></p>
+<p><strong>TL;DR Around 100 of Iceberg's nodes are ancient and weaker than a decent laptop. You may get better performance by switching to ShARC.  You'll get even better performance by investing in the <a href="http://rse.shef.ac.uk/resources/hpc/premium-hpc/">RSE project on ShARC</a>.</strong></p>
+<h3>Benchmarking different nodes on our HPC systems</h3>
+<p>I have been benchmarking various nodes on Iceberg and ShARC using Matrix-Matrix multiplication.
+This operation is highly parallel and optimised these days and is also a vital operation in many scientific workflows.</p>
+<p>The benchmark units are GigaFlops (Billion operations per second) and <strong>higher is better</strong>
+Here are the results, sorted worst to best</p>
+<ul>
+<li>
+<a href="https://github.com/mikecroucher/Jupyter-Matrix-Matrix/blob/master/results/Sheffield_iceberg_12cores.ipynb">119 GigaFlops</a> - Old Iceberg 'Westmere' Nodes (12 core X5650 CPUs )</li>
+<li>
+<a href="https://github.com/mikecroucher/Jupyter-Matrix-Matrix/blob/master/results/MacBookPro2014.ipynb">169 Gigaflops</a> - My 4 core Mid-2014 MacBook Pro</li>
+<li>
+<a href="https://github.com/mikecroucher/Jupyter-Matrix-Matrix/blob/master/results/Sheffield_sharc_16cores.ipynb">458 Gigaflops</a> - Standard ShARC node (16 cores)</li>
+<li>
+<a href="https://github.com/mikecroucher/Jupyter-Matrix-Matrix/blob/master/results/Sheffield_sharc_32cores.ipynb">802 Gigaflops</a> - 32 core ShARC node (only available to <a href="http://rse.shef.ac.uk/resources/hpc/premium-hpc/">RSE queue contributors</a>)</li>
+</ul>
+<p>According to the <a href="http://docs.hpc.shef.ac.uk/en/latest/iceberg/cluster_specs.html">Iceberg cluster specs</a>, over half of Iceberg is made up of the old 'Westmere' nodes.  These are almost <strong>4 times slower</strong> than a standard node on ShARC.</p>
+<h3>The RSE project - the fastest nodes available</h3>
+<p>We in the RSE group have co-invested with our collaborators in additional hardware on ShARC to form a 'Premium queue'.  This hardware includes large memory nodes (768 Gigabytes per node), Advanced GPUs (<a href="https://www.nvidia.com/en-us/data-center/dgx-1/">A DGX-1 server</a>) and 'dense-core' nodes with 32 CPUs each.</p>
+<p>These 32 core nodes are capable of <a href="https://github.com/mikecroucher/Jupyter-Matrix-Matrix/blob/master/results/Sheffield_sharc_32cores.ipynb">over 800 Gigaflops</a> and so are 6.7 times faster than the old Iceberg nodes.  Furthermore, since they are only available to contributors, the queues will be shorter too!</p>
+<p>Details of how to participate in the RSE-queue experiment on ShARC can be <a href="http://rse.shef.ac.uk/resources/hpc/premium-hpc/">found on our website</a></p>
+</div>
+    </div>
+    </article><article class="h-entry post-text"><header><h1 class="p-name entry-title"><a href="sheffieldR-hacktoberfest/" class="u-url">Sheffield R Users group celebrates Hacktoberfest</a></h1>
         <div class="metadata">
             <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
                 <a href="../authors/anna-krystalli/">Anna Krystalli</a>
@@ -1033,42 +1066,6 @@ refined by a large community of SC and DC instructors.</p>
 <h3>Links and More Information</h3>
 <p><a href="http://www.jobs.ac.uk/job/BBN749/research-software-engineer-in-high-performance-computing-hpc-enabled-multi-scale-modelling/">Jobs.ac.uk posting</a></p>
 <p><a href="https://jobs.shef.ac.uk/sap/bc/webdynpro/sap/hrrcf_a_posting_apply?PARAM=cG9zdF9pbnN0X2d1aWQ9MzMwNjJBRkQ4MDQ5MUVFNzhGOEY4MkE0ODgzRjg4MEYmY2FuZF90eXBlPUVYVA%3d%3d&amp;sap-client=400&amp;sap-language=EN&amp;sap-accessibility=X&amp;sap-ep-themeroot=%2fSAP%2fPUBLIC%2fBC%2fUR%2fuos#">University of Sheffield Application Link</a></p>
-</div>
-    </div>
-    </article><article class="h-entry post-text"><header><h1 class="p-name entry-title"><a href="sheffield-code-firstgirls/" class="u-url">Sheffield Code First:girls</a></h1>
-        <div class="metadata">
-            <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
-                <a href="../authors/tania-allard/">Tania Allard</a>
-            </span></p>
-            <p class="dateline"><a href="sheffield-code-firstgirls/" rel="bookmark"><time class="published dt-published" datetime="2017-05-18T09:32:49+01:00" title="2017-05-18 09:32">2017-05-18 09:32</time></a></p>
-        </div>
-    </header><div class="e-content entry-content">
-    <div>
-<p><img alt="python1" src="../images/CF_python1.jpg"></p>
-<p>Anyone working on any STEM area knows, as a fact, that we are facing a digital and technical skills gap.  In the governement's digital strategy <a href="http://www.bbc.co.uk/news/business-36510266">report</a> last year it
-was highlighted that we would need an extra 745,000 workers with digital skills by 2017, as 90% of jobs require digital skills to some degree.
-On top of this, many technical areas suffer a diversity deficit (cultural and gender based).
-With the UK being among the European countries with the smaller number of female
-professionals in STEM areas.</p>
-<p>Being this a rather complex problem, many people and organisations work hard to provide a solution to this issue.  Some approaches adopted by such individuals and organisations are:</p>
-<ul>
-<li>Encourage the hiring of highly skilled immigrants</li>
-<li>Provide wider support for underrepresented minorities</li>
-<li>Leverage inclusive and encouraging environments for those who
-demonstrate an interest in STEM areas</li>
-<li>Support and train those willing to make a career change/or follow non-traditonal career paths</li>
-<li>Approach the new generations and provide them with useful skills that would help them
-make an informed career choice</li>
-</ul>
-<p>... and the list goes on.</p>
-<p>I do believe, however, that the most fruitful approach is to work with the upcoming generations and provide them with useful technical and personal skills early on. This would not only make them better qualified for their future but would enable them to make informed decisions with regards to their professional future.</p>
-<p><a href="http://www.codefirstgirls.org.uk">Code First: girls</a> is a multi-award organization that aims to tackle the gender imbalance in three ways: training women, building a strong and supportive community, and helping companies to train, recruit, and retain their female force.</p>
-<p>Belonging to a minority within STEM has lead me to take an active role as an equality and diversity ambassador, which eventually lead me to volunteer as a Python instructor for the Code First courses.</p>
-<p>Over the course of 8 weeks we teach and guide groups of around 30 women with various levels of coding experience in CSS/HTML, Python, or Ruby. These courses are a mixture of in-person classes and self-learning, at the same time the ladies involved work in teams of 2-4 people to build a project of their own interest.</p>
-<p><img alt="python1" src="../images/CF_python3.jpg"></p>
-<p>The idea behind these workshops is rather simple: train people and provide them with practical use of the skills they are learning. Having as a final objective to develop a fully deployed RESTful app. But the whole CF:girls thing goes way beyond that. Over those 8 weeks the girls form a strong, motivating, and supportive community, in which they can acquire new skills, meet like-minded people, learn from other women working in STEM areas, and even attend external women in tech events!</p>
-<p><img alt="python1" src="../images/CF_python2.jpg"></p>
-<p>I find rather interesting the mixture of apps and projects pursued, as well as the high quality of the presented final products. But beyond that, I find this to be an excellent opportunity to give back to the amazing community that has adopted and welcome me as a professional in a STEM area. Thus I can say for sure I will be getting involved in more Code First events/workshops.</p>
 </div>
     </div>
     </article>

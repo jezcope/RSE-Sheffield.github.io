@@ -23,7 +23,7 @@
  </url>
  <url>
   <loc>http://rse.shef.ac.uk/archive.html</loc>
-  <lastmod>2017-11-08T12:34:00Z</lastmod>
+  <lastmod>2017-11-23T16:22:00Z</lastmod>
  </url>
  <url>
   <loc>http://rse.shef.ac.uk/authors/</loc>
@@ -87,7 +87,7 @@
  </url>
  <url>
   <loc>http://rse.shef.ac.uk/blog/</loc>
-  <lastmod>2017-11-08T12:34:00Z</lastmod>
+  <lastmod>2017-11-23T16:22:00Z</lastmod>
  </url>
  <url>
   <loc>http://rse.shef.ac.uk/blog/2nd-gpu-seminar-amr/</loc>
@@ -146,6 +146,10 @@
   <lastmod>2016-05-25T12:21:00Z</lastmod>
  </url>
  <url>
+  <loc>http://rse.shef.ac.uk/blog/iceberg-vs-sharc/</loc>
+  <lastmod>2017-11-23T16:22:00Z</lastmod>
+ </url>
+ <url>
   <loc>http://rse.shef.ac.uk/blog/icms-2017/</loc>
   <lastmod>2017-06-10T09:24:00Z</lastmod>
  </url>
@@ -159,7 +163,7 @@
  </url>
  <url>
   <loc>http://rse.shef.ac.uk/blog/index-3.html</loc>
-  <lastmod>2017-11-08T12:34:00Z</lastmod>
+  <lastmod>2017-11-23T16:22:00Z</lastmod>
  </url>
  <url>
   <loc>http://rse.shef.ac.uk/blog/intel-R-iceberg/</loc>
