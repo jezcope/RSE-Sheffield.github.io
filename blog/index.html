@@ -103,15 +103,19 @@ Here are the results, sorted worst to best</p>
 <li>
 <a href="https://github.com/mikecroucher/Jupyter-Matrix-Matrix/blob/master/results/MacBookPro2014.ipynb">169 Gigaflops</a> - My 4 core Mid-2014 MacBook Pro</li>
 <li>
+<a href="https://github.com/mikecroucher/Jupyter-Matrix-Matrix/blob/master/results/Sheffield_iceberg_16cores.ipynb">333 Gigaflops</a> - New Iceberg 'Ivy Bridge' Nodes (16 core )</li>
+<li>
 <a href="https://github.com/mikecroucher/Jupyter-Matrix-Matrix/blob/master/results/Sheffield_sharc_16cores.ipynb">458 Gigaflops</a> - Standard ShARC node (16 cores)</li>
 <li>
 <a href="https://github.com/mikecroucher/Jupyter-Matrix-Matrix/blob/master/results/Sheffield_sharc_32cores.ipynb">802 Gigaflops</a> - 32 core ShARC node (only available to <a href="http://rse.shef.ac.uk/resources/hpc/premium-hpc/">RSE queue contributors</a>)</li>
 </ul>
-<p>According to the <a href="http://docs.hpc.shef.ac.uk/en/latest/iceberg/cluster_specs.html">Iceberg cluster specs</a>, over half of Iceberg is made up of the old 'Westmere' nodes.  These are almost <strong>4 times slower</strong> than a standard node on ShARC.</p>
+<p>According to the <a href="http://docs.hpc.shef.ac.uk/en/latest/iceberg/cluster_specs.html">Iceberg cluster specs</a>, over half of Iceberg is made up of the old 'Westmere' nodes.  According to these benchmarks, these are almost <strong>4 times slower</strong> than a standard node on ShARC.</p>
 <h3>The RSE project - the fastest nodes available</h3>
-<p>We in the RSE group have co-invested with our collaborators in additional hardware on ShARC to form a 'Premium queue'.  This hardware includes large memory nodes (768 Gigabytes per node), Advanced GPUs (<a href="https://www.nvidia.com/en-us/data-center/dgx-1/">A DGX-1 server</a>) and 'dense-core' nodes with 32 CPUs each.</p>
+<p>We in the RSE group have co-invested with our collaborators in additional hardware on ShARC to form a 'Premium queue'.  This hardware includes large memory nodes (<strong>768 Gigabytes per node</strong> - 12 times the amount that's normally available), Advanced GPUs (<a href="https://www.nvidia.com/en-us/data-center/dgx-1/">A DGX-1 server</a>) and 'dense-core' nodes with 32 CPUs each.</p>
 <p>These 32 core nodes are capable of <a href="https://github.com/mikecroucher/Jupyter-Matrix-Matrix/blob/master/results/Sheffield_sharc_32cores.ipynb">over 800 Gigaflops</a> and so are 6.7 times faster than the old Iceberg nodes.  Furthermore, since they are only available to contributors, the queues will be shorter too!</p>
 <p>Details of how to participate in the RSE-queue experiment on ShARC can be <a href="http://rse.shef.ac.uk/resources/hpc/premium-hpc/">found on our website</a></p>
+<h3>What if ShARC is slower than Iceberg?</h3>
+<p>These benchmarks give reproducible evidence that ShARC can be significantly faster than Iceberg when well-optimised code is used.  We have heard some unconfirmed reports that code run on ShARC can be slower than code run on Iceberg.  If this is the case for you, please get in touch with us and give details.</p>
 </div>
     </div>
     </article><article class="h-entry post-text"><header><h1 class="p-name entry-title"><a href="sheffieldR-hacktoberfest/" class="u-url">Sheffield R Users group celebrates Hacktoberfest</a></h1>
