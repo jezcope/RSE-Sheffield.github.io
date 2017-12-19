@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>RSE at Sheffield</title><link>http://rse.shef.ac.uk/</link><description>RSE at Sheffield</description><atom:link href="http://rse.shef.ac.uk/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Tue, 28 Nov 2017 16:56:58 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Iceberg vs ShARC</title><link>http://rse.shef.ac.uk/blog/iceberg-vs-sharc/</link><dc:creator>Mike Croucher</dc:creator><description>&lt;div&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>RSE at Sheffield</title><link>http://rse.shef.ac.uk/</link><description>RSE at Sheffield</description><atom:link href="http://rse.shef.ac.uk/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Tue, 19 Dec 2017 16:22:16 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Iceberg vs ShARC</title><link>http://rse.shef.ac.uk/blog/iceberg-vs-sharc/</link><dc:creator>Mike Croucher</dc:creator><description>&lt;div&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;TL;DR Around 100 of Iceberg's nodes are ancient and weaker than a decent laptop. You may get better performance by switching to ShARC.  You'll get even better performance by investing in the &lt;a href="http://rse.shef.ac.uk/resources/hpc/premium-hpc/"&gt;RSE project on ShARC&lt;/a&gt;.&lt;/strong&gt;&lt;/p&gt;
 &lt;h3&gt;Benchmarking different nodes on our HPC systems&lt;/h3&gt;
 &lt;p&gt;I have been benchmarking various nodes on Iceberg and ShARC using Matrix-Matrix multiplication.
@@ -89,7 +89,68 @@ Here are the results for maximum matrix sizes of 10000 by 10000, sorted worst to
 &lt;p&gt;&lt;br&gt;
 &lt;br&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Pumpkin Carving session and Halloween special powered by:&lt;/em&gt;&lt;/p&gt;
-&lt;iframe src="https://embed.spotify.com/?uri=spotify%3Aalbum%3A6gidHRiuT1Aj0HxK7TzAC2" width="300" height="380" frameborder="0" allowtransparency="true"&gt;&lt;/iframe&gt;&lt;/div&gt;</description><guid>http://rse.shef.ac.uk/blog/sheffieldR-hacktoberfest/</guid><pubDate>Thu, 02 Nov 2017 08:09:22 GMT</pubDate></item><item><title>New Group Member: Phil Tooley</title><link>http://rse.shef.ac.uk/blog/philtooley_intro/</link><dc:creator>Phil Tooley</dc:creator><description>&lt;div&gt;&lt;p&gt;I am thrilled to have joined the &lt;a href="http://rse.shef.ac.uk/"&gt;Research Software Engineering team at
+&lt;iframe src="https://embed.spotify.com/?uri=spotify%3Aalbum%3A6gidHRiuT1Aj0HxK7TzAC2" width="300" height="380" frameborder="0" allowtransparency="true"&gt;&lt;/iframe&gt;&lt;/div&gt;</description><guid>http://rse.shef.ac.uk/blog/sheffieldR-hacktoberfest/</guid><pubDate>Thu, 02 Nov 2017 08:09:22 GMT</pubDate></item><item><title>A successful 2nd RSE conference</title><link>http://rse.shef.ac.uk/blog/a-successful-2nd-rse-conference/</link><dc:creator>Tania A.</dc:creator><description>&lt;div&gt;&lt;h2&gt;RSE Sheffield in the 2nd RSE conference&lt;/h2&gt;
+&lt;p&gt;&lt;img src="http://rse.shef.ac.uk/images/RSE17.jpg" alt="RSE17"&gt;&lt;/p&gt;
+&lt;p&gt;The second RSE conference took place on the 7th and 8th of September 2017 at the
+Museum of Science and Industry &lt;a href="https://www.msimanchester.org.uk/"&gt;MOSI&lt;/a&gt;.
+There were over 200 attendees, 40 talks, 15  workshops,
+3 keynote talks, one of which was given by our very own head honcho Mike Croucher
+(slides &lt;a href="https://mikecroucher.github.io/RSE_2017_keynote_presentation/"&gt;here&lt;/a&gt;), and geeky chats galore.&lt;/p&gt;
+&lt;p&gt;RSE team members Mozghan and Tania were involved in the organising committee as talks co-chairs and diversity chair (disclose: they had nothing to do with Mike's keynote). Also, all of the RSE Sheffield team members made it to the conference, which seems to be a first due to the diverse commitments and project involvement of all of us.&lt;/p&gt;
+&lt;p&gt;Once again, the event was a huge success thanks to the efforts of the committee and volunteers as well as the amazing RSE community that made this a en engaging and welcoming event.&lt;/p&gt;
+&lt;h3&gt;Conference highlights&lt;/h3&gt;
+&lt;p&gt;With so many parallel sessions, workshops, and chats happening all at the same time it is quite complicated to keep a track of every single thing going on. And it seems rather unlikely that this will change over time as it was &lt;strong&gt;evident&lt;/strong&gt; that the RSE community has outgrown the current conference size.
+So we decided to highlight our favourites of the event:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;The talk on 'Imposter syndrome' by Vijay Sharma: Who in the scientific community has not ever experienced this? Exactly! So when given the chance everyone jumped into this talk full of relatable stories and handy tips on how to get over it.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Another talk that seemed to have gathered loads of interest was that of
+&lt;a href="https://twitter.com/tbyhdgs"&gt;Toby Hodges&lt;/a&gt; from  EMBL on community building. This came as no surprise (at least to me) as RSEs often act as community builders or as a bridge between collaborating communities. Opposed to &lt;em&gt;just&lt;/em&gt; being focused on developing software and pushing it into production.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;During the first day the RSEs had the chance to have a go at interacting with the &lt;a href="https://www.microsoft.com/en-gb/hololens"&gt;Microsoft Hololens&lt;/a&gt;. There was a considerable queue to have a go at this, and unfortunately, we were not among the chosen ones to play with this. Maybe in the future.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;My hands-on workshop on 'Jupyter notebooks for reproducible research'. I was ecstatic to know the community found this workshop interesting and had to run this twice!!!&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Also, I'd like to casually throw in here that I have been elected as a committee member for the UK RSE association, so expect to read more about this in this blog.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For obvious reasons I missed most of the workshops but Kenji Takeda's workshop on 'Learn how to become an AI Super-RSE' was another favourite of the delegates as this was run twice too!&lt;/p&gt;
+&lt;h3&gt;Our workshop on Jupyter notebooks for reproducible research&lt;/h3&gt;
+&lt;p&gt;Being a RSE means that I serve as an advocate of sustainable software development. Also, as I have discussed here before: I am greatly concerned about reproducibility and replicability in science.
+Which, I might add, is not an easy task to embark onto.
+Thankfully, there are loads of tools and practices that we can adopt as part of our workflows to ensure that the code we develop is done by following the best practices possible, and as a consequence, can support science accordingly.&lt;/p&gt;
+&lt;p&gt;Naturally, as members of the community come up with more refined and powerful tools in the realm of scientific computing we (the users and other developers) adopt some of those tools meaning that we often end up modifying our workflows.&lt;/p&gt;
+&lt;p&gt;Such is the case of Jupyter notebooks. They brought up to life a whole new era of literate programming: where scientist, students, data scientist, and aficionados can share their scripts in a human readable format. What is more important, they transform scripts into a conveying scientific narrative where functions and loops are followed by their graphical outputs or allow the user to interact via widgets. This ability to openly share whole analysis pipelines is for sure, a step in the right direction.&lt;/p&gt;
+&lt;p&gt;However, the adoption of tools like this  brings not only a number of advantages but also presents a number of challenges and integration issues with previously developed tools.
+For example, the traditional version control tools (including diff and merge tools) do not play nicely with the notebooks. Also, the notebooks have to be tested as any other piece of code.&lt;/p&gt;
+&lt;p&gt;During the workshop, I introduced two tools: &lt;a href="https://github.com/jupyter/nbdime"&gt;nbdime&lt;/a&gt; and &lt;a href="https://github.com/computationalmodelling/nbval"&gt;nbval&lt;/a&gt;, which were developed as part of the European funded project: &lt;a href="http://rse.shef.ac.uk/blog/a-successful-2nd-rse-conference/www.opendreamkit.org"&gt;OpenDreamKit&lt;/a&gt;. Such tools introduce very much needed version control and validation capabilities to the Jupyter notebooks, addressing some of the issues mentioned before.&lt;/p&gt;
+&lt;p&gt;So in order to cover these tools as well as how you would integrate them within your
+workflow I divided the workshop in three parts: diffing and merging of the notebooks, notebooks validation, and a brief 101 on reproducibility practices.&lt;/p&gt;
+&lt;h3&gt;Notebooks diffing and merging&lt;/h3&gt;
+&lt;p&gt;During the first part of the workshop the attendees shared their experiences using traditional version control tools with Jupyter notebooks... unsurprisingly everyone had had terrible experiences.&lt;/p&gt;
+&lt;p&gt;Then all of them had some hands-on time on how to use nbdime for diffing and merging from the command line as well as from their rich html rendered version (completely offline).
+As we progressed with the tutorial I could see some happy faces around the room and they all agreed that this was much needed.&lt;/p&gt;
+&lt;p&gt;Need more convincing? This tweet showed up in my feed just this week
+And just earlier this week this tweet showed up on my feed:
+&lt;img src="http://rse.shef.ac.uk/images/tweet-nbdime.PNG" width="500px"&gt;&lt;/p&gt;
+&lt;h3&gt;Notebooks validation&lt;/h3&gt;
+&lt;p&gt;The second part of the workshop focused on the validation of the notebooks. And here I would like to ask this first: &lt;em&gt;'How many of you have found an amazing notebook somewhere in the web just to clone it and find out that it just does not work: dependencies are broken, functions are deprecated, can't tell if the results are reproducible?&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;I can tell you, we have all been there. And in such cases nbval is your best friend. It is a &lt;strong&gt;py.test&lt;/strong&gt; plugin to determine whether execution of the stored inputs match the stored outputs of the &lt;code&gt;.ipynb&lt;/code&gt; file. Whilst also ensuring that the notebooks are running without errors.&lt;/p&gt;
+&lt;p&gt;This lead to an incredible discussion on its place within conventional testing approaches. Certainly, it does not replace unittesting or integration testing, but it could be seen as a form of &lt;em&gt;regression&lt;/em&gt; testing for the notebooks. Want to make sure that your awesome documentation
+formed by Jupyter notebooks is still working in a few months time? Why not use CI and nbval?&lt;/p&gt;
+&lt;h3&gt;Wrapping up&lt;/h3&gt;
+&lt;p&gt;The closing to the workshop was a 101 on working towards reproducible scientific computing. We shared some of our approaches for reproducible workflows and encouraged the delegates to share theirs. We covered topics such as valuing your digital assets, licensing, automation, version control and continuous integration, among others.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The perfect close to a great RSE conference!&lt;/strong&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h4&gt;Just a few more things&lt;/h4&gt;
+&lt;p&gt;Let me highlight that all the materials for the workshop can be found at: &lt;a href="https://github.com/trallard/JNB_reproducible"&gt;https://github.com/trallard/JNB_reproducible&lt;/a&gt; and that all of it is completely self contained in the form of a Docker container.&lt;/p&gt;
+&lt;p&gt;If you missed out on the conference and would like to see the videos and slides of the various talks do not forget to visit the &lt;a href="http://rse.ac.uk/conf2017/talk-slides-downloads/"&gt;RSE conference website&lt;/a&gt;.&lt;/p&gt;
+&lt;hr&gt;&lt;/div&gt;</description><guid>http://rse.shef.ac.uk/blog/a-successful-2nd-rse-conference/</guid><pubDate>Wed, 01 Nov 2017 14:46:35 GMT</pubDate></item><item><title>New Group Member: Phil Tooley</title><link>http://rse.shef.ac.uk/blog/philtooley_intro/</link><dc:creator>Phil Tooley</dc:creator><description>&lt;div&gt;&lt;p&gt;I am thrilled to have joined the &lt;a href="http://rse.shef.ac.uk/"&gt;Research Software Engineering team at
 Sheffield&lt;/a&gt;. My new role is attached to the &lt;a href="https://insigneo.org"&gt;INSIGNEO&lt;/a&gt;
 Institute for in silico Medicine here at the University of Sheffield, developing image registration
 software as part of the &lt;a href="https://compbiomed.eu"&gt;CompBioMed&lt;/a&gt; project.   &lt;/p&gt;
@@ -848,10 +909,4 @@ refined by a large community of SC and DC instructors.&lt;/p&gt;
 &lt;p&gt;We've kicked off our first GPU Computing group seminar this year with a talk by &lt;strong&gt;Ania Brown&lt;/strong&gt; from Oxford e-Research Centre titled &lt;strong&gt;"Towards achieving GPU-native adaptive mesh refinement"&lt;/strong&gt; on 30th of May 2017. Adaptive mesh refinement (AMR) is a method for reducing memory cost by varying the accuracy in each region to match the physical characteristics of the simulation, at the cost of increased data structure complexity. Ania described the optimisation and software challenges that need to be considered when implementing AMR on GPUs, based on her experience working on a GPU-native framework for stencil calculations on a tree-based adaptively refined mesh as part of her Master degree.&lt;/p&gt;
 &lt;p&gt;There's no offical GPU Computing talks in June but we highly recommend the upcoming talk &lt;strong&gt;"From Democratic Consensus to Cannibalistic Hordes: The Principles of Collective Animal Behaviour"&lt;/strong&gt; by &lt;strong&gt;Prof. Iain Couzin&lt;/strong&gt; on the &lt;strong&gt;29th of June 2017&lt;/strong&gt;.&lt;/p&gt;
 &lt;h3&gt;Links and More Information&lt;/h3&gt;
-&lt;p&gt;For presentation slides and more information on both of these talks, visit the &lt;a href="http://gpucomputing.shef.ac.uk/seminars/"&gt;GPU Computing seminars&lt;/a&gt; page.&lt;/p&gt;&lt;/div&gt;</description><guid>http://rse.shef.ac.uk/blog/2nd-gpu-seminar-amr/</guid><pubDate>Thu, 01 Jun 2017 13:00:00 GMT</pubDate></item><item><title>Research Software Engineer in High Performance Computing</title><link>http://rse.shef.ac.uk/blog/research_software_engineer_in_high_performance_computing/</link><dc:creator>Paul Richmond</dc:creator><description>&lt;div&gt;&lt;p&gt;A job opportunity within the RSE Sheffield group is available under the job title of "Research Software Engineer in High Performance Computing (HPC) enabled Multi-Scale Modelling".&lt;/p&gt;
-&lt;p&gt;The purpose of the Research Software Engineer post is to enhance The University’s capability and expertise in developing Research Software. This role will be based in the newly formed &lt;a href="http://rse.shef.ac.uk/"&gt;Research Software Engineering group&lt;/a&gt;, which aims to improve all aspects of research software including reproducibility, usability, efficiency and correctness.&lt;/p&gt;
-&lt;p&gt;The primary function of this role is to support the EC funded CompBioMed project. A user-driven Centre of Excellence in Computational Biomedicine, to nurture and promote the uptake and exploitation of high performance computing within the biomedical modelling community. &lt;/p&gt;
-&lt;p&gt;The post is fixed-term with an end date of 30 September 2019. The deadline for applications is 19th June 2017.&lt;/p&gt;
-&lt;h3&gt;Links and More Information&lt;/h3&gt;
-&lt;p&gt;&lt;a href="http://www.jobs.ac.uk/job/BBN749/research-software-engineer-in-high-performance-computing-hpc-enabled-multi-scale-modelling/"&gt;Jobs.ac.uk posting&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://jobs.shef.ac.uk/sap/bc/webdynpro/sap/hrrcf_a_posting_apply?PARAM=cG9zdF9pbnN0X2d1aWQ9MzMwNjJBRkQ4MDQ5MUVFNzhGOEY4MkE0ODgzRjg4MEYmY2FuZF90eXBlPUVYVA%3d%3d&amp;amp;sap-client=400&amp;amp;sap-language=EN&amp;amp;sap-accessibility=X&amp;amp;sap-ep-themeroot=%2fSAP%2fPUBLIC%2fBC%2fUR%2fuos#"&gt;University of Sheffield Application Link&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description><category>jobs</category><guid>http://rse.shef.ac.uk/blog/research_software_engineer_in_high_performance_computing/</guid><pubDate>Mon, 22 May 2017 17:30:00 GMT</pubDate></item></channel></rss>
+&lt;p&gt;For presentation slides and more information on both of these talks, visit the &lt;a href="http://gpucomputing.shef.ac.uk/seminars/"&gt;GPU Computing seminars&lt;/a&gt; page.&lt;/p&gt;&lt;/div&gt;</description><guid>http://rse.shef.ac.uk/blog/2nd-gpu-seminar-amr/</guid><pubDate>Thu, 01 Jun 2017 13:00:00 GMT</pubDate></item></channel></rss>
