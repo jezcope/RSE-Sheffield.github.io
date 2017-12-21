@@ -23,7 +23,7 @@
  </url>
  <url>
   <loc>http://rse.shef.ac.uk/archive.html</loc>
-  <lastmod>2017-12-19T16:24:00Z</lastmod>
+  <lastmod>2017-12-21T10:26:00Z</lastmod>
  </url>
  <url>
   <loc>http://rse.shef.ac.uk/authors/</loc>
@@ -87,7 +87,7 @@
  </url>
  <url>
   <loc>http://rse.shef.ac.uk/blog/</loc>
-  <lastmod>2017-12-19T16:22:00Z</lastmod>
+  <lastmod>2017-12-21T10:26:00Z</lastmod>
  </url>
  <url>
   <loc>http://rse.shef.ac.uk/blog/2nd-gpu-seminar-amr/</loc>
@@ -167,7 +167,7 @@
  </url>
  <url>
   <loc>http://rse.shef.ac.uk/blog/index-3.html</loc>
-  <lastmod>2017-12-19T16:24:00Z</lastmod>
+  <lastmod>2017-12-21T10:26:00Z</lastmod>
  </url>
  <url>
   <loc>http://rse.shef.ac.uk/blog/intel-R-iceberg/</loc>
@@ -204,6 +204,10 @@
  <url>
   <loc>http://rse.shef.ac.uk/blog/openastronomy-workshop/</loc>
   <lastmod>2016-01-21T12:32:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://rse.shef.ac.uk/blog/opencon_london/</loc>
+  <lastmod>2017-12-21T10:26:00Z</lastmod>
  </url>
  <url>
   <loc>http://rse.shef.ac.uk/blog/philtooley_intro/</loc>
