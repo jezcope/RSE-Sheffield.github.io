@@ -7,7 +7,7 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>http://rse.shef.ac.uk/</loc>
-  <lastmod>2017-01-03T17:07:00Z</lastmod>
+  <lastmod>2018-01-04T15:15:00Z</lastmod>
  </url>
  <url>
   <loc>http://rse.shef.ac.uk/2016/</loc>
@@ -18,12 +18,16 @@
   <lastmod>2017-01-03T17:07:00Z</lastmod>
  </url>
  <url>
+  <loc>http://rse.shef.ac.uk/2018/</loc>
+  <lastmod>2018-01-04T15:15:00Z</lastmod>
+ </url>
+ <url>
   <loc>http://rse.shef.ac.uk/activities/</loc>
   <lastmod>2016-04-08T16:07:00Z</lastmod>
  </url>
  <url>
   <loc>http://rse.shef.ac.uk/archive.html</loc>
-  <lastmod>2017-12-21T10:26:00Z</lastmod>
+  <lastmod>2018-01-04T15:15:00Z</lastmod>
  </url>
  <url>
   <loc>http://rse.shef.ac.uk/authors/</loc>
@@ -87,7 +91,7 @@
  </url>
  <url>
   <loc>http://rse.shef.ac.uk/blog/</loc>
-  <lastmod>2017-12-21T10:26:00Z</lastmod>
+  <lastmod>2018-01-04T15:15:00Z</lastmod>
  </url>
  <url>
   <loc>http://rse.shef.ac.uk/blog/2nd-gpu-seminar-amr/</loc>
@@ -134,6 +138,10 @@
   <lastmod>2016-03-10T19:09:00Z</lastmod>
  </url>
  <url>
+  <loc>http://rse.shef.ac.uk/blog/codefirstgirls-meets-hacktoberfest/</loc>
+  <lastmod>2018-01-04T15:15:00Z</lastmod>
+ </url>
+ <url>
   <loc>http://rse.shef.ac.uk/blog/coffee-and-cakes-event-2nd-after/</loc>
   <lastmod>2017-06-10T09:24:00Z</lastmod>
  </url>
@@ -159,15 +167,19 @@
  </url>
  <url>
   <loc>http://rse.shef.ac.uk/blog/index-1.html</loc>
-  <lastmod>2017-12-19T16:24:00Z</lastmod>
+  <lastmod>2018-01-04T15:15:00Z</lastmod>
  </url>
  <url>
   <loc>http://rse.shef.ac.uk/blog/index-2.html</loc>
-  <lastmod>2017-12-19T16:24:00Z</lastmod>
+  <lastmod>2018-01-04T15:15:00Z</lastmod>
  </url>
  <url>
   <loc>http://rse.shef.ac.uk/blog/index-3.html</loc>
-  <lastmod>2017-12-21T10:26:00Z</lastmod>
+  <lastmod>2018-01-04T15:15:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://rse.shef.ac.uk/blog/index-4.html</loc>
+  <lastmod>2018-01-04T15:15:00Z</lastmod>
  </url>
  <url>
   <loc>http://rse.shef.ac.uk/blog/intel-R-iceberg/</loc>
