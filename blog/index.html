@@ -155,6 +155,61 @@ are collaborating like pros.</p>
 <p>Talk about motivation :) And if you want to keep up to date with the end of course projects they will be presenting in 5 weeks time keep an eye on Twitter!</p>
 </div>
     </div>
+    </article><article class="h-entry post-text"><header><h1 class="p-name entry-title"><a href="numpy-mkl-fft/" class="u-url">Numpy plus the Intel MKL for fast fourier transforms</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
+                <a href="../authors/will-furnass/">Will Furnass</a>
+            </span></p>
+            <p class="dateline"><a href="numpy-mkl-fft/" rel="bookmark"><time class="published dt-published" datetime="2018-01-03T17:59:00Z" title="2018-01-03 17:59">2018-01-03 17:59</time></a></p>
+        </div>
+    </header><div class="e-content entry-content">
+    <div>
+<p>One of the nice things about using (Ana)conda's default builds of Numpy, Scipy and Scikit-Learn is that they are <a href="https://docs.anaconda.com/mkl-optimizations/">compiled against and depend on Intel's Math Kernel Library</a> (MKL),
+which provides multi-threaded implementations of functions for linear algebra that satisfy the <a href="https://en.wikipedia.org/wiki/Basic_Linear_Algebra_Subprograms">BLAS</a>
+and <a href="https://en.wikipedia.org/wiki/LAPACK">LAPACK</a> APIs.<br>
+This Numpy build is therefore able to distribute the work involved in say a matrix multiplication operation between CPU cores without having to spawn multiple processes and migrate/duplicate data between the address space of those proceses.  We can see that multiple CPU cores are being used by comparing the 'real' (wall-clock) time of a simple matrix multiplication example to the 'user' time, which is the amount of time our code spend running on all CPU cores.  </p>
+<pre class="code literal-block"><span></span><span class="err">$</span> <span class="n">conda</span> <span class="n">create</span> <span class="o">-</span><span class="n">n</span> <span class="n">default_env</span> <span class="n">python</span><span class="o">=</span><span class="mf">3.6</span> <span class="n">numpy</span>
+<span class="err">$</span> <span class="kp">source</span> <span class="n">activate</span> <span class="n">default_env</span>
+<span class="err">$</span> <span class="n">time</span> <span class="n">python</span> <span class="o">-</span><span class="n">c</span> <span class="s1">'import numpy as np; x = np.random.random((5000, 5000)); x @ x'</span>                                       
+
+<span class="kp">real</span>    <span class="mi">0</span><span class="n">m2</span><span class="o">.</span><span class="mi">505</span><span class="n">s</span>
+<span class="n">user</span>    <span class="mi">0</span><span class="n">m6</span><span class="o">.</span><span class="mi">640</span><span class="n">s</span>
+<span class="n">sys</span>     <span class="mi">0</span><span class="n">m0</span><span class="o">.</span><span class="mo">067</span><span class="n">s</span>
+</pre>
+
+
+<p>As you can see, the 'real' time is much less than the 'user' time, which would only be possible if multiple cores were used.</p>
+<p>The MKL also provides <strong>Fast Fourier Transform</strong> FFT functions but be warned that by default the Anaconda build of Numpy is not able to use multiple threads for FFT functions!</p>
+<pre class="code literal-block"><span></span><span class="err">$</span> <span class="n">time</span> <span class="n">python</span> <span class="o">-</span><span class="n">c</span> <span class="s1">'import numpy as np; shape = 1 * [50000000]; x = np.random.choice(a=1, size=shape); np.fft.ifftshift(np.fft.fftn(np.fft.fftshift(x)))'</span> 
+
+<span class="kp">real</span>    <span class="mi">0</span><span class="n">m4</span><span class="o">.</span><span class="mi">821</span><span class="n">s</span>
+<span class="n">user</span>    <span class="mi">0</span><span class="n">m4</span><span class="o">.</span><span class="mi">419</span><span class="n">s</span>
+<span class="n">sys</span>     <span class="mi">0</span><span class="n">m0</span><span class="o">.</span><span class="mi">400</span><span class="n">s</span>
+
+<span class="err">$</span> <span class="kp">source</span> <span class="n">deactivate</span>
+</pre>
+
+
+<p>However, the Intel Python Distribution's build of Numpy does use multiple threads for FFts.<br>
+The IPD is a separate set of conda packages where things like numpy, scipy, scikit-learn etc have been 
+optimised to make better use of Intel libraries such as the MKL and Data Analytics Acceleration Library (DAAL).</p>
+<pre class="code literal-block"><span></span><span class="err">$</span> <span class="n">conda</span> <span class="n">create</span> <span class="o">-</span><span class="n">n</span> <span class="n">ipd_env</span> <span class="n">python</span><span class="o">=</span><span class="mf">3.6</span> <span class="n">numpy</span>
+<span class="err">$</span> <span class="kp">source</span> <span class="n">activate</span> <span class="n">ipd_env</span>
+<span class="err">$</span> <span class="n">time</span> <span class="n">python</span> <span class="o">-</span><span class="n">c</span> <span class="s1">'import numpy as np; shape = 1 * [50000000]; x = np.random.choice(a=1, size=shape); np.fft.ifftshift(np.fft.fftn(np.fft.fftshift(x)))'</span>
+
+<span class="kp">real</span>    <span class="mi">0</span><span class="n">m1</span><span class="o">.</span><span class="mi">305</span><span class="n">s</span>
+<span class="n">user</span>    <span class="mi">0</span><span class="n">m3</span><span class="o">.</span><span class="mi">545</span><span class="n">s</span>
+<span class="n">sys</span>     <span class="mi">0</span><span class="n">m0</span><span class="o">.</span><span class="mi">899</span><span class="n">s</span>
+
+<span class="err">$</span> <span class="kp">source</span> <span class="n">deactivate</span>
+</pre>
+
+
+<p>Note that the wall-clock time for the IPD example is less than the
+total time spent executing user code on all CPU cores i.e. multiple
+cores are being used.</p>
+</div>
+    </div>
     </article><article class="h-entry post-text"><header><h1 class="p-name entry-title"><a href="opencon_london/" class="u-url">ReproHacking at Opencon London 2017 Doathon</a></h1>
         <div class="metadata">
             <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
@@ -1167,74 +1222,6 @@ then converted to <a class="reference external" href="http://www.webmproject.org
 </div>
 </div>
     </div>
-    </article><article class="h-entry post-text"><header><h1 class="p-name entry-title"><a href="soft-carp-at-tuos/" class="u-url">Software Carpentry and Data Carpentry at the University of Sheffield!</a></h1>
-        <div class="metadata">
-            <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
-                <a href="../authors/will-furnass/">Will Furnass</a>
-            </span></p>
-            <p class="dateline"><a href="soft-carp-at-tuos/" rel="bookmark"><time class="published dt-published" datetime="2017-06-08T12:00:00Z" title="2017-06-08 12:00">2017-06-08 12:00</time></a></p>
-        </div>
-    </header><div class="e-content entry-content">
-    <div>
-<p>The University of Sheffield is now a Software Carpentry Partner Organisation, allowing the Research Software Engineering and Library teams to start organising <em>Software Carpentry</em> and <em>Data Carpentry</em> workshops.  These are designed to help researchers develop the programming, automation and data management skills needed to support their research.  <strong>Workshop dates are to be announced shortly.</strong></p>
-<hr>
-<p><strong>Edit</strong>: </p>
-<p>Our first Software Carpentry workshop is scheduled for <a href="http://rse.shef.ac.uk/2017-08-16-sheffield/">16th and 17th August</a>!</p>
-<hr>
-<p><img alt="Software Carpentry and Data Carpentry logos" src="../images/sc-dc-logos.png"></p>
-<h3>Addressing the training needs of researchers with regards to programming</h3>
-<p>As more researchers realise they can produce better quality research more quickly if
-they have some coding and data management skills under their belts
-universities will need to ensure that training in these areas is accessible to those that need it.</p>
-<p>Academic institutions will most likely already have courses for teaching highly-specialist subjects
-(such as how to use the local <a href="http://docs.hpc.shef.ac.uk/en/latest/">HPC cluster</a>)
-but for the more generic aspects of research software development and data management
-there are several obvious choices:</p>
-<ul>
-<li>Develop and deliver bespoke materials;</li>
-<li>Buy in to commercial training packages;</li>
-<li>Point researchers towards free online resources;</li>
-</ul>
-<p>However, there is also a fourth option:
-team up with the <a href="https://software-carpentry.org/">Software Carpentry</a> (SC) and
-<a href="http://www.datacarpentry.org/">Data Carpentry</a> (DC) not-for-profit organisations
-to deliver on-site, interative workshops based on open-source materials that have been
-refined by a large community of SC and DC instructors.</p>
-<h3>Software whatywhaty?</h3>
-<p><strong>Software Carpentry</strong> has developed <a href="https://software-carpentry.org/lessons/">discipline-agnostic workshop material</a> on:</p>
-<ul>
-<li>programming with Python, R or MATLAB;</li>
-<li>using databases and <a href="https://en.wikipedia.org/wiki/SQL">SQL</a>;</li>
-<li>the <a href="https://en.wikipedia.org/wiki/Unix_shell">UNIX shell</a>;</li>
-<li>
-<a href="https://en.wikipedia.org/wiki/Version_control">version control</a> with git or mercurial;</li>
-<li>automation using <a href="https://en.wikipedia.org/wiki/Make_(software)">Make</a>.</li>
-</ul>
-<p><a href="http://www.datacarpentry.org/lessons/"><strong>Data Carpentry</strong> lessons</a> look at data management and processing within the context of a specific domain (such as ecology or genomics), focussing on areas such as:</p>
-<ul>
-<li>the command line;</li>
-<li>data cleaning and filtering using <a href="http://openrefine.org/">OpenRefine</a>;</li>
-<li>data processing and visualisation with Python or R;</li>
-<li>cloud computing</li>
-<li><a href="https://en.wikipedia.org/wiki/Geographic_information_system">GIS</a></li>
-</ul>
-<h3>What form do the workshops take?</h3>
-<p>The Software and Data Carpentry organisations ask that accredited instructors delivering 'branded' workshops adopt a fairly progressive teaching style:</p>
-<ul>
-<li>Workshops typically last two days and include four lessons (e.g. the unix shell, Python, version control and databases).</li>
-<li>There's lots of <em>live coding</em>: the instructor and students gather together in a room with laptops and a projector and all present go through a number of examples interactively.  Students use their own laptops to ensure that they're able to continue where they left off at the end of a workshop.  Instructors can and do make mistakes when doing live coding; students can then learn from these mistakes and may grow in confidence on learning that pros make mistakes too.</li>
-<li>Instructors try to elicit responses from students and use quizes to gauge comprehension and keep students focussed.</li>
-<li>Software Carpentry has a <a href="https://software-carpentry.org/conduct/">code of conduct</a> and tries to ensure that all lessons delivered under its banner are as <a href="https://software-carpentry.org/blog/2017/02/inclusion.html">inclusive as possible</a>.</li>
-</ul>
-<h3>What's happening at the University?</h3>
-<p>The University is now a Software Carpentry Partner Organisation so can run many workshops per year using the Software Carpentry and Data Carpentry branding.  We could run workshops without the branding but Software and Data Carpentry are now familiar names to researchers (and potentially employers) and by working closely with those two organisations we become part of a global network of instructors with which we can share ideas and materials.</p>
-<p>The RSE team and Library collectively now have five accredited Software and Data Carpentry instructors: Mike Croucher received training some time ago and in March Tania Allard and I from the <a href="http://rse.shef.ac.uk/contact/">RSE team</a> plus <a href="https://www.sheffield.ac.uk/library/libstaff/researchservices">Jez Cope and Beth Hellen</a> from the Library's Research Services Unit participated in <a href="https://steve-crouch.github.io/2017-03-16-oxford-ttt/">instructor training in Oxford</a>.  </p>
-<p><img alt="Software Carpentry Instructor Training session" src="../images/soft-carp-instructor-training.jpg"></p>
-<p>The four of us spent two days learning about the SC/DC teaching style, what makes for an effective instructor and got to practise several aspects of workshop development and delivery.  I must thank the instructors on the training course (Mateuz Kuzak and Steve Crouch) plus <a href="https://rroxford.github.io/">Reproducible Research Oxford</a> for hosting and organising the event.</p>
-<p>We are now planning our first Software Carpentry and Data Carpentry workshops.  These are to be held later in the summer.  </p>
-<p><strong>Keep an eye on this blog, the <code>RSE-group@sheffield.ac.uk</code> mailing list and <a href="https://www.twitter.com/rse_sheffield">@RSE_Sheffield</a> for dates!</strong></p>
-</div>
-    </div>
     </article>
 </div>
 
@@ -1242,7 +1229,7 @@ refined by a large community of SC and DC instructors.</p>
 <li class="next">
                 <a href="index-4.html" rel="next">Older posts</a>
             </li>
-        </ul></nav><script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.js" integrity="sha384-/y1Nn9+QQAipbNQWU65krzJralCnuOasHncUFXGkdwntGeSvQicrYkiUBwsgUqc1" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/contrib/auto-render.min.js" integrity="sha256-ExtbCSBuYA7kq1Pz362ibde9nnsHYPt6JxuxYeZbU+c=" crossorigin="anonymous"></script><script>
+        </ul></nav><script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.js" integrity="sha384-/y1Nn9+QQAipbNQWU65krzJralCnuOasHncUFXGkdwntGeSvQicrYkiUBwsgUqc1" crossorigin="anonymous"></script><script>
                 renderMathInElement(document.body);
             </script>
 </div>

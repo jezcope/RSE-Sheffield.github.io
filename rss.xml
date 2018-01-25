@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>RSE at Sheffield</title><link>http://rse.shef.ac.uk/</link><description>RSE at Sheffield</description><atom:link href="http://rse.shef.ac.uk/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Thu, 04 Jan 2018 15:15:02 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>CodeFirstGirls meets Hacktoberfest</title><link>http://rse.shef.ac.uk/blog/codefirstgirls-meets-hacktoberfest/</link><dc:creator>Tania A.</dc:creator><description>&lt;div&gt;&lt;div style="width: 90%;
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>RSE at Sheffield</title><link>http://rse.shef.ac.uk/</link><description>RSE at Sheffield</description><atom:link href="http://rse.shef.ac.uk/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Thu, 25 Jan 2018 16:51:08 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>CodeFirstGirls meets Hacktoberfest</title><link>http://rse.shef.ac.uk/blog/codefirstgirls-meets-hacktoberfest/</link><dc:creator>Tania A.</dc:creator><description>&lt;div&gt;&lt;div style="width: 90%;
         height: auto;
         margin: 30px;
     text-align:center;"&gt;
@@ -61,7 +61,50 @@ are collaborating like pros.&lt;/p&gt;
     &lt;img src="http://rse.shef.ac.uk/images/PR_bonanza.png"&gt;
 &lt;/div&gt;
 
-&lt;p&gt;Talk about motivation :) And if you want to keep up to date with the end of course projects they will be presenting in 5 weeks time keep an eye on Twitter!&lt;/p&gt;&lt;/div&gt;</description><guid>http://rse.shef.ac.uk/blog/codefirstgirls-meets-hacktoberfest/</guid><pubDate>Thu, 04 Jan 2018 13:31:32 GMT</pubDate></item><item><title>ReproHacking at Opencon London 2017 Doathon</title><link>http://rse.shef.ac.uk/blog/opencon_london/</link><dc:creator>Anna Krystalli</dc:creator><description>&lt;div&gt;&lt;p&gt;&lt;img alt="" src="https://d3n8a8pro7vhmx.cloudfront.net/righttoresearch/pages/1462/features/original/OpenCon_2017_London_-_NB_Banner.png?1505763567"&gt;&lt;/p&gt;
+&lt;p&gt;Talk about motivation :) And if you want to keep up to date with the end of course projects they will be presenting in 5 weeks time keep an eye on Twitter!&lt;/p&gt;&lt;/div&gt;</description><guid>http://rse.shef.ac.uk/blog/codefirstgirls-meets-hacktoberfest/</guid><pubDate>Thu, 04 Jan 2018 13:31:32 GMT</pubDate></item><item><title>Numpy plus the Intel MKL for fast fourier transforms</title><link>http://rse.shef.ac.uk/blog/numpy-mkl-fft/</link><dc:creator>Will Furnass</dc:creator><description>&lt;div&gt;&lt;p&gt;One of the nice things about using (Ana)conda's default builds of Numpy, Scipy and Scikit-Learn is that they are &lt;a href="https://docs.anaconda.com/mkl-optimizations/"&gt;compiled against and depend on Intel's Math Kernel Library&lt;/a&gt; (MKL),
+which provides multi-threaded implementations of functions for linear algebra that satisfy the &lt;a href="https://en.wikipedia.org/wiki/Basic_Linear_Algebra_Subprograms"&gt;BLAS&lt;/a&gt;
+and &lt;a href="https://en.wikipedia.org/wiki/LAPACK"&gt;LAPACK&lt;/a&gt; APIs.&lt;br&gt;
+This Numpy build is therefore able to distribute the work involved in say a matrix multiplication operation between CPU cores without having to spawn multiple processes and migrate/duplicate data between the address space of those proceses.  We can see that multiple CPU cores are being used by comparing the 'real' (wall-clock) time of a simple matrix multiplication example to the 'user' time, which is the amount of time our code spend running on all CPU cores.  &lt;/p&gt;
+&lt;pre class="code literal-block"&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="err"&gt;$&lt;/span&gt; &lt;span class="n"&gt;conda&lt;/span&gt; &lt;span class="n"&gt;create&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;n&lt;/span&gt; &lt;span class="n"&gt;default_env&lt;/span&gt; &lt;span class="n"&gt;python&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mf"&gt;3.6&lt;/span&gt; &lt;span class="n"&gt;numpy&lt;/span&gt;
+&lt;span class="err"&gt;$&lt;/span&gt; &lt;span class="kp"&gt;source&lt;/span&gt; &lt;span class="n"&gt;activate&lt;/span&gt; &lt;span class="n"&gt;default_env&lt;/span&gt;
+&lt;span class="err"&gt;$&lt;/span&gt; &lt;span class="n"&gt;time&lt;/span&gt; &lt;span class="n"&gt;python&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;c&lt;/span&gt; &lt;span class="s1"&gt;'import numpy as np; x = np.random.random((5000, 5000)); x @ x'&lt;/span&gt;                                       
+
+&lt;span class="kp"&gt;real&lt;/span&gt;    &lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="n"&gt;m2&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="mi"&gt;505&lt;/span&gt;&lt;span class="n"&gt;s&lt;/span&gt;
+&lt;span class="n"&gt;user&lt;/span&gt;    &lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="n"&gt;m6&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="mi"&gt;640&lt;/span&gt;&lt;span class="n"&gt;s&lt;/span&gt;
+&lt;span class="n"&gt;sys&lt;/span&gt;     &lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="n"&gt;m0&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="mo"&gt;067&lt;/span&gt;&lt;span class="n"&gt;s&lt;/span&gt;
+&lt;/pre&gt;
+
+
+&lt;p&gt;As you can see, the 'real' time is much less than the 'user' time, which would only be possible if multiple cores were used.&lt;/p&gt;
+&lt;p&gt;The MKL also provides &lt;strong&gt;Fast Fourier Transform&lt;/strong&gt; FFT functions but be warned that by default the Anaconda build of Numpy is not able to use multiple threads for FFT functions!&lt;/p&gt;
+&lt;pre class="code literal-block"&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="err"&gt;$&lt;/span&gt; &lt;span class="n"&gt;time&lt;/span&gt; &lt;span class="n"&gt;python&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;c&lt;/span&gt; &lt;span class="s1"&gt;'import numpy as np; shape = 1 * [50000000]; x = np.random.choice(a=1, size=shape); np.fft.ifftshift(np.fft.fftn(np.fft.fftshift(x)))'&lt;/span&gt; 
+
+&lt;span class="kp"&gt;real&lt;/span&gt;    &lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="n"&gt;m4&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="mi"&gt;821&lt;/span&gt;&lt;span class="n"&gt;s&lt;/span&gt;
+&lt;span class="n"&gt;user&lt;/span&gt;    &lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="n"&gt;m4&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="mi"&gt;419&lt;/span&gt;&lt;span class="n"&gt;s&lt;/span&gt;
+&lt;span class="n"&gt;sys&lt;/span&gt;     &lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="n"&gt;m0&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="mi"&gt;400&lt;/span&gt;&lt;span class="n"&gt;s&lt;/span&gt;
+
+&lt;span class="err"&gt;$&lt;/span&gt; &lt;span class="kp"&gt;source&lt;/span&gt; &lt;span class="n"&gt;deactivate&lt;/span&gt;
+&lt;/pre&gt;
+
+
+&lt;p&gt;However, the Intel Python Distribution's build of Numpy does use multiple threads for FFts.&lt;br&gt;
+The IPD is a separate set of conda packages where things like numpy, scipy, scikit-learn etc have been 
+optimised to make better use of Intel libraries such as the MKL and Data Analytics Acceleration Library (DAAL).&lt;/p&gt;
+&lt;pre class="code literal-block"&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="err"&gt;$&lt;/span&gt; &lt;span class="n"&gt;conda&lt;/span&gt; &lt;span class="n"&gt;create&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;n&lt;/span&gt; &lt;span class="n"&gt;ipd_env&lt;/span&gt; &lt;span class="n"&gt;python&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mf"&gt;3.6&lt;/span&gt; &lt;span class="n"&gt;numpy&lt;/span&gt;
+&lt;span class="err"&gt;$&lt;/span&gt; &lt;span class="kp"&gt;source&lt;/span&gt; &lt;span class="n"&gt;activate&lt;/span&gt; &lt;span class="n"&gt;ipd_env&lt;/span&gt;
+&lt;span class="err"&gt;$&lt;/span&gt; &lt;span class="n"&gt;time&lt;/span&gt; &lt;span class="n"&gt;python&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;c&lt;/span&gt; &lt;span class="s1"&gt;'import numpy as np; shape = 1 * [50000000]; x = np.random.choice(a=1, size=shape); np.fft.ifftshift(np.fft.fftn(np.fft.fftshift(x)))'&lt;/span&gt;
+
+&lt;span class="kp"&gt;real&lt;/span&gt;    &lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="n"&gt;m1&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="mi"&gt;305&lt;/span&gt;&lt;span class="n"&gt;s&lt;/span&gt;
+&lt;span class="n"&gt;user&lt;/span&gt;    &lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="n"&gt;m3&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="mi"&gt;545&lt;/span&gt;&lt;span class="n"&gt;s&lt;/span&gt;
+&lt;span class="n"&gt;sys&lt;/span&gt;     &lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="n"&gt;m0&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="mi"&gt;899&lt;/span&gt;&lt;span class="n"&gt;s&lt;/span&gt;
+
+&lt;span class="err"&gt;$&lt;/span&gt; &lt;span class="kp"&gt;source&lt;/span&gt; &lt;span class="n"&gt;deactivate&lt;/span&gt;
+&lt;/pre&gt;
+
+
+&lt;p&gt;Note that the wall-clock time for the IPD example is less than the
+total time spent executing user code on all CPU cores i.e. multiple
+cores are being used.&lt;/p&gt;&lt;/div&gt;</description><guid>http://rse.shef.ac.uk/blog/numpy-mkl-fft/</guid><pubDate>Wed, 03 Jan 2018 17:59:00 GMT</pubDate></item><item><title>ReproHacking at Opencon London 2017 Doathon</title><link>http://rse.shef.ac.uk/blog/opencon_london/</link><dc:creator>Anna Krystalli</dc:creator><description>&lt;div&gt;&lt;p&gt;&lt;img alt="" src="https://d3n8a8pro7vhmx.cloudfront.net/righttoresearch/pages/1462/features/original/OpenCon_2017_London_-_NB_Banner.png?1505763567"&gt;&lt;/p&gt;
 &lt;p&gt;Building on the success of last year’s &lt;a href="https://annakrystalli.shinyapps.io/OpenConBerlin_reprohack/"&gt;&lt;strong&gt;#Reprohack2016&lt;/strong&gt;&lt;/a&gt; for the Berlin OpenCon satellite event, I rejoined the team of organisers (&lt;a href="https://twitter.com/laurawheelers"&gt;Laura Wheeler&lt;/a&gt;, &lt;a href="https://twitter.com/Protohedgehog"&gt;Jon Tennant&lt;/a&gt; and &lt;a href="https://twitter.com/tonyR_H"&gt;Tony Ross-Hellauer&lt;/a&gt; ) and teamed up with &lt;a href="https://twitter.com/PeterKraker?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"&gt;Peter Kraker&lt;/a&gt; to develop the hackday for this year’s &lt;a href="https://www.eventbrite.co.uk/e/opencon-london-2017-open-for-what-tickets-38036414941#"&gt;&lt;strong&gt;OpenCon London 2017&lt;/strong&gt;&lt;/a&gt;.  &lt;/p&gt;
 &lt;p&gt;To allow better reflection on this year's theme, “Open for what?”, we expanded the format to two tracks, opening up the scope for both projects and participants. &lt;strong&gt;One track retained the ReproHack format from last year, the other, a broader track, offered the opportunity for leads of any type of open science project to &lt;a href="https://annakrystalli.shinyapps.io/OpenConLondon_Doathon/"&gt;submit them for work&lt;/a&gt;&lt;/strong&gt;. Projects were not constrained to coding and you didn't have to code to take part in the session - anyone with an interest in creative contribution to open science in whichever capacity was welcome. &lt;/p&gt;
 &lt;p&gt;On the day, after a round of introductions and sharing our motivations for attending, we reviewed the submissions and knuckled down.&lt;/p&gt;
@@ -962,59 +1005,4 @@ tmux new-session -A -s mysession
 &lt;p&gt;NB the recordings of terminal sessions shown were created using &lt;a class="reference external" href="http://0xcc.net/ttyrec/index.html.en"&gt;ttyrec&lt;/a&gt; and &lt;a class="reference external" href="https://github.com/icholy/ttygif"&gt;ttygif&lt;/a&gt;
 then converted to &lt;a class="reference external" href="http://www.webmproject.org/"&gt;.webm&lt;/a&gt; videos using &lt;a class="reference external" href="http://ffmpeg.org/"&gt;ffmpeg&lt;/a&gt;.&lt;/p&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;</description><category>terminals</category><category>tmux</category><guid>http://rse.shef.ac.uk/blog/tmux-intro/</guid><pubDate>Thu, 15 Jun 2017 11:53:04 GMT</pubDate></item><item><title>Software Carpentry and Data Carpentry at the University of Sheffield!</title><link>http://rse.shef.ac.uk/blog/soft-carp-at-tuos/</link><dc:creator>Will Furnass</dc:creator><description>&lt;div&gt;&lt;p&gt;The University of Sheffield is now a Software Carpentry Partner Organisation, allowing the Research Software Engineering and Library teams to start organising &lt;em&gt;Software Carpentry&lt;/em&gt; and &lt;em&gt;Data Carpentry&lt;/em&gt; workshops.  These are designed to help researchers develop the programming, automation and data management skills needed to support their research.  &lt;strong&gt;Workshop dates are to be announced shortly.&lt;/strong&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;strong&gt;Edit&lt;/strong&gt;: &lt;/p&gt;
-&lt;p&gt;Our first Software Carpentry workshop is scheduled for &lt;a href="http://rse.shef.ac.uk/2017-08-16-sheffield/"&gt;16th and 17th August&lt;/a&gt;!&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;img alt="Software Carpentry and Data Carpentry logos" src="http://rse.shef.ac.uk/images/sc-dc-logos.png"&gt;&lt;/p&gt;
-&lt;h3&gt;Addressing the training needs of researchers with regards to programming&lt;/h3&gt;
-&lt;p&gt;As more researchers realise they can produce better quality research more quickly if
-they have some coding and data management skills under their belts
-universities will need to ensure that training in these areas is accessible to those that need it.&lt;/p&gt;
-&lt;p&gt;Academic institutions will most likely already have courses for teaching highly-specialist subjects
-(such as how to use the local &lt;a href="http://docs.hpc.shef.ac.uk/en/latest/"&gt;HPC cluster&lt;/a&gt;)
-but for the more generic aspects of research software development and data management
-there are several obvious choices:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Develop and deliver bespoke materials;&lt;/li&gt;
-&lt;li&gt;Buy in to commercial training packages;&lt;/li&gt;
-&lt;li&gt;Point researchers towards free online resources;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;However, there is also a fourth option:
-team up with the &lt;a href="https://software-carpentry.org/"&gt;Software Carpentry&lt;/a&gt; (SC) and
-&lt;a href="http://www.datacarpentry.org/"&gt;Data Carpentry&lt;/a&gt; (DC) not-for-profit organisations
-to deliver on-site, interative workshops based on open-source materials that have been
-refined by a large community of SC and DC instructors.&lt;/p&gt;
-&lt;h3&gt;Software whatywhaty?&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Software Carpentry&lt;/strong&gt; has developed &lt;a href="https://software-carpentry.org/lessons/"&gt;discipline-agnostic workshop material&lt;/a&gt; on:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;programming with Python, R or MATLAB;&lt;/li&gt;
-&lt;li&gt;using databases and &lt;a href="https://en.wikipedia.org/wiki/SQL"&gt;SQL&lt;/a&gt;;&lt;/li&gt;
-&lt;li&gt;the &lt;a href="https://en.wikipedia.org/wiki/Unix_shell"&gt;UNIX shell&lt;/a&gt;;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Version_control"&gt;version control&lt;/a&gt; with git or mercurial;&lt;/li&gt;
-&lt;li&gt;automation using &lt;a href="https://en.wikipedia.org/wiki/Make_(software)"&gt;Make&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;a href="http://www.datacarpentry.org/lessons/"&gt;&lt;strong&gt;Data Carpentry&lt;/strong&gt; lessons&lt;/a&gt; look at data management and processing within the context of a specific domain (such as ecology or genomics), focussing on areas such as:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;the command line;&lt;/li&gt;
-&lt;li&gt;data cleaning and filtering using &lt;a href="http://openrefine.org/"&gt;OpenRefine&lt;/a&gt;;&lt;/li&gt;
-&lt;li&gt;data processing and visualisation with Python or R;&lt;/li&gt;
-&lt;li&gt;cloud computing&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Geographic_information_system"&gt;GIS&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;What form do the workshops take?&lt;/h3&gt;
-&lt;p&gt;The Software and Data Carpentry organisations ask that accredited instructors delivering 'branded' workshops adopt a fairly progressive teaching style:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Workshops typically last two days and include four lessons (e.g. the unix shell, Python, version control and databases).&lt;/li&gt;
-&lt;li&gt;There's lots of &lt;em&gt;live coding&lt;/em&gt;: the instructor and students gather together in a room with laptops and a projector and all present go through a number of examples interactively.  Students use their own laptops to ensure that they're able to continue where they left off at the end of a workshop.  Instructors can and do make mistakes when doing live coding; students can then learn from these mistakes and may grow in confidence on learning that pros make mistakes too.&lt;/li&gt;
-&lt;li&gt;Instructors try to elicit responses from students and use quizes to gauge comprehension and keep students focussed.&lt;/li&gt;
-&lt;li&gt;Software Carpentry has a &lt;a href="https://software-carpentry.org/conduct/"&gt;code of conduct&lt;/a&gt; and tries to ensure that all lessons delivered under its banner are as &lt;a href="https://software-carpentry.org/blog/2017/02/inclusion.html"&gt;inclusive as possible&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;What's happening at the University?&lt;/h3&gt;
-&lt;p&gt;The University is now a Software Carpentry Partner Organisation so can run many workshops per year using the Software Carpentry and Data Carpentry branding.  We could run workshops without the branding but Software and Data Carpentry are now familiar names to researchers (and potentially employers) and by working closely with those two organisations we become part of a global network of instructors with which we can share ideas and materials.&lt;/p&gt;
-&lt;p&gt;The RSE team and Library collectively now have five accredited Software and Data Carpentry instructors: Mike Croucher received training some time ago and in March Tania Allard and I from the &lt;a href="http://rse.shef.ac.uk/contact/"&gt;RSE team&lt;/a&gt; plus &lt;a href="https://www.sheffield.ac.uk/library/libstaff/researchservices"&gt;Jez Cope and Beth Hellen&lt;/a&gt; from the Library's Research Services Unit participated in &lt;a href="https://steve-crouch.github.io/2017-03-16-oxford-ttt/"&gt;instructor training in Oxford&lt;/a&gt;.  &lt;/p&gt;
-&lt;p&gt;&lt;img alt="Software Carpentry Instructor Training session" src="http://rse.shef.ac.uk/images/soft-carp-instructor-training.jpg"&gt;&lt;/p&gt;
-&lt;p&gt;The four of us spent two days learning about the SC/DC teaching style, what makes for an effective instructor and got to practise several aspects of workshop development and delivery.  I must thank the instructors on the training course (Mateuz Kuzak and Steve Crouch) plus &lt;a href="https://rroxford.github.io/"&gt;Reproducible Research Oxford&lt;/a&gt; for hosting and organising the event.&lt;/p&gt;
-&lt;p&gt;We are now planning our first Software Carpentry and Data Carpentry workshops.  These are to be held later in the summer.  &lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Keep an eye on this blog, the &lt;code&gt;RSE-group@sheffield.ac.uk&lt;/code&gt; mailing list and &lt;a href="https://www.twitter.com/rse_sheffield"&gt;@RSE_Sheffield&lt;/a&gt; for dates!&lt;/strong&gt;&lt;/p&gt;&lt;/div&gt;</description><category>data carpentry</category><category>software carpentry</category><category>training</category><guid>http://rse.shef.ac.uk/blog/soft-carp-at-tuos/</guid><pubDate>Thu, 08 Jun 2017 12:00:00 GMT</pubDate></item></channel></rss>
+&lt;/div&gt;&lt;/div&gt;</description><category>terminals</category><category>tmux</category><guid>http://rse.shef.ac.uk/blog/tmux-intro/</guid><pubDate>Thu, 15 Jun 2017 11:53:04 GMT</pubDate></item></channel></rss>
