@@ -1,5 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>RSE at Sheffield (Posts by Mike Croucher)</title><link>http://rse.shef.ac.uk/</link><description></description><atom:link href="http://rse.shef.ac.uk/authors/mike-croucher.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Tue, 28 Nov 2017 16:56:58 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Iceberg vs ShARC</title><link>http://rse.shef.ac.uk/blog/iceberg-vs-sharc/</link><dc:creator>Mike Croucher</dc:creator><description>&lt;div&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>RSE at Sheffield (Posts by Mike Croucher)</title><link>http://rse.shef.ac.uk/</link><description></description><atom:link href="http://rse.shef.ac.uk/authors/mike-croucher.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Wed, 14 Feb 2018 10:58:22 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>SSI Fellowship success for Sheffield</title><link>http://rse.shef.ac.uk/blog/SSI-2018/</link><dc:creator>Mike Croucher</dc:creator><description>&lt;div&gt;&lt;p&gt;The &lt;a href="https://www.software.ac.uk/"&gt;Software Sustainability Institute&lt;/a&gt;(SSI) is a cross-council funded group that supports the research software community in the UK. It has championed the role of the &lt;a href="http://rse.ac.uk/"&gt;Research Software Engineer&lt;/a&gt; and has led &lt;a href="https://www.software.ac.uk/index.php/blog/2017-04-10-state-nation-report-research-software-engineers-released"&gt;national&lt;/a&gt; and &lt;a href="http://rse.ac.uk/rse-international-leaders-meeting/"&gt;international initiatives&lt;/a&gt; in the field.&lt;/p&gt;
+&lt;p&gt;One of the most popular activities undertaken by the SSI is their &lt;a href="https://www.software.ac.uk/fellowship-programme"&gt;fellowship program&lt;/a&gt;. This competitive process provides an &lt;a href="https://www.software.ac.uk/fellows"&gt;annual cohort of fellows&lt;/a&gt; with £3,000 to spend over fifteen months on a project of their choice.
+Competition for these fellowships is fierce! Just like larger fellowships, applicants must get through a peer-reviewed application process that includes written proposals and selection days.&lt;/p&gt;
+&lt;p&gt;I am extremely happy to report that Sheffield has won, not just one, but &lt;strong&gt;three&lt;/strong&gt; SSI Fellowships this year. The only institution to match us was UCL, home of one of the first RSE group in the country.  Here's a brief statement from each Sheffield fellow explaining how they plan to use their funds:&lt;/p&gt;
+&lt;div style="background:#5F4B8B; display: inline-block; font-size:16px; padding: 1%;"&gt;
+
+  &lt;div style="float:left; margin-left: 1%; padding: 0.25% 0;"&gt;
+    &lt;img src="https://software.ac.uk/sites/default/files/inline-images/Tania-Allard.jpg" width="200px"&gt;
+  &lt;/div&gt;
+
+  &lt;font color="white"&gt;
+  &lt;strong&gt; Tania Allard &lt;/strong&gt;
+  &lt;br&gt; &lt;br&gt;
+  Nowadays, the majority of research relies on software to some degree. However, in many cases, there is little focus on developing scientific software using best development practices due to a number of reasons such as the lack of adequate mentoring and training, little understanding of the requirements of the scientific code, and software being undervalued or not considered as a primary research output. This has changed over time with the emergence of RSEs (Research Software Engineers) just like myself.  But certainly not every university or institute has an RSE team, neither every discipline is represented in the current RSE community. I plan to use this fellowship to develop an RSE winter school covering not only technical skills but also some of the craftsmanship and soft skills needed when developing a significant amount of scientific code. Also, this winter school will help to diversify the RSE pool by focusing on underrepresented groups within the community (e.g. gender, age, scientific disciplines, universities without RSEs) while disseminating
+  best software practices among a number of disciplines.
+  &lt;/font&gt;
+  &lt;/div&gt;
+
+
+
+&lt;p&gt;&lt;br&gt;
+&lt;br&gt;&lt;/p&gt;
+&lt;div style="background:#BFC8E0; display: inline-block; font-size:16px; padding: 1% 0;
+padding-left: 1%;"&gt;
+
+  &lt;div style="float:right; margin-left:1%; padding: 0.25% 0; padding-bottom: 0.1%!important;"&gt;
+    &lt;img src="https://software.ac.uk/sites/default/files/inline-images/Becky-Arnold.jpg" width="200px"&gt;
+  &lt;/div&gt;
+  &lt;strong&gt; Becky Arnold &lt;/strong&gt;
+  &lt;br&gt; &lt;br&gt;
+  I'm planning use the fellowship funds to bring external speakers in to talk to the astrophysics group, with the goal of improving the style, efficiency and sustainability of our coding. As physicists, as I imagine in many fields, we are largely taught to code to get the things we need to be done completed as quickly as possible, with little regard for the quality of the code itself. We are taught how to code, but not how to code well. I want to give us the opportunity to improve in that. Also I hope to change the way we think about coding, from a disposable stepping stone used to further research as quickly as possible to a fundamental part of the science itself.
+
+  &lt;/div&gt;
+
+
+
+&lt;p&gt;&lt;br&gt;
+&lt;br&gt;&lt;/p&gt;
+&lt;div style="background:#255498; display: inline-block; font-size:16px; padding: 1%;"&gt;
+
+  &lt;div style="float:left; margin-left:1%; padding: 0.25% 0;"&gt;
+    &lt;img src="https://software.ac.uk/sites/default/files/inline-images/Adam-Tomkins.png" width="200px"&gt;
+  &lt;/div&gt;
+
+  &lt;font color="white"&gt;
+  &lt;strong&gt;Adam Tomkins&lt;/strong&gt;
+  &lt;br&gt;&lt;br&gt;
+  I am part of the Fruit Fly Brain Observatory project, with the aim to open up neurological data to the community, in an accessible way. Part of the issue with open data sharing is the vast amount of custom storage and format solutions, used by different labs. With this fellowship, I will be holding training events for both biologists and computational modelers on how to use the latest open data standards, demonstrating how using open software can generate instant added-value to data, with a larger community of tools and platforms.
+  &lt;/font&gt;   
+
+  &lt;/div&gt;
+
+
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h3&gt;RSE at Sheffield&lt;/h3&gt;
+&lt;p&gt;When we set up the Sheffield RSE group, one of our aims was to help cultivate an environment at Sheffield where research software was valued. We do this by providing &lt;a href="http://rse.shef.ac.uk/training/"&gt;training events&lt;/a&gt;, &lt;a href="http://rse.shef.ac.uk/blog/linuistics_grant_2016/"&gt;writing grants with academics&lt;/a&gt;, &lt;a href="http://rse.shef.ac.uk/testimonials/"&gt;consulting with researchers to improve software&lt;/a&gt;, &lt;a href="http://rse.shef.ac.uk/blog/intel-R-iceberg/"&gt;improving the HPC environment&lt;/a&gt; and anything else we can think of.  Of course, correlation does not imply causation but we like to believe that we helped our new SSI Fellows in some way (&lt;a href="https://www.software.ac.uk/blog/2017-12-08-welcome-software-sustainability-institute-fellows-2018"&gt;the SSI agrees&lt;/a&gt;) and we are very happy to bask in their reflected glory.&lt;/p&gt;&lt;/div&gt;</description><guid>http://rse.shef.ac.uk/blog/SSI-2018/</guid><pubDate>Sat, 10 Feb 2018 17:47:32 GMT</pubDate></item><item><title>Iceberg vs ShARC</title><link>http://rse.shef.ac.uk/blog/iceberg-vs-sharc/</link><dc:creator>Mike Croucher</dc:creator><description>&lt;div&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;TL;DR Around 100 of Iceberg's nodes are ancient and weaker than a decent laptop. You may get better performance by switching to ShARC.  You'll get even better performance by investing in the &lt;a href="http://rse.shef.ac.uk/resources/hpc/premium-hpc/"&gt;RSE project on ShARC&lt;/a&gt;.&lt;/strong&gt;&lt;/p&gt;
 &lt;h3&gt;Benchmarking different nodes on our HPC systems&lt;/h3&gt;
 &lt;p&gt;I have been benchmarking various nodes on Iceberg and ShARC using Matrix-Matrix multiplication.
@@ -457,13 +513,4 @@ plot(poly, x = -2*Pi .. 2*Pi, y = -3 .. 3);
 &lt;li&gt;&lt;a href="http://docs.hpc.shef.ac.uk/en/latest/hpc/scheduler/sge.html"&gt;General introduction to batch processing&lt;/a&gt; - From the Iceberg documentation&lt;/li&gt;
 &lt;li&gt;&lt;a href="http://docs.hpc.shef.ac.uk/en/latest/hpc/scheduler/index.html"&gt;A list of scheduler commands&lt;/a&gt; - &lt;strong&gt;qsub&lt;/strong&gt; is just one example of a scheduler command. Here are a few more.&lt;/li&gt;
 &lt;/ul&gt;&lt;/div&gt;</description><guid>http://rse.shef.ac.uk/blog/HPC-Maple-1/</guid><pubDate>Thu, 26 May 2016 11:40:19 GMT</pubDate></item><item><title>9 steps for quality research software</title><link>http://rse.shef.ac.uk/blog/9_steps/</link><dc:creator>Mike Croucher</dc:creator><description>&lt;div&gt;&lt;p&gt;I attended the &lt;a class="reference external" href="http://www.software.ac.uk/"&gt;Software Sustainability Institute's&lt;/a&gt; &lt;a class="reference external" href="http://www.software.ac.uk/cw16"&gt;Collaborations Workshop&lt;/a&gt; last month. This annual workshop is one of the primary events in the Research Software Engineering calendar and I highly recommend going to one if you are involved in the development of research software in any way.&lt;/p&gt;
-&lt;p&gt;One of the things I worked on was a collaborative blog post called &lt;a class="reference external" href="http://www.software.ac.uk/blog/2016-04-05-9-steps-quality-research-software"&gt;9 steps for quality research software&lt;/a&gt;.  I also wrote an article about some of the work I do called &lt;a class="reference external" href="http://www.walkingrandomly.com/?p=5997"&gt;The accident and emergency of Research Software Engineering.&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description><guid>http://rse.shef.ac.uk/blog/9_steps/</guid><pubDate>Mon, 18 Apr 2016 07:54:39 GMT</pubDate></item><item><title>Sheffield RSE team collaborates with lecturers to teach computation</title><link>http://rse.shef.ac.uk/blog/jupyter-for-chem-eng/</link><dc:creator>Mike Croucher</dc:creator><description>&lt;div&gt;&lt;img alt="/images/jupyter.png" src="http://rse.shef.ac.uk/images/jupyter.png"&gt;
-&lt;p&gt;Last year, I worked with Dr Marta Milo of the &lt;a class="reference external" href="https://www.sheffield.ac.uk/bms"&gt;Department of Biomedical Science&lt;/a&gt; to develop a &lt;a class="reference external" href="http://opendsi.cc/bioinformatics/"&gt;new course that taught the basics of Bioinformatics&lt;/a&gt; to biology undergraduates. Marta took care of the subject matter while I took care of getting it all to work in the &lt;a class="reference external" href="http://jupyter.org/"&gt;Jupyter Notebook&lt;/a&gt; in &lt;a class="reference external" href="https://cloud.sagemath.com/"&gt;Sage Math Cloud&lt;/a&gt;. I also gave crash courses in Jupyter, git and SageMathCloud to support staff.&lt;/p&gt;
-&lt;p&gt;The course was a great success and demonstrated what can be achieved when academics partner with Research Software Engineers to deliver top quality computational teaching. My favourite comment from student feedback was &lt;strong&gt;The hardest thing ever, stressful, frustrating but very rewarding.&lt;/strong&gt; -- welcome to my life!&lt;/p&gt;
-&lt;p&gt;This success has led to me being invited to departmental teaching away days for subject areas that include a lot of computation in their syllabus. The most recent of these was with the &lt;a class="reference external" href="http://www.sheffield.ac.uk/cbe"&gt;Department of chemical and biological engineering&lt;/a&gt;. I only had ten minutes but managed to include an introduction to the Sheffield RSE group, a quick demonstration of the Jupyter notebook, a discussion of the benefits of using SageMathCloud instead of the local managed desktop and the possibilities offered by this combination of technologies.&lt;/p&gt;
-&lt;p&gt;Sometimes, it's useful to be able to talk quickly!&lt;/p&gt;
-&lt;p&gt;Other discussions in the session I was involved with included a fantastic overview of flipped classroom teaching by &lt;a class="reference external" href="http://www.sheffield.ac.uk/cbe/staff/academic/spatwardhan"&gt;Siddharth Patwardhan&lt;/a&gt; and some of the upcoming challenges and opportunities in the higher education teaching sector by &lt;a class="reference external" href="https://www.sheffield.ac.uk/staff/news/pvc-learning-teaching-wyn-morgan-1.453796"&gt;Wyn Morgan&lt;/a&gt;, Sheffield's Pro-Vice-Chancellor for Learning and Teaching.&lt;/p&gt;
-&lt;p&gt;Channeling my inner Ferris Beuller, &lt;strong&gt;The world of research software moves pretty fast. If you don't stop and look around for a while, you could miss it&lt;/strong&gt;. It was a pleasure to show off some of my favourite technology to the chemical and biological engineers and I look forward to working with them all in the future.&lt;/p&gt;
-&lt;ul class="simple"&gt;
-&lt;li&gt;Slides from my talk are available at &lt;a class="reference external" href="http://mikecroucher.github.io/ChemEng_Jupyter_talk2016/"&gt;http://mikecroucher.github.io/ChemEng_Jupyter_talk2016/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/div&gt;</description><guid>http://rse.shef.ac.uk/blog/jupyter-for-chem-eng/</guid><pubDate>Mon, 11 Apr 2016 07:26:37 GMT</pubDate></item></channel></rss>
+&lt;p&gt;One of the things I worked on was a collaborative blog post called &lt;a class="reference external" href="http://www.software.ac.uk/blog/2016-04-05-9-steps-quality-research-software"&gt;9 steps for quality research software&lt;/a&gt;.  I also wrote an article about some of the work I do called &lt;a class="reference external" href="http://www.walkingrandomly.com/?p=5997"&gt;The accident and emergency of Research Software Engineering.&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description><guid>http://rse.shef.ac.uk/blog/9_steps/</guid><pubDate>Mon, 18 Apr 2016 07:54:39 GMT</pubDate></item></channel></rss>

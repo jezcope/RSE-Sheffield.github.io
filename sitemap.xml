@@ -27,7 +27,7 @@
  </url>
  <url>
   <loc>http://rse.shef.ac.uk/archive.html</loc>
-  <lastmod>2018-02-06T14:28:00Z</lastmod>
+  <lastmod>2018-02-14T10:58:00Z</lastmod>
  </url>
  <url>
   <loc>http://rse.shef.ac.uk/authors/</loc>
@@ -91,7 +91,7 @@
  </url>
  <url>
   <loc>http://rse.shef.ac.uk/blog/</loc>
-  <lastmod>2018-02-06T14:28:00Z</lastmod>
+  <lastmod>2018-02-14T10:58:00Z</lastmod>
  </url>
  <url>
   <loc>http://rse.shef.ac.uk/blog/2nd-gpu-seminar-amr/</loc>
@@ -116,6 +116,10 @@
  <url>
   <loc>http://rse.shef.ac.uk/blog/RSE_gpu_role_2016/</loc>
   <lastmod>2016-04-25T09:11:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://rse.shef.ac.uk/blog/SSI-2018/</loc>
+  <lastmod>2018-02-14T10:58:00Z</lastmod>
  </url>
  <url>
   <loc>http://rse.shef.ac.uk/blog/a-successful-2nd-rse-conference/</loc>
@@ -183,7 +187,7 @@
  </url>
  <url>
   <loc>http://rse.shef.ac.uk/blog/index-4.html</loc>
-  <lastmod>2018-02-06T14:28:00Z</lastmod>
+  <lastmod>2018-02-14T10:58:00Z</lastmod>
  </url>
  <url>
   <loc>http://rse.shef.ac.uk/blog/intel-R-iceberg/</loc>
