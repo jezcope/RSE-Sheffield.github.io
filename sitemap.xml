@@ -27,11 +27,11 @@
  </url>
  <url>
   <loc>http://rse.shef.ac.uk/archive.html</loc>
-  <lastmod>2018-02-19T16:25:00Z</lastmod>
+  <lastmod>2018-04-05T13:13:00Z</lastmod>
  </url>
  <url>
   <loc>http://rse.shef.ac.uk/authors/</loc>
-  <lastmod>2017-11-22T17:22:00Z</lastmod>
+  <lastmod>2018-04-05T13:13:00Z</lastmod>
  </url>
  <url>
   <loc>http://rse.shef.ac.uk/authors/anna-krystalli/</loc>
@@ -60,6 +60,10 @@
  <url>
   <loc>http://rse.shef.ac.uk/authors/mozhgan-kabiri-chimeh/</loc>
   <lastmod>2017-06-23T12:27:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://rse.shef.ac.uk/authors/patricio-f-ortiz/</loc>
+  <lastmod>2018-04-05T13:13:00Z</lastmod>
  </url>
  <url>
   <loc>http://rse.shef.ac.uk/authors/paul-richmond/</loc>
@@ -91,7 +95,7 @@
  </url>
  <url>
   <loc>http://rse.shef.ac.uk/blog/</loc>
-  <lastmod>2018-02-19T16:25:00Z</lastmod>
+  <lastmod>2018-04-05T13:13:00Z</lastmod>
  </url>
  <url>
   <loc>http://rse.shef.ac.uk/blog/2nd-gpu-seminar-amr/</loc>
@@ -162,6 +166,10 @@
   <lastmod>2017-06-23T12:27:00Z</lastmod>
  </url>
  <url>
+  <loc>http://rse.shef.ac.uk/blog/first_steps_in_scientific_programming/</loc>
+  <lastmod>2018-04-05T13:13:00Z</lastmod>
+ </url>
+ <url>
   <loc>http://rse.shef.ac.uk/blog/fun-with-strace/</loc>
   <lastmod>2017-06-23T12:27:00Z</lastmod>
  </url>
@@ -187,7 +195,7 @@
  </url>
  <url>
   <loc>http://rse.shef.ac.uk/blog/index-4.html</loc>
-  <lastmod>2018-02-19T16:25:00Z</lastmod>
+  <lastmod>2018-04-05T13:13:00Z</lastmod>
  </url>
  <url>
   <loc>http://rse.shef.ac.uk/blog/intel-R-iceberg/</loc>
@@ -287,7 +295,15 @@
  </url>
  <url>
   <loc>http://rse.shef.ac.uk/categories/</loc>
-  <lastmod>2018-02-19T16:25:00Z</lastmod>
+  <lastmod>2018-04-05T13:13:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://rse.shef.ac.uk/categories/book-announcement/</loc>
+  <lastmod>2018-04-05T13:13:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://rse.shef.ac.uk/categories/cat_book-announcement/</loc>
+  <lastmod>2018-04-05T13:13:00Z</lastmod>
  </url>
  <url>
   <loc>http://rse.shef.ac.uk/categories/cat_gpucomputing/</loc>
