@@ -114,15 +114,26 @@ This is our attempt to replicate the same success here at Sheffield.</p>
 <p>We'll generally recommend that people contribute to the pool such that they buy at least an entire node.
 That way, if it turns out that our model really doesn't work for you, we can remove you from the pool and put your hardware within its own project -- just as if you had purchased a node directly from CiCS.</p>
 <h2>Once I join the pool, how do I access the hardware?</h2>
-<p>Add the line</p>
-<pre class="code literal-block"><span></span>#$ -P rse
+<p>Start an interactive session with </p>
+<pre class="code literal-block"><span></span>qrshx -P rse -q rse-interactive.q
 </pre>
 
 
-<p>to your job submission script or start a <code>qrshx</code> session with <code>qrshx -P rse</code></p>
-<p>This will tell the system to prefer the use of nodes in the rse pool but if they are full, and if the public nodes can satisfy your request, your job will automatically be sent to the rest of Sharc.</p>
+<p>or run a batch job by adding the lines</p>
+<pre class="code literal-block"><span></span>#$ -P rse 
+#$ -q rse.q
+</pre>
+
+
+<p>to your job submission script.
+You also need to specify any additional resources you require (CPU cores, RAM, GPUs etc) - 
+see <a href="http://docs.hpc.shef.ac.uk/en/latest/hpc/scheduler/sge.html">this page</a> in the main ShARC documentation for more information on how to do that.</p>
 <h2>What's the default run-time limit for jobs submitted to the RSE pool?</h2>
-<p>96 hours (four days) for both interactive and batch jobs.</p>
+<p>The same as for the 'public' job queues in ShARC:</p>
+<ul>
+<li>Interactive jobs (started with <code>qrshx</code>/<code>qsh</code>/<code>qrsh</code>): 8 hours (i.e. <code>h_rt=08:00:00</code>)</li>
+<li>Batch jobs (started with <code>qsub</code>): 4 days (i.e. <code>h_rt=96:00:00</code>)</li>
+</ul>
 <h2>How do you control access quotas</h2>
 <p>We currently use the standard fair-use policy operated by Sun Grid Engine.  In short, your priority goes down the more you use the system.
 This is identical to the policy used on the rest of ShARC and is currently working fine for our users.
