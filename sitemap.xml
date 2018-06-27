@@ -7,7 +7,7 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>http://rse.shef.ac.uk/</loc>
-  <lastmod>2018-01-25T16:51:00Z</lastmod>
+  <lastmod>2018-05-14T10:24:00Z</lastmod>
  </url>
  <url>
   <loc>http://rse.shef.ac.uk/2016/</loc>
@@ -26,8 +26,12 @@
   <lastmod>2017-06-23T12:27:00Z</lastmod>
  </url>
  <url>
+  <loc>http://rse.shef.ac.uk/alumni/</loc>
+  <lastmod>2018-05-14T10:24:00Z</lastmod>
+ </url>
+ <url>
   <loc>http://rse.shef.ac.uk/archive.html</loc>
-  <lastmod>2018-04-05T13:13:00Z</lastmod>
+  <lastmod>2018-06-27T17:11:00Z</lastmod>
  </url>
  <url>
   <loc>http://rse.shef.ac.uk/authors/</loc>
@@ -95,7 +99,11 @@
  </url>
  <url>
   <loc>http://rse.shef.ac.uk/blog/</loc>
-  <lastmod>2018-04-05T13:13:00Z</lastmod>
+  <lastmod>2018-06-27T17:11:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://rse.shef.ac.uk/blog/2018-06-19-rse-computing-seminar-coffe-cake/</loc>
+  <lastmod>2018-06-27T17:11:00Z</lastmod>
  </url>
  <url>
   <loc>http://rse.shef.ac.uk/blog/2nd-gpu-seminar-amr/</loc>
@@ -183,19 +191,19 @@
  </url>
  <url>
   <loc>http://rse.shef.ac.uk/blog/index-1.html</loc>
-  <lastmod>2018-01-25T16:51:00Z</lastmod>
+  <lastmod>2018-05-23T18:32:00Z</lastmod>
  </url>
  <url>
   <loc>http://rse.shef.ac.uk/blog/index-2.html</loc>
-  <lastmod>2018-01-25T16:51:00Z</lastmod>
+  <lastmod>2018-05-23T18:32:00Z</lastmod>
  </url>
  <url>
   <loc>http://rse.shef.ac.uk/blog/index-3.html</loc>
-  <lastmod>2018-01-25T16:51:00Z</lastmod>
+  <lastmod>2018-05-23T18:32:00Z</lastmod>
  </url>
  <url>
   <loc>http://rse.shef.ac.uk/blog/index-4.html</loc>
-  <lastmod>2018-04-05T13:13:00Z</lastmod>
+  <lastmod>2018-06-27T17:11:00Z</lastmod>
  </url>
  <url>
   <loc>http://rse.shef.ac.uk/blog/intel-R-iceberg/</loc>
@@ -295,7 +303,7 @@
  </url>
  <url>
   <loc>http://rse.shef.ac.uk/categories/</loc>
-  <lastmod>2018-04-05T13:13:00Z</lastmod>
+  <lastmod>2018-06-27T17:11:00Z</lastmod>
  </url>
  <url>
   <loc>http://rse.shef.ac.uk/categories/book-announcement/</loc>
@@ -312,6 +320,10 @@
  <url>
   <loc>http://rse.shef.ac.uk/categories/cat_rse-interview-series/</loc>
   <lastmod>2018-02-19T16:25:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://rse.shef.ac.uk/categories/cat_seminar/</loc>
+  <lastmod>2018-06-27T17:11:00Z</lastmod>
  </url>
  <url>
   <loc>http://rse.shef.ac.uk/categories/conference/</loc>
@@ -332,6 +344,10 @@
  <url>
   <loc>http://rse.shef.ac.uk/categories/rse-interview-series/</loc>
   <lastmod>2018-02-19T16:25:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://rse.shef.ac.uk/categories/seminar-event/</loc>
+  <lastmod>2018-06-27T17:11:00Z</lastmod>
  </url>
  <url>
   <loc>http://rse.shef.ac.uk/categories/software-carpentry/</loc>

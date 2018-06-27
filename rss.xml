@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>RSE at Sheffield</title><link>http://rse.shef.ac.uk/</link><description>RSE at Sheffield</description><atom:link href="http://rse.shef.ac.uk/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Thu, 05 Apr 2018 15:21:00 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Book: First steps in Scientific Programming</title><link>http://rse.shef.ac.uk/blog/first_steps_in_scientific_programming/</link><dc:creator>Patricio F. Ortiz</dc:creator><description>&lt;div style="background:#fcfcef; display: inline-block; font-size:16px; padding: 1%;"&gt;
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>RSE at Sheffield</title><link>http://rse.shef.ac.uk/</link><description>RSE at Sheffield</description><atom:link href="http://rse.shef.ac.uk/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Wed, 27 Jun 2018 17:11:43 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>RSE Computing Seminar and Coffee &amp; Cake event 19th June 2018 at 12:00</title><link>http://rse.shef.ac.uk/blog/2018-06-19-rse-computing-seminar-coffe-cake/</link><dc:creator>Twin Karmakharm</dc:creator><description>&lt;div&gt;&lt;p&gt;&lt;strong&gt;Both events will be held at COM-G12-Main Lewin, Computer Science Department (ground floor) on the 19th of June, starting from 12:00&lt;/strong&gt;.&lt;/p&gt;
+&lt;h3&gt;12:00 - RSE Seminar: Tackling the learning curve of scientific programming&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;By: Dr. Patricio Ortiz&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Talk Abstract:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Programming is part of the curriculum of students of computer science, and it will be complemented with other related subjects to make them knowledgeable on the subject. The situation of a science or engineering student is the opposite; typically they have one course to learn one language, and that language is usually not the one they will first face in real-life situations. This situation has occurred for decades, and it is likely not going to change, but there is a real need to better prepare science and engineering students to face the very steep learning curve of having to start programming as part of an ongoing project or their thesis.
+Universities like ours offer excellent facilities like the HPCs supplied by CICS, yet the reality is that many students and young researchers may have never used a Unix based system, let alone a parallel system.&lt;/p&gt;
+&lt;p&gt;The book I wrote, "first steps in scientific programmings" aims at facilitating the passage through the learning curve by providing tips based on years of experience and my interaction with students and brilliant young researchers who did not have the opportunity to learn anywhere else the challenges which programming in a scientific environment involve.&lt;/p&gt;
+&lt;p&gt;I will briefly describe the points which I think are more important to emphasise, points which I've confirmed as important by interacting with other experienced researchers at the U. of Sheffield, who are trying to provide support for the people starting in this field.&lt;/p&gt;
+&lt;p&gt;Link for the book:&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://sites.google.com/view/fsscientificprogramming/home"&gt;https://sites.google.com/view/fsscientificprogramming/home&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;A supportive link:&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://sites.google.com/a/sheffield.ac.uk/rcg/my-blog/research-computing-notes/firststepsinscientificprogramming"&gt;https://sites.google.com/a/sheffield.ac.uk/rcg/my-blog/research-computing-notes/firststepsinscientificprogramming&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Please Register using &lt;a href="https://www.eventbrite.co.uk/e/tackling-the-learning-curve-of-scientific-programming-tickets-46366639868"&gt;Eventbrite&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h3&gt;13:00 - Coffee and Cake event&lt;/h3&gt;
+&lt;p&gt;The Coffe and Cake event is open to everyone and offers a great opportunity to further discuss the topics raised by our speaker. In addition, if you have any particular research software issues or would like to have a general discussion about research software or software in teaching, please come along for an informal chat with the RSE team.&lt;/p&gt;&lt;/div&gt;</description><category>seminar event</category><guid>http://rse.shef.ac.uk/blog/2018-06-19-rse-computing-seminar-coffe-cake/</guid><pubDate>Thu, 31 May 2018 12:00:00 GMT</pubDate></item><item><title>Book: First steps in Scientific Programming</title><link>http://rse.shef.ac.uk/blog/first_steps_in_scientific_programming/</link><dc:creator>Patricio F. Ortiz</dc:creator><description>&lt;div style="background:#fcfcef; display: inline-block; font-size:16px; padding: 1%;"&gt;
 
   &lt;div style="float:left; margin-left: 1%; padding: 0.25% 0;"&gt;
     &lt;img src="http://rse.shef.ac.uk/images/firstSteps.jpg" width="200px"&gt;
@@ -450,42 +464,4 @@ Here are the results for maximum matrix sizes of 10000 by 10000, sorted worst to
 &lt;p&gt;&lt;br&gt;
 &lt;br&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Pumpkin Carving session and Halloween special powered by:&lt;/em&gt;&lt;/p&gt;
-&lt;iframe src="https://embed.spotify.com/?uri=spotify%3Aalbum%3A6gidHRiuT1Aj0HxK7TzAC2" width="300" height="380" frameborder="0" allowtransparency="true"&gt;&lt;/iframe&gt;&lt;/div&gt;</description><guid>http://rse.shef.ac.uk/blog/sheffieldR-hacktoberfest/</guid><pubDate>Thu, 02 Nov 2017 08:09:22 GMT</pubDate></item><item><title>New Group Member: Phil Tooley</title><link>http://rse.shef.ac.uk/blog/philtooley_intro/</link><dc:creator>Phil Tooley</dc:creator><description>&lt;div&gt;&lt;p&gt;I am thrilled to have joined the &lt;a href="http://rse.shef.ac.uk/"&gt;Research Software Engineering team at
-Sheffield&lt;/a&gt;. My new role is attached to the &lt;a href="https://insigneo.org"&gt;INSIGNEO&lt;/a&gt;
-Institute for in silico Medicine here at the University of Sheffield, developing image registration
-software as part of the &lt;a href="https://compbiomed.eu"&gt;CompBioMed&lt;/a&gt; project.   &lt;/p&gt;
-&lt;h3&gt;About Me&lt;/h3&gt;
-&lt;p&gt;&lt;img src="http://rse.shef.ac.uk/images/ptooley.jpg" align="right"&gt;
-I am a former theoretical and computational physicist with particular interests in mathematical
-modelling and code optimisation. I am also a stalwart champion of the use of the Scipy stack for
-scientific computing, and enjoy trying to make python speed competitive with C and Fortran
-(Spoiler alert: it totally can be!) &lt;/p&gt;
-&lt;p&gt;Although I am a user of both C(++) and Fortran I find that python is often a better choice for many
-tasks even in high performance scientific computing. As well as the huge array of fast mathematical libraries
-available to python, it is also possible to write custom routines in pure
-(&lt;a href="https://numba.pydata.org"&gt;Numba&lt;/a&gt;) or nearly-pure (&lt;a href="https://cython.org"&gt;Cython&lt;/a&gt;) python
-code, and compile them to native machine code.  This can give python equivalent performance to
-traditional C or Fortran codes, and opens up the possibility of running python code efficiently
-on HPC platforms. (More to come on this topic...)&lt;/p&gt;
-&lt;p&gt;Outside the office you will usually find me rock climbing or hiking somewhere.&lt;/p&gt;
-&lt;h4&gt;My previous work&lt;/h4&gt;
-&lt;p&gt;For the last 4 years I have been working on my Ph.D in Theoretical and Computational Plasma Physics
-at the &lt;a href="https://strath.ac.uk"&gt;University of Strathclyde&lt;/a&gt; working on novel accelerator technology
-known as Laser Wakefield Acceleration (LWFA).  This involves firing a short \((30\,
-\mathrm{fs})\) but highly intense \((10^{25}\mathrm{W/m^2})\) laser pulse, into a jet of
-helium gas.  The laser ionises the gas to a plasma and drives an electrostatic plasma wave with
-intense electric fields which can accelerate electrons to Gigaelectronvolt energies over just a few
-mm. (Compared to conventional accelerators such as &lt;a href="https://en.wikipedia.org/wiki/SLAC"&gt;SLAC&lt;/a&gt; which
-have to be kilometers in length to achieve the same energies.)&lt;/p&gt;
-&lt;p&gt;My research was into methods of controlling and improving the performance of these accelerations,
-and relied heavily on &lt;a href="https://en.wikipedia.org/wiki/Particle-in-cell"&gt;Particle in Cell Codes&lt;/a&gt;.
-These are massively parallel codes designed to run on HPCs and I spent a lot of my time developing
-code extensions and analysis tools for the terabyte scale datasets that they produce.  Typically I
-was interested in extracting a very small (usually \(&amp;lt;1\%\) of the total) subset of the electrons
-based on some selection criteria. To do this efficiently I developed a custom C++-based analysis
-code which can extract electron trajectories from the data based on arbitrary criteria.&lt;/p&gt;
-&lt;p&gt;A major application of LWFAs is as compact sources of X-ray and UV light for imaging and materials
-analysis tools in science and industry, and so the second major theme of my work was analysis of the
-radiation produced by the accelerated electrons.  This analysis required numerical integrators to
-calculate the radiation from the extracted electron trajectories by solving the Liénard-Wiechert
-potential equations.&lt;/p&gt;&lt;/div&gt;</description><category>mathjax</category><guid>http://rse.shef.ac.uk/blog/philtooley_intro/</guid><pubDate>Tue, 31 Oct 2017 15:56:00 GMT</pubDate></item></channel></rss>
+&lt;iframe src="https://embed.spotify.com/?uri=spotify%3Aalbum%3A6gidHRiuT1Aj0HxK7TzAC2" width="300" height="380" frameborder="0" allowtransparency="true"&gt;&lt;/iframe&gt;&lt;/div&gt;</description><guid>http://rse.shef.ac.uk/blog/sheffieldR-hacktoberfest/</guid><pubDate>Thu, 02 Nov 2017 08:09:22 GMT</pubDate></item></channel></rss>
