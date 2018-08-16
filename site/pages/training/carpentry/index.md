@@ -1,4 +1,4 @@
-.. title: Software Carpentry
+.. title: Software and Data Carpentry
 .. slug: index
 .. type: text
 
